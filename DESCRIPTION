@@ -1,0 +1,22 @@
+Package: ctcovidstop
+Title: Clinical trials that stopped during or because of Covid-19
+Version: 0.0.0.9000
+Authors@R: 
+    person("Benjamin Gregory", "Carlisle", , "murph@bgcarlisle.com",
+    role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-8975-0649"))
+Description: Provides a database of all ClinicalTrials.gov NCT Numbers
+    corresponding to clinical trials that were "stopped" (had their
+    overall status changed to "Terminated," "Suspended," or
+    "Withdrawn") during the SARS-CoV-2 pandemic that began with human
+    infections starting in December 2019. This dataset indicates the
+    date that a trial was stopped, whether it was started again and on
+    what date, and the contents of the "why stopped?" field on the
+    date the trial was stopped. This dataset also includes columns
+    with manually coded data for whether the "why stopped?" field
+    explicitly indicates that the reason for stopping included the
+    SARS-CoV-2 pandemic.    
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
