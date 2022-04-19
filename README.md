@@ -49,7 +49,7 @@ If the trial was started again (overall status changed from
 "Terminated", "Suspended" or "Withdrawn" to anything else) by the
 search date, the date this occurred is recorded under `restart_date`,
 otherwise this column contains NA. The status that the trial was
-changed to is indicated in the `stop_status` column.
+changed to is indicated in the `restart_status` column.
 
 The reason that the trial was stopped as reported on
 ClinicalTrials.gov is recorded in the `why_stopped` field. If no
