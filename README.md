@@ -63,4 +63,30 @@ column is NA. This data point was manually rated by BGC.
 If `covid19_explicit` is TRUE, and there is a stated expectation that
 the trial will start again, `restart_expected` is TRUE, otherwise
 FALSE. If `covid19_explicit` is FALSE or NA, `restart_expected` is NA.
+This data point was manually rated by BGC.
+
+## Citing `ctcovidstop`
+
+These data are provided under a Creative Commons by-attribution
+licence.
+
+Here is a BibTeX entry for `ctcovidstop`:
+
+```
+@Manual{ctcovidstop-carlisle,
+  Title          = {ctcovidstop},
+  Author         = {Carlisle, Benjamin Gregory},
+  Organization   = {The Grey Literature},
+  Address        = {Berlin, Germany},
+  url            = {https://github.com/bgcarlisle/ctcovidstop},
+  year           = 2022
+}
+```
+
+If you use this data set and you found it useful, I would take it as a
+kindness if you cited it.
+
+Best,
+
+Benjamin Gregory Carlisle PhD
 
