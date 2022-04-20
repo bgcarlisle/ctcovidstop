@@ -89,30 +89,22 @@ trials %>%
     mutate(restart_expected = NA) %>%
     write_csv(paste0("data-raw/", current_update, "-ratings.csv"), append=TRUE)
 
-test_that(
-    "No new rows have been added (nothing to do!)",
-    {
-        newlyadded <- trials %>%
-            filter(! nctid %in% ratings$nctid) %>%
-            nrow()
-        expect_equal(
-            newlyadded,
-            0
-        )
-    }
-)
+newlyadded <- trials %>%
+    filter(! nctid %in% ratings$nctid) %>%
+    nrow()
 
-test_that(
-    "No unrated rows in manual ratings CSV",
-    {
-        unrated_rows <- ratings %>%
-            filter(is.na(covid19_explicit)) %>%
-            nrow()
-        expect_equal(
-            unrated_rows,
-            0
-        )
-    }
-)
+if (newlyadded > 0) {
+    message("New rows have been added to the ratings CSV (get to work!)")
+} else {
+    message("No new rows have been added (nothing to do!)")
+}
+
+unrated_rows <- ratings %>%
+    filter(is.na(covid19_explicit)) %>%
+    nrow()
+
+if (unrated_rows > 0) {
+    message("There are unrated rows in the ratings CSV (get to work!)")
+}
 
 message(paste0("Processed trials: ", processed, "; stopped: ", nrow(trials)))
