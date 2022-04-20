@@ -1,23 +1,80 @@
 library(tidyverse)
 
-trials <- read_csv("2022-04-13-trials.csv") %>%
-    filter(! is.na(stop_date))
+## Read the trials into memory. We want the most up-to-date search
+## result for each NCT number, so first we make an empty data frame
+## for the trials:
+trials <- tribble(
+    ~nctid,
+    ~stop_date,
+    ~stop_status,
+    ~restart_date,
+    ~restart_status,
+    ~why_stopped,
+    ~search_date
+)
 
-wa_ratings <- read_csv("2022-04-14-webapp-ratings.csv")
+## Then we read in all the files that end with "trials.csv":
+trials_files <- list.files("data-raw", "trials\\.csv$")
 
-m_ratings <- read_csv("2022-04-14-manual-ratings.csv") %>%
-    select(!why_stopped)
+## Then for each of those files, we read them in and append a column
+## with the search date
+for (trials_file in trials_files) {
+    newrows <- read_csv(paste0("data-raw/", trials_file), col_types="cDcDcc") %>%
+        mutate(search_date=as.Date(substr(trials_file, 0, 10)))
 
-ratings <- wa_ratings %>%
-    bind_rows(m_ratings)
+    trials <- trials %>%
+        bind_rows(newrows)
+}
 
+## Then we take out all the rows with duplicate NCT numbers, leaving
+## only the row with the latest search date; remove all the trials
+## that never stopped and arrange by stop date:
 trials <- trials %>%
+    group_by(nctid) %>%
+    slice_tail() %>%
+    ungroup() %>%
+    select(! search_date) %>%
+    filter(! is.na(stop_date)) %>%
+    arrange(stop_date)
+
+## Read the ratings into memory.
+ratings <- tribble(
+    ~nctid,
+    ~covid19_explicit,
+    ~restart_expected
+)
+
+## Get all the ratings files
+ratings_files <- list.files("data-raw", "ratings\\.csv$")
+
+## Then for each of those files, we read them in and select the
+## relevant columns
+for (ratings_file in ratings_files) {
+    newrows <- read_csv(
+        paste0("data-raw/", ratings_file),
+        show_col_types = FALSE
+    ) %>%
+        select(nctid, covid19_explicit, restart_expected)
+
+    ratings <- ratings %>%
+        bind_rows(newrows)
+}
+
+## Join the ratings to the trials
+c19trials <- trials %>%
     left_join(ratings)
 
-## How many trials cite C19 explicitly?
-trials %>%
-    filter(covid19_explicit) %>%
-    nrow()
+## Write data set to a CSV in the inst/extdata/ folder
+if (! file.exists("inst/")) {
+    dir.create("inst/")
+}
 
-trials %>%
-    write_csv("2022-04-14-c19-stopped-export.csv")
+if (! file.exists("inst/extdata/")) {
+    dir.create("inst/extdata/")
+}
+
+c19trials %>%
+    write_csv("inst/extdata/c19trials.csv")
+
+## Write data set to a .dba file in the data/ folder
+usethis::use_data(c19trials, overwrite = TRUE)
