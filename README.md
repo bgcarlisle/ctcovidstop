@@ -25,15 +25,15 @@ After installation:
 
 ```
 library(ctcovidstop)
-data(c19trials)
+data(c19stoppedtrials)
 ```
 
-This package provides a data frame, `c19trials`, which can be loaded
-via the *R* package with `data(c19trials)`. The same data frame is
+This package provides a data frame, `c19stoppedtrials`, which can be loaded
+via the *R* package with `data(c19stoppedtrials)`. The same data frame is
 also provided as a CSV in this repository as
-`inst/extdata/c19trials.csv`.
+`inst/extdata/c19stoppedtrials.csv`.
 
-`c19trials` contains 8 columns:
+`c19stoppedtrials` contains 8 columns:
 
 | `nctid` | `stop_date` | `stop_status` | `restart_date` | `restart_status` | `why_stopped` | `covid19_explicit` | `restart_expected` |
 |---------|-------------|---------------|----------------|------------------|---------------|--------------------|--------------------|
