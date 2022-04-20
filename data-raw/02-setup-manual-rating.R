@@ -1,52 +1,89 @@
+## This script checks the downloaded trials for ones that stopped 
+
+## This script can be run while `01-download-trials.R` is running and
+## nothing bad will happen.
+
 suppressMessages(library(tidyverse))
 suppressMessages(library(testthat))
 
-## Read the trials into memory
-trials <- read_csv("data-raw/2022-04-13-trials.csv", col_types="cDcDcc")
+current_update <- as.Date("2022-04-13")
+
+## Read the trials into memory. We want the most up-to-date search
+## result for each NCT number, so first we make an empty data frame
+## for the trials:
+trials <- tribble(
+    ~nctid,
+    ~stop_date,
+    ~stop_status,
+    ~restart_date,
+    ~restart_status,
+    ~why_stopped,
+    ~search_date
+)
+
+## Then we read in all the files that end with "trials.csv":
+trials_files <- list.files("data-raw", "trials\\.csv$")
+
+## Then for each of those files, we read them in and append a column
+## with the search date
+for (trials_file in trials_files) {
+    newrows <- read_csv(paste0("data-raw/", trials_file), col_types="cDcDcc") %>%
+        mutate(search_date=as.Date(substr(trials_file, 0, 10)))
+
+    trials <- trials %>%
+        bind_rows(newrows)
+}
+
+## Then we take out all the rows with duplicate NCT numbers, leaving
+## only the row with the latest search date
+trials <- trials %>%
+    group_by(nctid) %>%
+    slice_tail() %>%
+    ungroup() %>%
+    select(! search_date)
 
 ## Get number of trials processed
 processed <- nrow(trials)
 
 
-## Get the already-done manual ratings using the following query:
 
-## SELECT `nct_id` as `nctid`, `covid19_explicit`, `restartexpected`
-## as `restart_expected` FROM `trials` WHERE `include` = 1;
-
-## Clean the CSV up a bit, save it as webapp-ratings.csv, then read
-## that into memory:
-
-ratings <- read_csv(
-    "data-raw/2021-10-21-ratings.csv",
-    show_col_types=FALSE
+## Read the ratings into memory.
+ratings <- tribble(
+    ~nctid,
+    ~covid19_explicit,
+    ~restart_expected
 )
 
-## The following is commented out because we only needed to test this
-## once
+## Get all the ratings files
+ratings_files <- list.files("data-raw", "ratings\\.csv$")
 
-## test_that(
-##     "Only C19-explicit trials were rated for expecting restart",
-##     {
-##         rated_non_c19 <- ratings %>%
-##             filter(! covid19_explicit) %>%
-##             filter(! is.na(restart_expected)) %>%
-##             nrow()
-##         expect_equal(
-##             rated_non_c19,
-##             0
-##         )
-##     }
-## )
+## Then for each of those files, we read them in and select the
+## relevant columns
+for (ratings_file in ratings_files) {
+    newrows <- read_csv(
+        paste0("data-raw/", ratings_file),
+        show_col_types = FALSE
+    ) %>%
+        select(nctid, covid19_explicit, restart_expected)
 
-additional_ratings <- read_csv(
-    "data-raw/2022-04-18-ratings.csv",
-    show_col_types=FALSE
+    ratings <- ratings %>%
+        bind_rows(newrows)
+}
+
+test_that(
+    "There should be no double-ratings",
+    {
+        expect_equal(
+            length(unique(ratings$nctid)),
+            length(ratings$nctid)
+        )
+    }
 )
 
 test_that(
     "Only C19-explicit trials were rated for expecting restart",
     {
-        rated_non_c19 <- additional_ratings %>%
+        rated_non_c19 <- ratings %>%
             filter(! covid19_explicit) %>%
             filter(! is.na(restart_expected)) %>%
             nrow()
@@ -59,31 +96,28 @@ test_that(
 
 ## Check that there aren't any major fuckups
 
-## trials %>%
-##     filter(is.na(stop_date)) %>%
-##     filter(nctid %in% ratings$nctid)
+trials %>%
+    filter(is.na(stop_date)) %>%
+    filter(nctid %in% ratings$nctid) %>%
+    select(nctid)
 
 ## Remove trials that did not stop during Covid-19
 trials <- trials %>%
-    filter(! is.na(stop_date)) ## %>%
-    ## arrange(desc(stop_date))
-
+    filter(! is.na(stop_date))
 
 ## What trials are not rated manually?
 trials %>%
     filter(! nctid %in% ratings$nctid) %>%
-    filter(! nctid %in% additional_ratings$nctid) %>%
     select(nctid, why_stopped) %>%
     mutate(covid19_explicit = NA) %>%
     mutate(restart_expected = NA) %>%
-    write_csv("data-raw/2022-04-18-ratings.csv", append=TRUE)
+    write_csv(paste0("data-raw/", current_update, "-ratings.csv"), append=TRUE)
 
 test_that(
     "No new rows have been added (nothing to do!)",
     {
         newlyadded <- trials %>%
             filter(! nctid %in% ratings$nctid) %>%
-            filter(! nctid %in% additional_ratings$nctid) %>%
             nrow()
         expect_equal(
             newlyadded,
@@ -95,7 +129,7 @@ test_that(
 test_that(
     "No unrated rows in manual ratings CSV",
     {
-        unrated_rows <- additional_ratings %>%
+        unrated_rows <- ratings %>%
             filter(is.na(covid19_explicit)) %>%
             nrow()
         expect_equal(
