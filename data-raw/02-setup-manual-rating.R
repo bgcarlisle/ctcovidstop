@@ -54,6 +54,17 @@ ratings <- tribble(
     ~restart_expected
 )
 
+if (! file.exists(
+          paste0("data-raw/", current_update, "-ratings.csv"))
+    ) {
+
+    ratings %>%
+        write_csv(
+            paste0("data-raw/", current_update, "-ratings.csv")
+        )
+    
+}
+
 ## Get all the ratings files
 ratings_files <- list.files("data-raw", "ratings\\.csv$")
 
