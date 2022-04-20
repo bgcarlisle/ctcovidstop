@@ -1,34 +1,32 @@
-## This data set was updated on 2022-04-14. To update it, you'll need
-## to check all the trials that have been modified between 2022-04-14
-## and the present day.
-
-## To do that, you'll need to change where it starts the `batch_lb`
-## variable off at `dateofinterest` to as.Date("2022-04-14")
-
-## Make sure to change the nctidfile to update the search date
-
-## When the NCTs are downloaded, then you can run the trial data
-## download loop; again, be sure to change the `output_filename` so
-## you don't write over your old work
-
-## It'll take a while
-
-## At the end you'll have an updated data frame; you can remove the
-## rows from the old one that are in the new one, since those will be
-## the "trustworthy" ones
-
 library(tidyverse)
 library(cthist)
 library(lubridate)
 
-## Where to save the output
-output_filename <- "data-raw/2022-04-13-trials.csv"
+## When updating this data set, change this to today's date. It isn't
+## set to take the system date because the update may take more than a
+## day to complete.
+current_update <- as.Date("2022-04-13")
 
 ## I'm calling the beginning of Dec 2019 the "date of interest",
-## because the first infections occurred in this month
+## because the first infections occurred in this month. Don't change
+## this when updating.
 dateofinterest <- as.Date("2019-12-01")
 
-nctidfile <- "data-raw/2022-04-14-changed-nctids.csv"
+## The previous update is the date on which the NCT's to check were
+## last downloaded
+previous_nctidfiles <- list.files("data-raw", "changed-nctids\\.csv$")
+
+if (length(previous_nctidfiles) > 0) {
+    latest_nctidfile <- previous_nctidfiles[length(previous_nctidfiles)]
+    previous_update <- as.Date(substr(latest_nctidfile, 0, 10))
+} else {
+    previous_update <- dateofinterest
+}
+
+## Where to save the output
+output_filename <- paste0("data-raw/", current_update, "-trials.csv")
+
+nctidfile <- paste0("data-raw/", current_update, "-changed-nctids.csv")
 
 if (! file.exists(nctidfile)) {
     
@@ -36,12 +34,12 @@ if (! file.exists(nctidfile)) {
     nctids <- c()
 
     ## Start the lower bound of the batch at the date of interest
-    batch_lb <- dateofinterest
+    batch_lb <- previous_update
     batch_size <- days(7)
 
     ## Download all the NCTs that were last modified since the date of
     ## interest in batches
-    while (batch_lb < Sys.Date()) {
+    while (batch_lb < current_update) {
 
         batch_ub <- batch_lb + batch_size - days(1)
 
@@ -115,11 +113,11 @@ check_for_stop_or_start <- function (
         if (checkstop) {
             ## We're checking to see when it stopped
             return_condition <-
-                version_data$ostatus %in% stoppedstatuses
+                trimws(version_data$ostatus) %in% stoppedstatuses
         } else {
             ## We're checking to see when it's not stopped
             return_condition <-
-                ! version_data$ostatus %in% stoppedstatuses
+                ! trimws(version_data$ostatus) %in% stoppedstatuses
             
         }
 
@@ -227,7 +225,7 @@ for (nctid in nctids) {
             }
 
             version_before_date_of_interest_not_stopped <-
-                ! version_before_date_of_interest$ostatus %in% stoppedstatuses
+                ! trimws(version_before_date_of_interest$ostatus) %in% stoppedstatuses
 
             if (version_before_date_of_interest_not_stopped) {
                 ## The version immediately before the date of interest was
@@ -245,9 +243,13 @@ for (nctid in nctids) {
                 )
 
                 if (is.list(trial_stopped)) {
-                    ## The trial stopped after the date of interest; see
-                    ## if it started again
+                    ## The trial stopped after the date of interest
+                    stopdate <-
+                        dates$version_date[trial_stopped$version_number]
+                    stopstatus <- trial_stopped$ostatus
+                    whystopped <- trial_stopped$whystopped
 
+                    ## See if it started again
                     trial_restarted <- check_for_stop_or_start (
                         nctid,
                         trial_stopped$version_number + 1,
@@ -256,24 +258,13 @@ for (nctid in nctids) {
                     )
                     
                     if (is.list(trial_restarted)) {
-
-                        stopdate <-
-                            dates$version_date[trial_stopped$version_number]
-                        stopstatus <- trial_stopped$ostatus
                         restartdate <-
                             dates$version_date[trial_restarted$version_number]
                         restartstatus <- trial_restarted$ostatus
-                        whystopped <- trial_stopped$whystopped
                         
                     } else {
-
-                        stopdate <-
-                            dates$version_date[trial_stopped$version_number]
-                        stopstatus <- trial_stopped$ostatus
                         restartdate <- NA
                         restartstatus <- NA
-                        whystopped <- trial_stopped$whystopped
-                        
                     }
                     
                 } else {
@@ -282,8 +273,7 @@ for (nctid in nctids) {
                     stopstatus <- NA
                     restartdate <- NA
                     restartstatus <- NA
-                    whystopped <- NA
-                    
+                    whystopped <- NA  
                 }
                 
             } else {
@@ -309,7 +299,45 @@ for (nctid in nctids) {
                         nrow(dates),
                         TRUE
                     )
-                    
+
+                    if (is.list(trial_stopped)) {
+                        ## The trial started after the date of
+                        ## interest, but later stopped again
+                        stopdate <-
+                            dates$version_date[trial_stopped$version_number]
+                        stopstatus <- trial_stopped$ostatus
+                        whystopped <- trial_stopped$whystopped
+
+                        ## Finally, check whether the trial started again
+                        trial_restarted <- check_for_stop_or_start (
+                            nctid,
+                            trial_stopped$version_number + 1,
+                            nrow(dates),
+                            FALSE
+                        )
+
+                        if (is.list(trial_restarted)) {
+                            ## The trial restarted
+                            restartdate <-
+                                dates$version_date[trial_restarted$version_number]
+                            restartstatus <- trial_restarted$ostatus
+                            
+                        } else {
+                            ## The trial never restarted
+                            restartdate <- NA
+                            restartstatus <- NA
+                        }
+                        
+                    } else {
+                        ## The trial started after the date of
+                        ## interest, and never stopped again
+                        stopdate <- NA
+                        stopstatus <- NA
+                        restartdate <- NA
+                        restartstatus <- NA
+                        whystopped <- NA                        
+                    }
+
                 } else {
                     ## The trial was stopped before the date of interest
                     ## and never started, so it couldn't have stopped
@@ -337,8 +365,14 @@ for (nctid in nctids) {
             )
 
             if (is.list(trial_stopped)) {
-                ## See if it started again
+                ## The trial stopped
 
+                stopdate <-
+                    dates$version_date[trial_stopped$version_number]
+                stopstatus <- trial_stopped$ostatus
+                whystopped <- trial_stopped$whystopped
+
+                ## See if the trial started again
                 trial_restarted <- check_for_stop_or_start (
                     nctid,
                     trial_stopped$version_number + 1,
@@ -347,24 +381,15 @@ for (nctid in nctids) {
                 )
 
                 if (is.list(trial_restarted)) {
-
-                    stopdate <-
-                        dates$version_date[trial_stopped$version_number]
-                    stopstatus <- trial_stopped$ostatus
+                    ## The trial restarted
                     restartdate <-
                         dates$version_date[trial_restarted$version_number]
                     restartstatus <- trial_restarted$ostatus
-                    whystopped <- trial_stopped$whystopped
                     
                 } else {
-
-                    stopdate <-
-                        dates$version_date[trial_stopped$version_number]
-                    stopstatus <- trial_stopped$ostatus
+                    ## The trial never restarted
                     restartdate <- NA
                     restartstatus <- NA
-                    whystopped <- trial_stopped$whystopped
-                    
                 }
                 
             } else {
