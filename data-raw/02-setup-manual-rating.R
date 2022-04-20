@@ -70,36 +70,12 @@ for (ratings_file in ratings_files) {
         bind_rows(newrows)
 }
 
-test_that(
-    "There should be no double-ratings",
-    {
-        expect_equal(
-            length(unique(ratings$nctid)),
-            length(ratings$nctid)
-        )
-    }
-)
-
-test_that(
-    "Only C19-explicit trials were rated for expecting restart",
-    {
-        rated_non_c19 <- ratings %>%
-            filter(! covid19_explicit) %>%
-            filter(! is.na(restart_expected)) %>%
-            nrow()
-        expect_equal(
-            rated_non_c19,
-            0
-        )
-    }
-)
-
 ## Check that there aren't any major fuckups
 
-trials %>%
-    filter(is.na(stop_date)) %>%
-    filter(nctid %in% ratings$nctid) %>%
-    select(nctid)
+## trials %>%
+##     filter(is.na(stop_date)) %>%
+##     filter(nctid %in% ratings$nctid) %>%
+##     select(nctid)
 
 ## Remove trials that did not stop during Covid-19
 trials <- trials %>%
