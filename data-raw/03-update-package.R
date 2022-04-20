@@ -79,9 +79,10 @@ usethis::use_data(c19stoppedtrials, overwrite = TRUE)
 
 message(
     paste0(
-        "Don't forget to update the number of rows in the data set ",
-        "in `R/c19stoppedtrials.R` to ",
-        nrow(c19stoppedtrials),
+        "Don't forget to indicate the latest search date in ",
+        "`README.md` and `R/ctcovidstop-package.R`; then update the ",
+        "search date and the number of rows in the data set in ",
+        "`R/c19stoppedtrials.R` to ", nrow(c19stoppedtrials),
         ", then `document()`, `check()`, increment the version ",
         "number in `DESCRIPTION` and then update through git!"
     )
