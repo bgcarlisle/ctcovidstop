@@ -61,20 +61,18 @@ for (ratings_file in ratings_files) {
 }
 
 ## Join the ratings to the trials
-c19trials <- trials %>%
+c19stoppedtrials <- trials %>%
     left_join(ratings)
 
 ## Write data set to a CSV in the inst/extdata/ folder
 if (! file.exists("inst/")) {
     dir.create("inst/")
 }
-
 if (! file.exists("inst/extdata/")) {
     dir.create("inst/extdata/")
 }
-
-c19trials %>%
-    write_csv("inst/extdata/c19trials.csv")
+c19stoppedtrials %>%
+    write_csv("inst/extdata/c19stoppedtrials.csv")
 
 ## Write data set to a .dba file in the data/ folder
-usethis::use_data(c19trials, overwrite = TRUE)
+usethis::use_data(c19stoppedtrials, overwrite = TRUE)

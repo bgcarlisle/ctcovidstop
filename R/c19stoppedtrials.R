@@ -40,8 +40,8 @@
 #'   reason for stopping, NA.}
 #' }
 #'
-#' @usage data(c19trials)
+#' @usage data(c19stoppedtrials)
 #'
 #' @source Carlisle, B.G. Clinical Trials Stopped by Covid-19.
 #' https://covid19.bgcarlisle.com
-"c19trials"
+"c19stoppedtrials"
