@@ -80,10 +80,10 @@ Covid-19, and so `covid19_explicit` would be FALSE
 (e.g. [NCT04390191](https://clinicaltrials.gov/ct2/history/NCT04390191
 "NCT04390191")).
 
-If `covid19_explicit` is TRUE, and there is also a stated expectation
+If `covid19_explicit` is FALSE, `restart_expected` is NA. If
+`covid19_explicit` is TRUE, and there is also a stated expectation
 that the trial will start again in `why_stopped`, `restart_expected`
-is TRUE, otherwise FALSE. If `covid19_explicit` is FALSE,
-`restart_expected` is NA. Trials that mention the study is "on hold"
+is TRUE, otherwise FALSE. Trials that mention the study is "on hold"
 or "expected to resume" were included. This data point was manually
 rated by BGC.
 
