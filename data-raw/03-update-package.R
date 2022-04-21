@@ -78,7 +78,8 @@ for (ratings_file in ratings_files) {
         bind_rows(newrows)
 }
 
-## Check that there are no ratings for un-stopped trials
+## Check that there are no ratings for trials that did not stop within
+## our timeframe of interest
 test_that(
     "There are no ratings for un-stopped trials",
     {
@@ -97,8 +98,6 @@ test_that(
 c19stoppedtrials <- trials %>%
     filter(! is.na(stop_date)) %>%
     left_join(ratings)
-
-## Now we do a few basic tests for data integrity
 
 ## Check that there are no duplicate ratings
 test_that(
@@ -124,12 +123,15 @@ c19stoppedtrials %>%
 ## Write data set to a .dba file in the data/ folder
 usethis::use_data(c19stoppedtrials, overwrite = TRUE)
 
+## Give instructions to the user to update the rest of the package to
+## reflect these changes
 message(
     paste0(
         "Don't forget to indicate the latest search date in ",
-        "`README.md` and `R/ctcovidstop-package.R`; then update the ",
-        "search date and the number of rows in the data set in ",
-        "`R/c19stoppedtrials.R` to ", nrow(c19stoppedtrials),
+        "`README.md`, `R/ctcovidstop-package.R` and ",
+        "`R/c19stoppedtrials.R`; also update the number of rows in ",
+        "the data set in `R/c19stoppedtrials.R` to ",
+        nrow(c19stoppedtrials),
         ", then `document()`, `check()`, increment the version ",
         "number in `DESCRIPTION` and then update through git!"
     )
