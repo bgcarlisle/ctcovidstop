@@ -3,14 +3,12 @@
 #' This is a database of all ClinicalTrials.gov NCT Numbers
 #' corresponding to clinical trials that were "stopped" (had their
 #' overall status changed to "Terminated," "Suspended," or
-#' "Withdrawn") during the SARS-CoV-2 pandemic that began with human
-#' infections starting in December 2019. This dataset indicates the
-#' date that a trial was stopped, whether it was started again and on
-#' what date, and the contents of the "why stopped?" field on the date
-#' the trial was stopped. This dataset also includes columns with
-#' manually coded data for whether the "why stopped?" field explicitly
-#' indicates that the reason for stopping included the SARS-CoV-2
-#' pandemic.
+#' "Withdrawn") after 2019-12-01. This dataset indicates the date that
+#' a trial was stopped, whether it was started again and on what date,
+#' and the contents of the "why stopped?" field on the date the trial
+#' was stopped. This dataset also includes columns with manually coded
+#' data for whether the "why stopped?" field explicitly indicates that
+#' the reason for stopping included the SARS-CoV-2 pandemic.
 #'
 #' @format A tibble with XX rows and 8 variables:
 #' \describe{
