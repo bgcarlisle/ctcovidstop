@@ -76,11 +76,11 @@ for (ratings_file in ratings_files) {
 trials <- trials %>%
     filter(! is.na(stop_date))
 
-
+## Make ratings file if it does not exist
 if (! file.exists(
           paste0("data-raw/", current_update, "-ratings.csv"))
     ) {
-
+    
     tribble(
         ~nctid,
         ~why_stopped,
@@ -90,10 +90,10 @@ if (! file.exists(
         write_csv(
             paste0("data-raw/", current_update, "-ratings.csv")
         )
-    
 }
 
-## What stopped trials are not yet rated manually?
+## Find the stopped trials that are not yet rated manually and write
+## them to the ratings file with NA's for ratings
 trials %>%
     filter(! nctid %in% ratings$nctid) %>%
     select(nctid, why_stopped) %>%
@@ -104,11 +104,18 @@ trials %>%
         append=TRUE
     )
 
+## Count the number that have been added to the ratings file
 newlyadded <- trials %>%
     filter(! nctid %in% ratings$nctid) %>%
     nrow()
 
-if (newlyadded > 0) {
+## Count the number of ratings that are not done yet
+unrated_rows <- ratings %>%
+    filter(is.na(covid19_explicit)) %>%
+    nrow()
+
+## Alert the user if there are new ratings to do
+if (newlyadded > 0 | unrated_rows > 0) {
     message(
         paste(
             "New rows have been added to the ratings CSV",
@@ -117,16 +124,6 @@ if (newlyadded > 0) {
     )
 } else {
     message("No new rows have been added")
-}
-
-unrated_rows <- ratings %>%
-    filter(is.na(covid19_explicit)) %>%
-    nrow()
-
-if (unrated_rows > 0) {
-    message(
-        "There are unrated rows in the ratings CSV (get to work!)"
-    )
 }
 
 message(
