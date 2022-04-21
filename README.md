@@ -70,18 +70,22 @@ reason is given, this column contains NA.
 
 If `why_stopped` cites Covid-19 explicitly as a reason why the trial
 was stopped, the `covid19_explicit` column is TRUE, otherwise
-FALSE. In the case that there is no value for `why_stopped`, this
-column is FALSE. This data point was manually rated by BGC.
+FALSE. In the case that there is no value for `why_stopped`,
+`covid19_explicit` is FALSE. This data point was manually rated by
+BGC.
 
-Trials that cite waning levels of Covid-19 infections as their
-rationale for stopping were not considered to be "stopped because of
-Covid-19".
+Trials that cite waning levels of Covid-19 infections, etc. as their
+rationale for stopping were not considered to be stopped because of
+Covid-19, and so `covid19_explicit` would be FALSE
+(e.g. [NCT04390191](https://clinicaltrials.gov/ct2/history/NCT04390191
+"NCT04390191")).
 
-If `covid19_explicit` is TRUE, and there is a stated expectation that
-the trial will start again, `restart_expected` is TRUE, otherwise
-FALSE. If `covid19_explicit` is FALSE or NA, `restart_expected` is
-NA. Trials that mention the study is "on hold" or "expected to resume"
-were included. This data point was manually rated by BGC.
+If `covid19_explicit` is TRUE, and there is also a stated expectation
+that the trial will start again in `why_stopped`, `restart_expected`
+is TRUE, otherwise FALSE. If `covid19_explicit` is FALSE,
+`restart_expected` is NA. Trials that mention the study is "on hold"
+or "expected to resume" were included. This data point was manually
+rated by BGC.
 
 ## Citing `ctcovidstop`
 
