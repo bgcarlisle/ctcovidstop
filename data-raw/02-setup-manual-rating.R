@@ -1,16 +1,24 @@
-## This script checks the downloaded trials for ones that stopped 
+## This script checks the downloaded trials for ones that stopped and
+## adds them to the ratings file to be manually curated
 
 ## This script can be run while `01-download-trials.R` is running and
-## nothing bad will happen.
+## it will provide feedback on its progress
 
 suppressMessages(library(tidyverse))
-suppressMessages(library(testthat))
 
-current_update <- as.Date("2022-04-13")
+## The ratings file will be given the same date as the latest of the
+## changed NCT numbers files
+nctid_files <- list.files(
+    "data-raw",
+    "^[0-9]{4}-[0-9]{2}-[0-9]{2}-changed-nctids\\.csv$"
+)
+current_update <- nctid_files[length(nctid_files)] %>%
+    substr(0, 10)
 
 ## Read the trials into memory. We want the most up-to-date search
-## result for each NCT number, so first we make an empty data frame
-## for the trials:
+## result for each NCT number and there may/should be duplicates in
+## later updated searches, so we need to paste together all the trials
+## CSV's. First we make an empty data frame for the trials:
 trials <- tribble(
     ~nctid,
     ~stop_date,
@@ -21,11 +29,15 @@ trials <- tribble(
     ~search_date
 )
 
-## Then we read in all the files that end with "trials.csv":
-trials_files <- list.files("data-raw", "trials\\.csv$")
+## Then we read in all the files that match the pattern:
+## "YYYY-MM-DD-trials.csv":
+trials_files <- list.files(
+    "data-raw",
+    "^[0-9]{4}-[0-9]{2}-[0-9]{2}-trials\\.csv$"
+)
 
-## Then for each of those files, we read them in and append a column
-## with the search date
+## Then for each of those files, we read them in, add them to the data
+## frame we made earlier and append a column with the search date
 for (trials_file in trials_files) {
     newrows <- read_csv(
         paste0("data-raw/", trials_file), col_types="cDcDcc"
@@ -40,14 +52,13 @@ for (trials_file in trials_files) {
 ## only the row with the latest search date
 trials <- trials %>%
     group_by(nctid) %>%
+    arrange(search_date) %>%
     slice_tail() %>%
     ungroup() %>%
     select(! search_date)
 
 ## Get number of trials processed
 processed <- nrow(trials)
-
-
 
 ## Read the ratings into memory.
 ratings <- tribble(
@@ -56,8 +67,11 @@ ratings <- tribble(
     ~restart_expected
 )
 
-## Get all the ratings files
-ratings_files <- list.files("data-raw", "ratings\\.csv$")
+## Get all the files that match the pattern: "YYYY-MM-DD-ratings.csv"
+ratings_files <- list.files(
+    "data-raw",
+    "^[0-9]{4}-[0-9]{2}-[0-9]{2}-ratings\\.csv$"
+)
 
 ## Then for each of those files, we read them in and select the
 ## relevant columns
@@ -76,7 +90,7 @@ for (ratings_file in ratings_files) {
 trials <- trials %>%
     filter(! is.na(stop_date))
 
-## Make ratings file if it does not exist
+## Make a ratings file for the current update if it does not exist
 if (! file.exists(
           paste0("data-raw/", current_update, "-ratings.csv"))
     ) {
@@ -92,8 +106,9 @@ if (! file.exists(
         )
 }
 
-## Find the stopped trials that are not yet rated manually and write
-## them to the ratings file with NA's for ratings
+## Find the stopped trials from the trials download file that are not
+## yet rated manually and write them to the ratings file with NA's for
+## ratings
 trials %>%
     filter(! nctid %in% ratings$nctid) %>%
     select(nctid, why_stopped) %>%
@@ -105,17 +120,19 @@ trials %>%
     )
 
 ## Count the number that have been added to the ratings file
-newlyadded <- trials %>%
+newly_added <- trials %>%
     filter(! nctid %in% ratings$nctid) %>%
     nrow()
 
-## Count the number of ratings that are not done yet
+## Count the number of ratings that are not done yet (these would be
+## generated if the script was run previously and the ratings weren't
+## completed before running it again)
 unrated_rows <- ratings %>%
     filter(is.na(covid19_explicit)) %>%
     nrow()
 
 ## Alert the user if there are new ratings to do
-if (newlyadded > 0 | unrated_rows > 0) {
+if (newly_added > 0 | unrated_rows > 0) {
     message(
         paste(
             "New rows have been added to the ratings CSV",
@@ -126,6 +143,8 @@ if (newlyadded > 0 | unrated_rows > 0) {
     message("No new rows have been added")
 }
 
+## Give some feedback regarding the state of the trial downloading
+## script
 message(
     paste0(
         "Processed trials: ", processed, "; stopped: ", nrow(trials)
