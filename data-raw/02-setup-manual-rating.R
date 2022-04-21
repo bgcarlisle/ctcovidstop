@@ -116,7 +116,7 @@ if (newlyadded > 0) {
         )
     )
 } else {
-    message("No new rows have been added (nothing to do!)")
+    message("No new rows have been added")
 }
 
 unrated_rows <- ratings %>%
