@@ -4,12 +4,12 @@
 \name{ctcovidstop-package}
 \alias{ctcovidstop}
 \alias{ctcovidstop-package}
-\title{ctcovidstop: Clinical trials that stopped during or because of Covid-19}
+\title{ctcovidstop: Clinical trials that stopped during the Covid-19 pandemic}
 \usage{
 data(c19stoppedtrials)
 }
 \description{
-Provides a database of all ClinicalTrials.gov NCT Numbers corresponding to clinical trials that were "stopped" (had their overall status changed to "Terminated," "Suspended," or "Withdrawn") during the SARS-CoV-2 pandemic that began with human infections starting in December 2019. This dataset indicates the date that a trial was stopped, whether it was started again and on what date, and the contents of the "why stopped?" field on the date the trial was stopped. This dataset also includes columns with manually coded data for whether the "why stopped?" field explicitly indicates that the reason for stopping included the SARS-CoV-2 pandemic.
+Provides a database of all ClinicalTrials.gov NCT Numbers corresponding to clinical trials that were "stopped" (had their overall status changed to "Terminated," "Suspended," or "Withdrawn") after 2019-12-01. This dataset indicates the date that a trial was stopped, whether it was started again and on what date, and the contents of the "why stopped?" field on the date the trial was stopped. This dataset also includes columns with manually coded data for whether the "why stopped?" field explicitly indicates that the reason for stopping included the SARS-CoV-2 pandemic.
 }
 \references{
 Carlisle, B.G. Clinical Trials Stopped by Covid-19.
