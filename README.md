@@ -57,12 +57,12 @@ stopped?" field was updated to include a reference to Covid-19
 (e.g. [NCT03365921](https://clinicaltrials.gov/ct2/history/NCT03365921
 "NCT03365921")).
 
-If the trial was started again (overall status changed from
-"Terminated", "Suspended" or "Withdrawn" to any other overall status)
-after being "stopped" according to the definition above by the date
-that this data set was last updated, the date that the trial restarted
-is recorded under `restart_date`, otherwise this column contains
-NA. The status that the trial was changed to is indicated in the
+If the trial started again (overall status changed from "Terminated",
+"Suspended" or "Withdrawn" to any other overall status) after being
+"stopped" according to the definition above by the date that this data
+set was last updated, the date that the trial restarted is recorded
+under `restart_date`; otherwise this column contains NA. The status
+that the stopped trial was changed to is indicated in the
 `restart_status` column.
 
 The reason that the trial was stopped as reported on
@@ -72,7 +72,7 @@ reason is given, this column contains NA.
 If `why_stopped` cites Covid-19 explicitly as a reason why the trial
 was stopped, the `covid19_explicit` column is TRUE, otherwise
 FALSE. In the case that there is no value for `why_stopped`, this
-column is NA. This data point was manually rated by BGC.
+column is FALSE. This data point was manually rated by BGC.
 
 Trials that cite waning levels of Covid-19 infections as their
 rationale for stopping were not considered to be "stopped because of
