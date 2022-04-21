@@ -1,4 +1,4 @@
-# ctcovidstop
+# ctcovidstop: Clinical trials that stopped during or because of Covid-19
 
 Provides a database of all ClinicalTrials.gov NCT Numbers
 corresponding to clinical trials that were "stopped" (had their
