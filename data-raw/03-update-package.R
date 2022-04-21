@@ -27,6 +27,17 @@ for (trials_file in trials_files) {
         paste0("data-raw/", trials_file), col_types="cDcDcc") %>%
         mutate(search_date=as.Date(substr(trials_file, 0, 10)))
 
+    ## Check that there are no duplicate downloaded trial data
+    test_that(
+        "No duplicate trial downloads",
+        {
+            expect_equal(
+                sum(duplicated(newrows$nctid)),
+                0
+            )
+        }
+    )
+
     trials <- trials %>%
         bind_rows(newrows)
 }
@@ -35,6 +46,7 @@ for (trials_file in trials_files) {
 ## only the row with the latest search date and arrange by stop date:
 trials <- trials %>%
     group_by(nctid) %>%
+    arrange(search_date) %>%
     slice_tail() %>%
     ungroup() %>%
     select(! search_date) %>%
