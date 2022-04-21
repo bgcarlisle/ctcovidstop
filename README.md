@@ -51,7 +51,7 @@ column.
 A trial is only included if the study's overall status changed to
 "Terminated", "Suspended" or "Withdrawn" after 2019-12-01. If a
 trial's overall status was already "Terminated", "Suspended" or
-"Withdrawn" prior to 2019-12-01 and it was became active and then
+"Withdrawn" prior to 2019-12-01 and it never became active and then
 stopped after 2019-12-01, it would not be included, even if the "why
 stopped?" field was updated to include a reference to Covid-19
 (e.g. [NCT03365921](https://clinicaltrials.gov/ct2/history/NCT03365921
