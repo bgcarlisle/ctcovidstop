@@ -27,7 +27,9 @@ trials_files <- list.files("data-raw", "trials\\.csv$")
 ## Then for each of those files, we read them in and append a column
 ## with the search date
 for (trials_file in trials_files) {
-    newrows <- read_csv(paste0("data-raw/", trials_file), col_types="cDcDcc") %>%
+    newrows <- read_csv(
+        paste0("data-raw/", trials_file), col_types="cDcDcc"
+    ) %>%
         mutate(search_date=as.Date(substr(trials_file, 0, 10)))
 
     trials <- trials %>%
@@ -70,13 +72,6 @@ for (ratings_file in ratings_files) {
         bind_rows(newrows)
 }
 
-## Check that there aren't any major fuckups
-
-## trials %>%
-##     filter(is.na(stop_date)) %>%
-##     filter(nctid %in% ratings$nctid) %>%
-##     select(nctid)
-
 ## Remove trials that did not stop during Covid-19
 trials <- trials %>%
     filter(! is.na(stop_date))
@@ -98,20 +93,28 @@ if (! file.exists(
     
 }
 
-## What trials are not rated manually?
+## What stopped trials are not yet rated manually?
 trials %>%
     filter(! nctid %in% ratings$nctid) %>%
     select(nctid, why_stopped) %>%
     mutate(covid19_explicit = NA) %>%
     mutate(restart_expected = NA) %>%
-    write_csv(paste0("data-raw/", current_update, "-ratings.csv"), append=TRUE)
+    write_csv(
+        paste0("data-raw/", current_update, "-ratings.csv"),
+        append=TRUE
+    )
 
 newlyadded <- trials %>%
     filter(! nctid %in% ratings$nctid) %>%
     nrow()
 
 if (newlyadded > 0) {
-    message("New rows have been added to the ratings CSV (get to work!)")
+    message(
+        paste(
+            "New rows have been added to the ratings CSV",
+            "(get to work!)"
+        )
+    )
 } else {
     message("No new rows have been added (nothing to do!)")
 }
@@ -121,7 +124,13 @@ unrated_rows <- ratings %>%
     nrow()
 
 if (unrated_rows > 0) {
-    message("There are unrated rows in the ratings CSV (get to work!)")
+    message(
+        "There are unrated rows in the ratings CSV (get to work!)"
+    )
 }
 
-message(paste0("Processed trials: ", processed, "; stopped: ", nrow(trials)))
+message(
+    paste0(
+        "Processed trials: ", processed, "; stopped: ", nrow(trials)
+    )
+)
