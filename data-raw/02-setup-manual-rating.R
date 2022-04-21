@@ -54,17 +54,6 @@ ratings <- tribble(
     ~restart_expected
 )
 
-if (! file.exists(
-          paste0("data-raw/", current_update, "-ratings.csv"))
-    ) {
-
-    ratings %>%
-        write_csv(
-            paste0("data-raw/", current_update, "-ratings.csv")
-        )
-    
-}
-
 ## Get all the ratings files
 ratings_files <- list.files("data-raw", "ratings\\.csv$")
 
@@ -91,6 +80,23 @@ for (ratings_file in ratings_files) {
 ## Remove trials that did not stop during Covid-19
 trials <- trials %>%
     filter(! is.na(stop_date))
+
+
+if (! file.exists(
+          paste0("data-raw/", current_update, "-ratings.csv"))
+    ) {
+
+    tribble(
+        ~nctid,
+        ~why_stopped,
+        ~covid19_explicit,
+        ~restart_expected
+    ) %>%
+        write_csv(
+            paste0("data-raw/", current_update, "-ratings.csv")
+        )
+    
+}
 
 ## What trials are not rated manually?
 trials %>%
