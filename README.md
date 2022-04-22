@@ -42,17 +42,19 @@ also provided as a CSV in this repository as
 
 Each row in this data frame contains an NCT Number from
 ClinicalTrials.gov (`nctid` column) and a date on which the
-corresponding clinical trial record's overall status was changed to
-"Terminated", "Suspended" or "Withdrawn" (`stop_date`). The status
-that the trial was changed to is indicated in the `stop_status`
+corresponding clinical trial record's overall status was first changed
+to "Terminated", "Suspended" or "Withdrawn" from any other overall
+status after 2019-12-01 (`stop_date` column). The status that the
+trial was changed to on that date is indicated in the `stop_status`
 column.
 
 A trial is only included if the study's overall status changed to
-"Terminated", "Suspended" or "Withdrawn" after 2019-12-01. If a
-trial's overall status was already "Terminated", "Suspended" or
-"Withdrawn" prior to 2019-12-01 and it never became active and then
-stopped after 2019-12-01, it would not be included, even if the "why
-stopped?" field was updated to include a reference to Covid-19
+"Terminated", "Suspended" or "Withdrawn" from any other overall status
+after 2019-12-01. If a trial's overall status was already
+"Terminated", "Suspended" or "Withdrawn" prior to 2019-12-01 and it
+never became active and then stopped after 2019-12-01, it would not be
+included, even if the "why stopped?" field was updated to include a
+reference to Covid-19
 (e.g. [NCT03365921](https://clinicaltrials.gov/ct2/history/NCT03365921
 "NCT03365921")).
 
@@ -80,12 +82,20 @@ Covid-19, and so `covid19_explicit` would be FALSE
 (e.g. [NCT04390191](https://clinicaltrials.gov/ct2/history/NCT04390191
 "NCT04390191")).
 
+The `stop_date`, `stop_status` and `why_stopped` will reflect only the
+first time the trial was stopped after 2019-12-01. In cases where a
+trial stops after 2019-12-01 without citing Covid-19 in the
+`why_stopped` field, starts again, and then stops a second time,
+citing Covid-19 as a reason why the study stopped
+(e.g. [NCT03728504](https://clinicaltrials.gov/ct2/history/NCT03728504
+"NCT03728504")), the trial's `covid19_explicit` column is FALSE.
+
 If `covid19_explicit` is FALSE, `restart_expected` is NA. If
 `covid19_explicit` is TRUE, and there is also a stated expectation
 that the trial will start again in `why_stopped`, `restart_expected`
 is TRUE, otherwise FALSE. Trials that mention the study is "on hold"
-or "expected to resume" were included. This data point was manually
-rated by BGC.
+or "expected to resume" or that the stop was "temporary", etc. were
+included. This data point was manually rated by BGC.
 
 ## Citing `ctcovidstop`
 
