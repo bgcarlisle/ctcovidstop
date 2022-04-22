@@ -1,5 +1,5 @@
-library(tidyverse)
-library(testthat)
+suppressMessages(library(tidyverse))
+suppressMessages(library(testthat))
 
 ## Read the trials into memory. We want the most up-to-date search
 ## result for each NCT number, so first we make an empty data frame
@@ -66,7 +66,7 @@ ratings_files <- list.files(
 )
 
 ## Then for each of those files, we read them in and select the
-## relevant columns
+## relevant columns and put them together into the same data frame
 for (ratings_file in ratings_files) {
     newrows <- read_csv(
         paste0("data-raw/", ratings_file),
@@ -78,10 +78,23 @@ for (ratings_file in ratings_files) {
         bind_rows(newrows)
 }
 
+## Check that there are no ratings for trials that are not downloaded
+test_that(
+    "There are no ratings for non-downloaded trials",
+    {
+        rated_but_not_downloaded <- ratings %>%
+            filter(! nctid %in% trials$nctid)
+        expect_equal(
+            nrow(rated_but_not_downloaded),
+            0
+        )
+    }
+)
+
 ## Check that there are no ratings for trials that did not stop within
 ## our timeframe of interest
 test_that(
-    "There are no ratings for un-stopped trials",
+    "There are no non-stopped trials that have ratings",
     {
         rated_but_not_stopped <- trials %>%
             filter(is.na(stop_date)) %>%
@@ -105,6 +118,34 @@ test_that(
     {
         expect_equal(
             sum(duplicated(ratings$nctid)),
+            0
+        )
+    }
+)
+
+## Check that all ratings are complete
+test_that(
+    "All ratings for Covid-19 stoppage are complete",
+    {
+        expect_equal(
+            sum(is.na(ratings$covid19_explicit)),
+            0
+        )
+    }
+)
+
+## Check that if a Covid-19 stoppage was found, the trial was also
+## assessed for whether a restart is expected
+test_that(
+    "If stopped for Covid-19, checked for an expected restart",
+    {
+        c19explicit_but_not_checked_for_restart <-
+            c19stoppedtrials %>%
+            filter(covid19_explicit) %>%
+            filter(is.na(restart_expected)) %>%
+            nrow()
+        expect_equal(
+            c19explicit_but_not_checked_for_restart,
             0
         )
     }
