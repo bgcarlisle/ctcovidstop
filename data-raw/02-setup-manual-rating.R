@@ -67,7 +67,8 @@ ratings <- tribble(
     ~restart_expected
 )
 
-## Get all the files that match the pattern: "YYYY-MM-DD-ratings.csv"
+## There are many ratings files, so we should put them all together.
+## List all the files that match the pattern: "YYYY-MM-DD-ratings.csv"
 ratings_files <- list.files(
     "data-raw",
     "^[0-9]{4}-[0-9]{2}-[0-9]{2}-ratings\\.csv$"
@@ -107,8 +108,8 @@ if (! file.exists(
 }
 
 ## Find the stopped trials from the trials download file that are not
-## yet rated manually and write them to the ratings file with NA's for
-## ratings
+## yet rated manually and write them to the end of the ratings file
+## with NA's for the columns that are to be manually rated
 trials %>%
     filter(! nctid %in% ratings$nctid) %>%
     select(nctid, why_stopped) %>%
