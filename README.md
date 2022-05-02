@@ -1,5 +1,7 @@
 # ctcovidstop: Clinical trials that stopped during the Covid-19 pandemic
 
+**Last updated on 2022-04-13**
+
 Provides a database of all ClinicalTrials.gov NCT Numbers
 corresponding to clinical trials that were "stopped" (had their
 overall status changed to "Terminated," "Suspended," or "Withdrawn")
