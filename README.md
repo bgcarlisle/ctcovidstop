@@ -68,8 +68,9 @@ under `restart_date`; otherwise this column contains NA. The status
 that the stopped trial was changed to is indicated in the
 `restart_status` column.
 
-The reason that the trial was stopped as reported on
-ClinicalTrials.gov is recorded in the `why_stopped` field. If no
+The reason that the trial was stopped, as reported on the first
+stopped historical version of the clinical trial registry entry on
+ClinicalTrials.gov, is recorded in the `why_stopped` field. If no
 reason is given, this column contains NA.
 
 If `why_stopped` cites Covid-19 explicitly as a reason why the trial
@@ -91,6 +92,12 @@ trial stops after 2019-12-01 without citing Covid-19 in the
 citing Covid-19 as a reason why the study stopped
 (e.g. [NCT03728504](https://clinicaltrials.gov/ct2/history/NCT03728504
 "NCT03728504")), the trial's `covid19_explicit` column is FALSE.
+
+In cases where a trial was stopped with no rationale reported in the
+version of the trial history where it was stopped, and then in a later
+version, the `why_stopped` field was updated to include a rationale,
+the updated rationale for stopping would not be included in this data
+set.
 
 If `covid19_explicit` is FALSE, `restart_expected` is NA. If
 `covid19_explicit` is TRUE, and there is also a stated expectation
