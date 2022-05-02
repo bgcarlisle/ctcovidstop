@@ -171,6 +171,8 @@ check_for_stop_or_start <- function (
 
 if (! file.exists(output_filename)) {
 
+    alreadydone <- tribble(~nctid)
+
     tibble(
         nctid = character(),
         stop_date = character(),
