@@ -135,9 +135,9 @@ unrated_rows <- ratings %>%
 ## Alert the user if there are new ratings to do
 if (newly_added > 0 | unrated_rows > 0) {
     message(
-        paste(
-            "New rows have been added to",
-            "data-raw/", current_update, "-ratings.csv",
+        paste0(
+            "New rows have been added to ",
+            "data-raw/", current_update, "-ratings.csv ",
             "that you can rate"
         )
     )
