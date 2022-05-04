@@ -136,8 +136,9 @@ unrated_rows <- ratings %>%
 if (newly_added > 0 | unrated_rows > 0) {
     message(
         paste(
-            "New rows have been added to the ratings CSV",
-            "(get to work!)"
+            "New rows have been added to",
+            "data-raw/", current_update, "-ratings.csv",
+            "that you can rate"
         )
     )
 } else {

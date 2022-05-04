@@ -168,8 +168,9 @@ usethis::use_data(c19stoppedtrials, overwrite = TRUE)
 ## reflect these changes
 message(
     paste0(
-        "Don't forget to indicate the latest search date in ",
-        "`README.md`, `R/ctcovidstop-package.R` and ",
+        "Don't forget to indicate the latest search date (",
+        substr(trials_files[length(trials_files)], 0, 10),
+        ") in `README.md`, `R/ctcovidstop-package.R` and ",
         "`R/c19stoppedtrials.R`; also update the number of rows in ",
         "the data set in `R/c19stoppedtrials.R` to ",
         nrow(c19stoppedtrials),
