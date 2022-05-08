@@ -1464,7 +1464,7 @@ NCT01361750,2020-03-29,Terminated,NA,NA,higher occurrence of complication than e
 NCT02326077,2020-03-29,Suspended,NA,NA,Equipment and personnel discontinuity,FALSE,NA
 NCT03314337,2020-03-29,Suspended,NA,NA,"because of the coronavirus (COVID-19), the endoscopy was forbidden",TRUE,FALSE
 NCT03419624,2020-03-29,Terminated,NA,NA,Delay in patient enrolment,FALSE,NA
-NCT01558804,2020-03-30,Suspended,NA,NA,Suspended due to COVID-19,TRUE,FALSE
+NCT01558804,2020-03-30,Suspended,2022-04-18,Recruiting,Suspended due to COVID-19,TRUE,FALSE
 NCT01815385,2020-03-30,Terminated,2021-02-10,Completed,Unable to enroll patients,FALSE,NA
 NCT01916798,2020-03-30,Terminated,NA,NA,Not able to recruit the number required and due to financial difficulty to pay for intralipids,FALSE,NA
 NCT02022644,2020-03-30,Suspended,2020-05-03,Recruiting,Interim Review by Sponsor,FALSE,NA
@@ -1518,7 +1518,7 @@ NCT04193553,2020-03-31,Suspended,2020-04-15,Recruiting,"Inclusions have been sus
 NCT04207619,2020-03-31,Suspended,2020-06-07,Recruiting,COVID-19 outbreak,TRUE,FALSE
 NCT04234815,2020-03-31,Suspended,2020-09-03,Recruiting,Paused due to COVID-19 pandemic,TRUE,TRUE
 NCT04255615,2020-03-31,Suspended,NA,NA,Per IRB COVID-19 guidance on conducting human subjects research,TRUE,FALSE
-NCT04289376,2020-03-31,Suspended,NA,NA,COVID-19,TRUE,FALSE
+NCT04289376,2020-03-31,Suspended,2022-04-11,Recruiting,COVID-19,TRUE,FALSE
 NCT00061828,2020-04-01,Suspended,2021-04-21,Recruiting,Study visits suspended due to COVID-19 pandemic.,TRUE,FALSE
 NCT00345553,2020-04-01,Suspended,2021-04-21,Recruiting,Study visits suspended due to COVID-19 pandemic.,TRUE,FALSE
 NCT00571272,2020-04-01,Suspended,2021-04-21,Recruiting,Study visits suspended due to COVID-19 pandemic.,TRUE,FALSE
@@ -2762,7 +2762,7 @@ NCT03841357,2020-05-13,Suspended,2020-08-31,Recruiting,Covid-19 Pandemic,TRUE,FA
 NCT03937999,2020-05-13,Suspended,2020-10-29,Recruiting,Temporarily paused due to COVID-19 and expected to resume. This is not a suspension of IRB approval,TRUE,TRUE
 NCT04007315,2020-05-13,Suspended,NA,NA,COVID-19,TRUE,FALSE
 NCT04049578,2020-05-13,Terminated,NA,NA,Recent analysis of Phase II balovaptan data in paediatric ASD did not support the continuation of this study. No new safety concerns were identified.,FALSE,NA
-NCT04063709,2020-05-13,Suspended,NA,NA,Suspended due to COVID-19 risks,TRUE,FALSE
+NCT04063709,2020-05-13,Suspended,2022-04-27,Recruiting,Suspended due to COVID-19 risks,TRUE,FALSE
 NCT04184895,2020-05-13,Suspended,2020-09-15,Recruiting,Due to COVID-19,TRUE,FALSE
 NCT04221594,2020-05-13,Suspended,2021-08-16,Recruiting,The study activities are suspended due to COVID,TRUE,FALSE
 NCT04391699,2020-05-13,Withdrawn,NA,NA,cancelled before initiation,FALSE,NA
@@ -4298,11 +4298,11 @@ NCT04008602,2020-09-14,Suspended,NA,NA,COVID-19,TRUE,FALSE
 NCT04243031,2020-09-14,Withdrawn,NA,NA,Business Decision,FALSE,NA
 NCT04306783,2020-09-14,Withdrawn,NA,NA,Investigator is leaving the university,FALSE,NA
 NCT04360512,2020-09-14,Terminated,NA,NA,Suspended due to the covid-19 pandemic.,TRUE,FALSE
-NCT02153684,2020-09-15,Suspended,NA,NA,Temporarily suspended due to COVID-19,TRUE,TRUE
+NCT02153684,2020-09-15,Suspended,2022-04-21,"Active, not recruiting",Temporarily suspended due to COVID-19,TRUE,TRUE
 NCT02925364,2020-09-15,Terminated,NA,NA,Slow recruitment,FALSE,NA
 NCT02952573,2020-09-15,Terminated,NA,NA,Low patient accrual,FALSE,NA
 NCT03017287,2020-09-15,Terminated,NA,NA,NA,FALSE,NA
-NCT03018756,2020-09-15,Suspended,NA,NA,Temporarily suspended due to COVID-19,TRUE,TRUE
+NCT03018756,2020-09-15,Suspended,2022-04-21,Completed,Temporarily suspended due to COVID-19,TRUE,TRUE
 NCT03357692,2020-09-15,Withdrawn,NA,NA,no enough patients have been enrolled,FALSE,NA
 NCT03405090,2020-09-15,Suspended,NA,NA,Temporarily suspended due to COVID-19,TRUE,TRUE
 NCT03559517,2020-09-15,Terminated,NA,NA,Sponsor decision to discontinue the SHP647 (ontamalimab) clinical trial development program for inflammatory bowel diseases (IBD) early.,FALSE,NA
@@ -5114,7 +5114,7 @@ NCT04044170,2020-11-16,Terminated,NA,NA,Study termination by the Sponsor,FALSE,N
 NCT04098419,2020-11-16,Terminated,NA,NA,Discontinuing the study because of COVID-19,TRUE,FALSE
 NCT04201145,2020-11-16,Withdrawn,NA,NA,Funding complications coupled with competing scientific objectives,FALSE,NA
 NCT04226001,2020-11-16,Withdrawn,NA,NA,Coordinator departure,FALSE,NA
-NCT04271917,2020-11-16,Suspended,NA,NA,COVID-19,TRUE,FALSE
+NCT04271917,2020-11-16,Suspended,2022-04-29,Completed,COVID-19,TRUE,FALSE
 NCT04347707,2020-11-16,Terminated,NA,NA,The trial was ended after one year due to the suspension of in-person research as a result of the COVID-19 pandemic. We have returned to the program development stage as we explore telehealth alternative options.,TRUE,FALSE
 NCT04633031,2020-11-16,Withdrawn,NA,NA,never approved,FALSE,NA
 NCT02831933,2020-11-17,Terminated,NA,NA,Lack of funding,FALSE,NA
@@ -5811,7 +5811,7 @@ NCT02519868,2021-01-26,Withdrawn,NA,NA,NA,FALSE,NA
 NCT02693080,2021-01-26,Suspended,2021-03-12,"Active, not recruiting",Accrual factor,FALSE,NA
 NCT02851875,2021-01-26,Terminated,NA,NA,Low enrollment and no plans for analysis,FALSE,NA
 NCT03055312,2021-01-26,Terminated,NA,NA,NA,FALSE,NA
-NCT03091413,2021-01-26,Suspended,NA,NA,not recruitment,FALSE,NA
+NCT03091413,2021-01-26,Suspended,2022-04-26,Recruiting,not recruitment,FALSE,NA
 NCT03244358,2021-01-26,Terminated,NA,NA,Difficulty accruing subjects the study accrual was closed,FALSE,NA
 NCT03260465,2021-01-26,Suspended,2021-02-01,Recruiting,"The study has been transferred to the University Hospital Basel; 18.12.2020 (Prof. Karl Stoffel, Principal Investigator; Ilona Ahlborn, Study Coordinator)",FALSE,NA
 NCT03428815,2021-01-26,Terminated,NA,NA,Pandemic response invalidated long-term outcome data collection,TRUE,FALSE
@@ -6044,7 +6044,7 @@ NCT04393155,2021-02-09,Terminated,NA,NA,Grant application to fund this work was 
 NCT04510259,2021-02-09,Withdrawn,2021-07-27,Completed,"Suggested by IRB after the Principal Investigator has amended the study title, study protocol and increased sample size, the original study has to be withdrawn and apply as a new study.",FALSE,NA
 NCT04523792,2021-02-09,Withdrawn,NA,NA,Funder has not approved protocol,FALSE,NA
 NCT04584697,2021-02-09,Withdrawn,NA,NA,Different study will be conducted,FALSE,NA
-NCT04747704,2021-02-09,Suspended,NA,NA,COVID restrictions,TRUE,FALSE
+NCT04747704,2021-02-09,Suspended,2022-04-19,"Active, not recruiting",COVID restrictions,TRUE,FALSE
 NCT04747730,2021-02-09,Terminated,NA,NA,"unfortunately, the trial couldn't take place as planned as the investigators didn't manage to recruit a sufficient number of participants.",FALSE,NA
 NCT04753060,2021-02-09,Suspended,NA,NA,Study suspended temporarily due to coronavirus pandemic.,TRUE,FALSE
 NCT04754009,2021-02-09,Suspended,NA,NA,COVID-19,TRUE,FALSE
@@ -6475,7 +6475,7 @@ NCT02242578,2021-03-16,Terminated,NA,NA,IRB approval expired and study ceased.,F
 NCT02608528,2021-03-16,Terminated,NA,NA,Poor Accrual,FALSE,NA
 NCT02722369,2021-03-16,Terminated,NA,NA,"Low recruitment, lack of efficacy and increased adverse events in investigational arm.",FALSE,NA
 NCT02758184,2021-03-16,Terminated,NA,NA,Slow enrollment,FALSE,NA
-NCT02847559,2021-03-16,Suspended,NA,NA,Sub-Site IRB suspension due to IDE for Optune,FALSE,NA
+NCT02847559,2021-03-16,Suspended,2022-04-20,Recruiting,Sub-Site IRB suspension due to IDE for Optune,FALSE,NA
 NCT02984891,2021-03-16,Terminated,NA,NA,Slow enrollment,FALSE,NA
 NCT03251417,2021-03-16,Suspended,NA,NA,"Because PD-1 antibodies had been proved to be a standard second-line treatment in esophageal cancer, the potential benefit of present intervention is under re-evaluation.",FALSE,NA
 NCT03320785,2021-03-16,Suspended,NA,NA,Principal Investigator unable to incorporate study and recruitments into clinical routines,FALSE,NA
@@ -6487,7 +6487,7 @@ NCT03794297,2021-03-16,Withdrawn,NA,NA,Inadequate accrual rate,FALSE,NA
 NCT03803722,2021-03-16,Suspended,NA,NA,Slow enrolment process and COVID situation worsened the situation. SIFI has developed a new product with probably a better performance. SIFI changed its marketing strategy and decided that Eyestil® Protection will be not marketed anymore,TRUE,FALSE
 NCT03869710,2021-03-16,Suspended,NA,NA,Because of COVID pandemic,TRUE,FALSE
 NCT03941899,2021-03-16,Suspended,2021-05-01,Completed,Because of COVID epidemic,TRUE,FALSE
-NCT03975660,2021-03-16,Terminated,NA,NA,Device development still ongoing and not ready for a formal study yet.,FALSE,NA
+NCT03975660,2021-03-16,Terminated,2022-04-14,Recruiting,Device development still ongoing and not ready for a formal study yet.,FALSE,NA
 NCT03992326,2021-03-16,Terminated,NA,NA,Internal competitive study that is open,FALSE,NA
 NCT04037891,2021-03-16,Terminated,NA,NA,"The trial has terminated early due to the disruptions caused by the ongoing COVID-19 pandemic. The decision was not related to any efficacy, safety or clinical concerns regarding rVA576/Coversin.",TRUE,FALSE
 NCT04162639,2021-03-16,Withdrawn,NA,NA,PI is working on getting funding for the study and wishes to withdraw the study until that funding is secured.,FALSE,NA
@@ -6955,7 +6955,7 @@ NCT03550521,2021-04-26,Withdrawn,NA,NA,PI left,FALSE,NA
 NCT03692793,2021-04-26,Terminated,NA,NA,"Due to the Covid-19 pandemic, face-to-face activities have been suspended since March 2020, making the research unfeasible.",TRUE,FALSE
 NCT03694704,2021-04-26,Suspended,NA,NA,COVID-19,TRUE,FALSE
 NCT03734744,2021-04-26,Suspended,NA,NA,Clinical research currently on hold,FALSE,NA
-NCT03783767,2021-04-26,Terminated,NA,NA,COVID-19 caused shutdown of all human research,TRUE,FALSE
+NCT03783767,2021-04-26,Terminated,2022-04-21,Completed,COVID-19 caused shutdown of all human research,TRUE,FALSE
 NCT03835988,2021-04-26,Withdrawn,NA,NA,Covid department protocol prevented patient recruitment and affected funding.,TRUE,FALSE
 NCT03846258,2021-04-26,Withdrawn,NA,NA,Due to the fact that we were unable to find subjects who met all inclusion and exclusion criteria it was determined to withdraw this study.,FALSE,NA
 NCT03876093,2021-04-26,Withdrawn,NA,NA,The PI decided.,FALSE,NA
@@ -7499,7 +7499,7 @@ NCT04929340,2021-06-10,Suspended,NA,NA,recruitment on hold since spring 2020 due
 NCT03110354,2021-06-11,Terminated,NA,NA,This study was terminated due to slow accrual.,FALSE,NA
 NCT03488251,2021-06-11,Terminated,NA,NA,Sponsor decision,FALSE,NA
 NCT03645395,2021-06-11,Terminated,NA,NA,Sponsor decision,FALSE,NA
-NCT03851406,2021-06-11,Suspended,NA,NA,This study was suspended due to Covid and will resume once it is determined to be safe to resume intentional exposures.,TRUE,TRUE
+NCT03851406,2021-06-11,Suspended,2022-04-21,Enrolling by invitation,This study was suspended due to Covid and will resume once it is determined to be safe to resume intentional exposures.,TRUE,TRUE
 NCT03905343,2021-06-11,Terminated,NA,NA,Feasibility (low patient accrual and financial reasons),FALSE,NA
 NCT04109807,2021-06-11,Suspended,NA,NA,Enrollment for this study was stopped due to Covid and will resume once it is determined acceptable to do inhalational challenges.,TRUE,TRUE
 NCT04330248,2021-06-11,Suspended,2022-01-21,Recruiting,Study suspended because the required DNA results were not available from vendor prior to dosing due to Covid pandemic. Site has re-scheduled study for Jan 2022,TRUE,TRUE
@@ -7730,7 +7730,7 @@ NCT04672733,2021-07-02,Suspended,NA,NA,Suspended due to the COVID situation,TRUE
 NCT04835389,2021-07-02,Withdrawn,NA,NA,Company decision,FALSE,NA
 NCT04305834,2021-07-04,Suspended,2021-09-24,Recruiting,pending amend,FALSE,NA
 NCT04873713,2021-07-04,Suspended,NA,NA,Logistics and infrastructure problems,FALSE,NA
-NCT04875273,2021-07-04,Suspended,NA,NA,Logistics and infrastructure problems,FALSE,NA
+NCT04875273,2021-07-04,Suspended,2022-04-25,Recruiting,Logistics and infrastructure problems,FALSE,NA
 NCT04883112,2021-07-04,Suspended,NA,NA,Logistics and infrastructure problems,FALSE,NA
 NCT02102165,2021-07-05,Suspended,NA,NA,suspended temporarily - amending protocol,FALSE,NA
 NCT02353143,2021-07-05,Terminated,NA,NA,The Sponsor accepted the iDSMB recommendation to terminate the study due to evidence of unpredictable liver toxicity and meaningful target engagement not translating into any clinical objective response.,FALSE,NA
@@ -7925,7 +7925,7 @@ NCT03159988,2021-07-23,Suspended,NA,NA,Slow enrollment,FALSE,NA
 NCT03885154,2021-07-23,Terminated,NA,NA,Difficulty recruiting participants,FALSE,NA
 NCT04445662,2021-07-23,Suspended,2022-01-28,Recruiting,Varenicline recall,FALSE,NA
 NCT04982835,2021-07-23,Withdrawn,2021-08-05,Recruiting,study was cancelled and did not initiate,FALSE,NA
-NCT00646022,2021-07-24,Suspended,NA,NA,NA,FALSE,NA
+NCT00646022,2021-07-24,Suspended,2022-05-05,Recruiting,NA,FALSE,NA
 NCT01639924,2021-07-24,Suspended,2021-08-19,Recruiting,NA,FALSE,NA
 NCT04435795,2021-07-25,Terminated,NA,NA,could not meet target enrolment,FALSE,NA
 NCT04977492,2021-07-25,Terminated,NA,NA,NA,FALSE,NA
@@ -8135,7 +8135,7 @@ NCT04163510,2021-08-13,Withdrawn,NA,NA,"Because of the pandemic, this study had 
 NCT04331665,2021-08-13,Terminated,NA,NA,"A Phase III RUXCOVID study evaluating ruxolitinib on top of standard of care (SoC) therapy compared to SoC treatment alone in patients with COVID-19 did not meet its primary endpoint. With this news, recruitment was stopped for this study.",FALSE,NA
 NCT04542005,2021-08-13,Withdrawn,NA,NA,Funding not obtained,FALSE,NA
 NCT04641806,2021-08-13,Withdrawn,NA,NA,"Following submission of the amended protocol, the ethic commitee requested sponsor to resubmit it like a new protocol",FALSE,NA
-NCT04656431,2021-08-13,Suspended,NA,NA,Drug temporarily available due to low fluid path supplies,FALSE,NA
+NCT04656431,2021-08-13,Suspended,2022-04-22,Recruiting,Drug temporarily available due to low fluid path supplies,FALSE,NA
 NCT04811131,2021-08-13,Terminated,NA,NA,Sponsor Decision,FALSE,NA
 NCT03926156,2021-08-14,Terminated,NA,NA,COVID-19 has impacted our study recruitment,TRUE,FALSE
 NCT03661229,2021-08-15,Terminated,NA,NA,Inability to demonstrate efficacy. The reason for this is that we were unable to get the necessary information from our population of dialysis patient using the mCVI™ non-contact facial tracking cell phone app.,FALSE,NA
@@ -8424,7 +8424,7 @@ NCT04757831,2021-09-09,Withdrawn,NA,NA,Study did not begin,FALSE,NA
 NCT04781218,2021-09-09,Withdrawn,NA,NA,Study did not start,FALSE,NA
 NCT04840472,2021-09-09,Suspended,2022-03-11,Recruiting,Logistics,FALSE,NA
 NCT04844528,2021-09-09,Suspended,2022-01-14,Recruiting,pending change in drug supplier,FALSE,NA
-NCT04846309,2021-09-09,Suspended,NA,NA,pending amendment,FALSE,NA
+NCT04846309,2021-09-09,Suspended,2022-04-21,Recruiting,pending amendment,FALSE,NA
 NCT05051800,2021-09-09,Terminated,NA,NA,Recruitment of participants was interrupted by the COVID-19 pandemic and the funding for the study ended before the targeted enrollment could be completed.,TRUE,FALSE
 NCT02808247,2021-09-10,Terminated,NA,NA,Exceed of pre-specified number of failures in the experimental arm,FALSE,NA
 NCT03821584,2021-09-10,Terminated,NA,NA,Recruiting terminated,FALSE,NA
@@ -8663,7 +8663,7 @@ NCT03906500,2021-09-28,Terminated,NA,NA,"Due to the corona-crisis, we asses that
 NCT03940248,2021-09-28,Withdrawn,NA,NA,"Due to insurance non-payment, no subjects were enrolled.",FALSE,NA
 NCT04025177,2021-09-28,Withdrawn,NA,NA,Halted due to feasibility issues,FALSE,NA
 NCT04084431,2021-09-28,Suspended,NA,NA,organizational reasons,FALSE,NA
-NCT04209595,2021-09-28,Suspended,NA,NA,Pending approval of amendment,FALSE,NA
+NCT04209595,2021-09-28,Suspended,2022-05-03,Recruiting,Pending approval of amendment,FALSE,NA
 NCT04218019,2021-09-28,Suspended,NA,NA,Organizational reasons,FALSE,NA
 NCT04247321,2021-09-28,Withdrawn,NA,NA,"• Withdrawn: Study halted prematurely, prior to enrollment of first participant",FALSE,NA
 NCT04252248,2021-09-28,Terminated,NA,NA,Organizational reasons,FALSE,NA
@@ -9320,7 +9320,7 @@ NCT03704168,2021-11-26,Withdrawn,NA,NA,The study was never launched.,FALSE,NA
 NCT03776643,2021-11-26,Suspended,2022-02-09,Recruiting,the design was reviewed and modified; 24 patients expected .,FALSE,NA
 NCT04312789,2021-11-26,Withdrawn,NA,NA,Drug availability,FALSE,NA
 NCT04985981,2021-11-26,Suspended,NA,NA,Change in core study organization,FALSE,NA
-NCT05066984,2021-11-26,Suspended,NA,NA,Temporarily suspended due to Covid19 pandemic. The study will start as soon as participating hospitals will have enough capacity again.,TRUE,TRUE
+NCT05066984,2021-11-26,Suspended,2022-04-27,Recruiting,Temporarily suspended due to Covid19 pandemic. The study will start as soon as participating hospitals will have enough capacity again.,TRUE,TRUE
 NCT05137457,2021-11-26,Withdrawn,NA,NA,An RCT was not valid anymore as app has become open source and will risk a contamination of study population,FALSE,NA
 NCT03757455,2021-11-27,Terminated,NA,NA,Not enought participants,FALSE,NA
 NCT03817554,2021-11-28,Terminated,NA,NA,The recruitment of participants in the study was difficulty.,FALSE,NA
@@ -10061,7 +10061,7 @@ NCT02817815,2022-02-09,Terminated,NA,NA,Departure and non-replacement of the per
 NCT03250169,2022-02-09,Terminated,NA,NA,Under recruitment,FALSE,NA
 NCT03278626,2022-02-09,Terminated,NA,NA,The study was stopped earlier than anticipated due to slow accrual,FALSE,NA
 NCT03311269,2022-02-09,Terminated,NA,NA,Study was terminated for administrative reasons,FALSE,NA
-NCT03442556,2022-02-09,Suspended,NA,NA,Enrollment Hold,FALSE,NA
+NCT03442556,2022-02-09,Suspended,2022-04-29,Recruiting,Enrollment Hold,FALSE,NA
 NCT03935308,2022-02-09,Withdrawn,NA,NA,The principal investigator left the institution.,FALSE,NA
 NCT03946891,2022-02-09,Withdrawn,NA,NA,The study was stopped due to lack of study staff and inability to enroll subjects into the study due to restrictive inclusion criteria.,FALSE,NA
 NCT03999515,2022-02-09,Suspended,NA,NA,Enrollment Hold,FALSE,NA
@@ -10649,12 +10649,14 @@ NCT04155996,2022-03-31,Terminated,NA,NA,Study terminated prematurely due to COVI
 NCT04369638,2022-03-31,Terminated,NA,NA,PI left institution,FALSE,NA
 NCT04597684,2022-03-31,Terminated,NA,NA,Enrollment volume below acceptable accrual rate.,FALSE,NA
 NCT04832516,2022-03-31,Terminated,NA,NA,sponsor decision,FALSE,NA
-NCT04876053,2022-03-31,Suspended,NA,NA,"CR not submitted in time resulting in loss of IRB approval, to be reopened once approval is re-granted",FALSE,NA
+NCT04876053,2022-03-31,Suspended,2022-04-25,Recruiting,"CR not submitted in time resulting in loss of IRB approval, to be reopened once approval is re-granted",FALSE,NA
 NCT05072912,2022-03-31,Terminated,NA,NA,Enrollment,FALSE,NA
 NCT05095623,2022-03-31,Terminated,NA,NA,enrollment,FALSE,NA
 NCT05229068,2022-03-31,Withdrawn,NA,NA,"Following a recommendation from the Independent Data Monitoring Committee of NCT04605159 (RSV MAT 009), GSK made the decision to stop enrolment and vaccination in this study.",FALSE,NA
+NCT00788125,2022-04-01,Terminated,NA,NA,Terminated early due a shift in resources after lackluster performance of the drug.,FALSE,NA
 NCT01062672,2022-04-01,Withdrawn,NA,NA,PI left institution and no participants were enrolled,FALSE,NA
 NCT02951377,2022-04-01,Terminated,NA,NA,Recruitment,FALSE,NA
+NCT02987959,2022-04-01,Terminated,NA,NA,Closed to accrual due to Funding Sponsor withdrawing support due to low accrual,FALSE,NA
 NCT03502499,2022-04-01,Suspended,NA,NA,slow enrollment,FALSE,NA
 NCT04627831,2022-04-01,Withdrawn,NA,NA,Internal decision,FALSE,NA
 NCT04644549,2022-04-01,Terminated,NA,NA,study terminated following strategic portfolio and R&D alignment,FALSE,NA
@@ -10758,6 +10760,7 @@ NCT03858283,2022-04-08,Terminated,NA,NA,"Due to the COVID pandemic, the lockdown
 NCT03915535,2022-04-08,Terminated,NA,NA,Several impacts of COVID-19 on recruitment and organization,TRUE,FALSE
 NCT03960554,2022-04-08,Terminated,NA,NA,Study lost funding,FALSE,NA
 NCT03992443,2022-04-08,Withdrawn,NA,NA,Chiesi business decision,FALSE,NA
+NCT04041258,2022-04-08,Terminated,NA,NA,the number of patients was not sufficient to support continuation of the study,FALSE,NA
 NCT04808934,2022-04-08,Withdrawn,NA,NA,"Withdrawn due to COVID19 pandemic. Several delays affected this study, therefore company decided to not conduct the study. It was cancelled prior to any enrollment.",TRUE,FALSE
 NCT04884295,2022-04-08,Terminated,NA,NA,The sponsor does not intend to start Part 2 (Phase 2) due to change in company strategy for phase 2 design. This early end of trial is not due to reasons of safety or lack of efficacy. Part 1 (Phase 1) is completed as per protocol.,FALSE,NA
 NCT04901676,2022-04-08,Suspended,NA,NA,Pending DSMB evaluation,FALSE,NA
@@ -10765,6 +10768,7 @@ NCT04901689,2022-04-08,Suspended,NA,NA,Pending DSMB evaluation,FALSE,NA
 NCT05106413,2022-04-08,Terminated,NA,NA,This clinical trial has been early terminated due to recruiting issues of the calculated sample size.,FALSE,NA
 NCT04592991,2022-04-09,Terminated,NA,NA,"We were only able to enroll 1 subject so we had no way to compare a control or other study groups and develop any kind of results. This study is essentially the same study as NCT04586452, which we would like to place focus and effort on that study.",FALSE,NA
 NCT04795596,2022-04-09,Withdrawn,NA,NA,Poor accrual,FALSE,NA
+NCT00182156,2022-04-10,Withdrawn,NA,NA,NA,FALSE,NA
 NCT04368676,2022-04-10,Terminated,NA,NA,Poor recruitment,FALSE,NA
 NCT04583748,2022-04-10,Withdrawn,NA,NA,COVID 19,TRUE,FALSE
 NCT04886505,2022-04-10,Withdrawn,NA,NA,Insufficient funds,FALSE,NA
@@ -10775,7 +10779,9 @@ NCT03568084,2022-04-11,Terminated,NA,NA,SARS-CoV-2 Pandemic,TRUE,FALSE
 NCT03574038,2022-04-11,Terminated,NA,NA,Interim Analysis,FALSE,NA
 NCT03664466,2022-04-11,Withdrawn,NA,NA,Inadequate funding,FALSE,NA
 NCT03755063,2022-04-11,Terminated,NA,NA,Delays and barriers secondary to covid.,TRUE,FALSE
+NCT03787251,2022-04-11,Withdrawn,NA,NA,"In China, apatinib has been approved as an indication drug for esophageal squamous cell carcinoma, which makes it very difficult for our clinical trial to enroll patients. We regret that we failed to implement the design as planned.",FALSE,NA
 NCT03907319,2022-04-11,Terminated,NA,NA,Enrollment not sufficient for data analysis.,FALSE,NA
+NCT03936192,2022-04-11,Withdrawn,NA,NA,Company decision,FALSE,NA
 NCT04041921,2022-04-11,Terminated,NA,NA,The purpose of this study is no longer maintained,FALSE,NA
 NCT04061577,2022-04-11,Terminated,NA,NA,Interim Analysis,FALSE,NA
 NCT04205136,2022-04-11,Withdrawn,NA,NA,Was on hold due to Covid then we were not able to initiate the funding again after such a long hold and loss of team members.,TRUE,FALSE
@@ -10785,6 +10791,7 @@ NCT04364633,2022-04-11,Terminated,NA,NA,"Premature termination of the study beca
 NCT04413253,2022-04-11,Terminated,NA,NA,Unable to recruit,FALSE,NA
 NCT04583280,2022-04-11,Terminated,NA,NA,Janssen made the strategic decision to discontinue the DAISY study. This decision is not based on any safety concerns.,FALSE,NA
 NCT04629534,2022-04-11,Terminated,NA,NA,"low enrollment, lack of funding",FALSE,NA
+NCT02947516,2022-04-12,Withdrawn,NA,NA,Funding n/a,FALSE,NA
 NCT03225287,2022-04-12,Terminated,NA,NA,"After careful consideration, UCB has decided to no longer pursue PNH as a potential indication for zilucoplan.",FALSE,NA
 NCT03266900,2022-04-12,Terminated,NA,NA,Difficulties with accrual,FALSE,NA
 NCT03489174,2022-04-12,Terminated,NA,NA,Unable to recruit sufficient participants to complete study intervention,FALSE,NA
@@ -10793,6 +10800,7 @@ NCT03674021,2022-04-12,Terminated,NA,NA,Due to COVID pandemic and suspension of 
 NCT03679078,2022-04-12,Suspended,NA,NA,Project suspended whilst intervention is updated,FALSE,NA
 NCT03798015,2022-04-12,Withdrawn,NA,NA,resource issues on site,FALSE,NA
 NCT04018469,2022-04-12,Withdrawn,NA,NA,not enough staff to execute study,FALSE,NA
+NCT04022356,2022-04-12,Withdrawn,NA,NA,This study was not able to start within the time limit due to Coronavirus,TRUE,FALSE
 NCT04187365,2022-04-12,Terminated,NA,NA,Study was terminated prematurely due to challenges with recruitment and feasibility of continuing the study,FALSE,NA
 NCT04365257,2022-04-12,Terminated,NA,NA,Lack of recruitment,FALSE,NA
 NCT04376112,2022-04-12,Withdrawn,NA,NA,withdrawn due to lack of enrollment secondary to COVID-19 and the pharmacy being sold to a non-LLU system,TRUE,FALSE
@@ -10803,14 +10811,20 @@ NCT04595721,2022-04-12,Withdrawn,NA,NA,Resident did not have sufficient time to 
 NCT04653038,2022-04-12,Terminated,NA,NA,rapid changes in the treatment mode of melanoma worldwide and in China and the development strategy change,FALSE,NA
 NCT04919096,2022-04-12,Withdrawn,NA,NA,"Due to an internal decision to prioritise its development pipeline, Clover have decided to close down study CLO-SCB-420-001. This was a corporate decision and not the results of new data or information arising related to SCB-420",FALSE,NA
 NCT04934553,2022-04-12,Suspended,NA,NA,Limited funding,FALSE,NA
+NCT05335980,2022-04-12,Terminated,NA,NA,Lack of funding,FALSE,NA
+NCT01179932,2022-04-13,Withdrawn,NA,NA,Never started,FALSE,NA
+NCT01488149,2022-04-13,Withdrawn,NA,NA,Study never started,FALSE,NA
+NCT01497509,2022-04-13,Withdrawn,NA,NA,Study never started,FALSE,NA
 NCT02792413,2022-04-13,Terminated,NA,NA,Modified study and new deposit in RECHMPL21_0451,FALSE,NA
 NCT02950649,2022-04-13,Terminated,NA,NA,PI left institution 10/01/2020 and no further subjects were enrolled and no further data was collected.,FALSE,NA
+NCT03021135,2022-04-13,Terminated,NA,NA,low rate of enrollment during the pandemia,TRUE,FALSE
 NCT03158298,2022-04-13,Terminated,NA,NA,due to lack of recruitment,FALSE,NA
 NCT03454893,2022-04-13,Terminated,NA,NA,AVROBIO is deprioritizing its Fabry disease program,FALSE,NA
 NCT03480659,2022-04-13,Terminated,NA,NA,Technical problem with plasma blood samples obtained from the patients,FALSE,NA
 NCT03494803,2022-04-13,Withdrawn,NA,NA,Not enough patients to initialize this clinical trial,FALSE,NA
 NCT03499678,2022-04-13,Terminated,NA,NA,Technical problem with blood plasma samples obtained from the hospital.,FALSE,NA
 NCT03631771,2022-04-13,Withdrawn,NA,NA,It was determined that a study is no longer required because the clinical question posed by the study has been answered through published literature,FALSE,NA
+NCT03734419,2022-04-13,Withdrawn,NA,NA,Couldn't get IRB approval for this study,FALSE,NA
 NCT03761823,2022-04-13,Terminated,NA,NA,Organizational issues and slow inclusion rate,FALSE,NA
 NCT03893617,2022-04-13,Terminated,NA,NA,"Due to challenges associated with the Covid-19 pandemic, we were unable to complete recruitment as planned during the period we had funding to do so.",TRUE,FALSE
 NCT03959345,2022-04-13,Terminated,NA,NA,"Data safety and monitoring board(DSMB) have been performed when half of sample size (SS)have been reached. Recruitment was slower than expected so SS was recalculated. After analysis of data, DSMB recommended to stop study.",FALSE,NA
@@ -10820,16 +10834,133 @@ NCT04421456,2022-04-13,Terminated,NA,NA,Prioritization of pipeline programs.,FAL
 NCT04762875,2022-04-13,Terminated,NA,NA,This study was voluntarily terminated due to a business decision not to proceed and not due to any safety issue,FALSE,NA
 NCT05229731,2022-04-13,Withdrawn,NA,NA,The investigators no longer want to do the project,FALSE,NA
 NCT05318079,2022-04-13,Withdrawn,NA,NA,The study was not selected for funding.,FALSE,NA
+NCT05334966,2022-04-13,Suspended,NA,NA,Replaced by clinical trial,FALSE,NA
+NCT02325427,2022-04-14,Terminated,NA,NA,short of funding support.,FALSE,NA
 NCT02719392,2022-04-14,Suspended,NA,NA,"Due to limited study staff and the COVID-19 pandemic, enrollment has been paused as staff hours for this project have been reduced and reallocated to other projects.",TRUE,TRUE
+NCT02841969,2022-04-14,Suspended,NA,NA,"Following consultation, neutral electrolysed water was deemed to be a medical device. A study amendment will re-submitted to NHS Ethics and the UK regulator (MHRA). These actions delayed due to the pandemic - expected to take place in June 2022.",TRUE,TRUE
+NCT02920333,2022-04-14,Terminated,NA,NA,The grant funding has expired,FALSE,NA
 NCT03328065,2022-04-14,Terminated,NA,NA,lack of inclusion,FALSE,NA
+NCT03418272,2022-04-14,Withdrawn,NA,NA,Study withdrawn until time and staff allow its completion.,FALSE,NA
 NCT03879655,2022-04-14,Terminated,NA,NA,Terminated by previous Sponsor decision,FALSE,NA
+NCT04649775,2022-04-14,Terminated,NA,NA,no eligible participants,FALSE,NA
 NCT04705376,2022-04-14,Withdrawn,NA,NA,Funding,FALSE,NA
 NCT04958642,2022-04-14,Terminated,NA,NA,Terminated by previous Sponsor decision,FALSE,NA
+NCT05157997,2022-04-14,Withdrawn,NA,NA,New information regarding COVID-19,FALSE,NA
 NCT05199142,2022-04-14,Terminated,NA,NA,Development plan changed,FALSE,NA
 NCT05212116,2022-04-14,Withdrawn,NA,NA,Development Plan Amended,FALSE,NA
 NCT05267925,2022-04-14,Suspended,NA,NA,Pending additional product QA,FALSE,NA
+NCT01845441,2022-04-15,Terminated,NA,NA,The principal investigator left employment at the sponsoring Institution,FALSE,NA
+NCT03481959,2022-04-15,Terminated,NA,NA,insufficient recrutement in the study,FALSE,NA
+NCT03709758,2022-04-15,Suspended,NA,NA,"Accrual goal met, pending new cohort activation",FALSE,NA
+NCT04624815,2022-04-15,Terminated,NA,NA,logistics problems,FALSE,NA
 NCT04869540,2022-04-15,Withdrawn,NA,NA,The Investigator left the institution and the study was not implemented.,FALSE,NA
 NCT03803761,2022-04-16,Withdrawn,NA,NA,Inadequate accrual rate,FALSE,NA
+NCT05341388,2022-04-16,Terminated,NA,NA,not enough participants due to the pandemia,TRUE,FALSE
 NCT02615522,2022-04-18,Terminated,NA,NA,NA,FALSE,NA
+NCT03193437,2022-04-18,Terminated,NA,NA,Slow Accrual,FALSE,NA
+NCT03479502,2022-04-18,Terminated,NA,NA,Lack of personnel to help with recruiting,FALSE,NA
+NCT03911869,2022-04-18,Terminated,NA,NA,"Study terminated due to lack of enrollment of the target population. There were no safety, efficacy, or regulatory interaction involved in the decision to stop enrollment.",FALSE,NA
+NCT03918122,2022-04-18,Terminated,NA,NA,Not enough enrolled,FALSE,NA
+NCT04371393,2022-04-18,Terminated,NA,NA,"At 3d interim analysis, randomization, but not follow-up, was halted by the DSMB due to low predictive probability of achieving postulated mortality benefit (pre-specified 42.5% relative mortality reduction) were the trial to complete randomization.",FALSE,NA
+NCT05298267,2022-04-18,Withdrawn,NA,NA,withdrawn prior to study launch because a research partnership with the school district could not be secured in time,FALSE,NA
+NCT01221415,2022-04-19,Withdrawn,NA,NA,not enough manpower,FALSE,NA
+NCT01547468,2022-04-19,Withdrawn,NA,NA,inactivity and unable to complete due to manpower issues,FALSE,NA
+NCT02254642,2022-04-19,Terminated,NA,NA,recruitment difficulties,FALSE,NA
+NCT02519985,2022-04-19,Suspended,NA,NA,Devices currently awaiting software updates,FALSE,NA
+NCT02863380,2022-04-19,Terminated,NA,NA,recruitment difficulties,FALSE,NA
 NCT02897050,2022-04-19,Suspended,NA,NA,NA,FALSE,NA
+NCT03034902,2022-04-19,Terminated,NA,NA,The collaborating investigator has moved and cannot collect further data.,FALSE,NA
+NCT03172897,2022-04-19,Suspended,NA,NA,The trial was stopped because of difficulty in recruiting patients (another trial had similar inclusion/exclusion criteria). No patients was recruited in this trial.,FALSE,NA
+NCT03294252,2022-04-19,Terminated,NA,NA,The 34 patients included had all completed their treatment period under the protocol and the data could be collected to assess the main objective and the secondary objectives before the last theoretical follow-up.,FALSE,NA
+NCT03472495,2022-04-19,Suspended,NA,NA,PI is on leave and study is suspended until they return,FALSE,NA
+NCT03473847,2022-04-19,Suspended,NA,NA,Devices currently awaiting software updates,FALSE,NA
+NCT03519308,2022-04-19,Terminated,NA,NA,The accrual goal could not be met and the drug manufacturer pulled support,FALSE,NA
+NCT03629483,2022-04-19,Suspended,NA,NA,Trial stopped by the sponsor because of no funding.,FALSE,NA
+NCT03630653,2022-04-19,Terminated,NA,NA,The study was stopped prematurely due to insufficient recruitment,FALSE,NA
+NCT03859869,2022-04-19,Terminated,NA,NA,Business Considerations (difficulty with enrollment),FALSE,NA
+NCT04040790,2022-04-19,Terminated,NA,NA,"Several reasons: Financing ended before all study assessments were performed, covid-19 delayed design, production and shipment of IMD, experience gained during the study made it clear that lens design should be changed",TRUE,FALSE
+NCT04061330,2022-04-19,Withdrawn,NA,NA,Study was terminated prior to enrollment due to lack of funding,FALSE,NA
+NCT04095247,2022-04-19,Terminated,NA,NA,for few participants recruited,FALSE,NA
+NCT04251442,2022-04-19,Withdrawn,NA,NA,Per funding institution,FALSE,NA
+NCT04259775,2022-04-19,Withdrawn,NA,NA,Needed FDA approval,FALSE,NA
+NCT04328558,2022-04-19,Withdrawn,NA,NA,no participants,FALSE,NA
+NCT04332497,2022-04-19,Withdrawn,NA,NA,no participants,FALSE,NA
+NCT04420845,2022-04-19,Withdrawn,NA,NA,The study was significantly delayed due to the COVID-19 pandemic. The PI has chosen not to conduct the study.,TRUE,FALSE
+NCT04430959,2022-04-19,Withdrawn,NA,NA,"The reason the study was withdrawn was due to lack of funds. In addition, the PI is moving to a different institution and it would not be feasible to proceed with the study under these circumstances.",FALSE,NA
+NCT04582396,2022-04-19,Terminated,NA,NA,majority of the participants had exclusion criteria of anticoagulant use,FALSE,NA
+NCT04625543,2022-04-19,Withdrawn,NA,NA,insufficient money,FALSE,NA
+NCT04674735,2022-04-19,Withdrawn,NA,NA,Cancelled by Sponsor,FALSE,NA
+NCT04726163,2022-04-19,Terminated,NA,NA,inclusion difficulties,FALSE,NA
+NCT04750278,2022-04-19,Terminated,NA,NA,"Study stopped at interim analysis point, due to lack of study subjects to recruit.",FALSE,NA
+NCT04813991,2022-04-19,Withdrawn,NA,NA,Enrollment was never initiated and the PI is leaving the institution so the study is closing.,FALSE,NA
+NCT05158153,2022-04-19,Terminated,NA,NA,Inadequate recruitment,FALSE,NA
+NCT05343949,2022-04-19,Suspended,NA,NA,"lead coordinatior has left the site, need to find alternative lead for the study",FALSE,NA
+NCT01573390,2022-04-20,Withdrawn,NA,NA,most of the study team left the institution prior to study initiation,FALSE,NA
+NCT02590523,2022-04-20,Suspended,NA,NA,Lack of antibiotic availability,FALSE,NA
+NCT03254732,2022-04-20,Terminated,NA,NA,Changing Corporate Priorities,FALSE,NA
+NCT03555968,2022-04-20,Withdrawn,NA,NA,Logistical issues,FALSE,NA
+NCT03973177,2022-04-20,Withdrawn,NA,NA,Covid restrictions on recruitment,TRUE,FALSE
+NCT04127656,2022-04-20,Terminated,NA,NA,Insufficient recruitment,FALSE,NA
+NCT04142814,2022-04-20,Withdrawn,NA,NA,Patients case mix changed and did not match anymore with selection criteria,FALSE,NA
+NCT04633447,2022-04-20,Suspended,NA,NA,JRD elected to pause further enrollment to assess emerging data,FALSE,NA
+NCT04897607,2022-04-20,Suspended,NA,NA,Lapse in IRB approval: the continuing review was submitted prior to the expiration date but not in time to get on the schedule for a full board review meeting. We have been in communication with our IRB about this and anticipate approval in May.,FALSE,NA
+NCT05119894,2022-04-20,Withdrawn,NA,NA,Sponsor decision:Change the Development plan,FALSE,NA
+NCT05156463,2022-04-20,Withdrawn,NA,NA,Award not yet received and PI is transferring to a different institution,FALSE,NA
+NCT05347108,2022-04-20,Withdrawn,NA,NA,Lack of funding,FALSE,NA
+NCT02173613,2022-04-21,Terminated,NA,NA,NA,FALSE,NA
+NCT02309593,2022-04-21,Terminated,NA,NA,"PI change, hospital change and covid -19 caused lost-to-follow up of most of the subjects",TRUE,FALSE
+NCT02465138,2022-04-21,Withdrawn,NA,NA,Lack of Funding,FALSE,NA
 NCT03366155,2022-04-21,Suspended,NA,NA,Study on hold at the direction of the IRB.,FALSE,NA
+NCT04250311,2022-04-21,Suspended,NA,NA,"Due to the end of the ARVI and influenza season, it has been suspended until approximately October 01, 2022",FALSE,NA
+NCT04257721,2022-04-21,Terminated,NA,NA,rate of inclusions too low,FALSE,NA
+NCT04478136,2022-04-21,Withdrawn,NA,NA,This protocol was never initiated,FALSE,NA
+NCT04588948,2022-04-21,Withdrawn,NA,NA,Study did not proceed due to funding issues.,FALSE,NA
+NCT04763837,2022-04-21,Withdrawn,NA,NA,unable to continue,FALSE,NA
+NCT04819256,2022-04-21,Terminated,NA,NA,Funding diverted to expansion of programme and PACE-It App,FALSE,NA
+NCT04902274,2022-04-21,Terminated,NA,NA,Fellowship Graduation December 2021,FALSE,NA
+NCT04918771,2022-04-21,Suspended,NA,NA,"Due to the end of the ARVI and influenza season, suspended until approximately September 01, 2022.",FALSE,NA
+NCT05341934,2022-04-21,Withdrawn,NA,NA,No Inclusion/ Study never begin,FALSE,NA
+NCT05350579,2022-04-21,Terminated,NA,NA,Due to the onset of the COVID-19 pandemic,TRUE,FALSE
+NCT02801656,2022-04-22,Withdrawn,NA,NA,Not funded,FALSE,NA
+NCT03764761,2022-04-22,Terminated,NA,NA,"COVID halted data collection in the final year. We had collected enough data that analysis was able to be conducted, albeit with a slightly smaller sample",TRUE,FALSE
+NCT03829631,2022-04-22,Suspended,NA,NA,Covid-19 Pandemic,TRUE,FALSE
+NCT03829644,2022-04-22,Suspended,NA,NA,Covid-19 Pandemic,TRUE,FALSE
+NCT04009460,2022-04-22,Terminated,NA,NA,Sponsor's clinical development strategy adjustment,FALSE,NA
+NCT04042727,2022-04-22,Terminated,NA,NA,"Futility, as a result of CIVID-19 impact",TRUE,FALSE
+NCT04214093,2022-04-22,Terminated,NA,NA,Strategic change to clinical development plan,FALSE,NA
+NCT04345913,2022-04-22,Suspended,NA,NA,Other - pending amendment,FALSE,NA
+NCT04560686,2022-04-22,Terminated,NA,NA,Per PI Request,FALSE,NA
+NCT04841538,2022-04-22,Withdrawn,NA,NA,Sponsor's clinical development strategy adjustment,FALSE,NA
+NCT04849715,2022-04-22,Withdrawn,NA,NA,business decision; no enrolled patients,FALSE,NA
+NCT05041972,2022-04-22,Withdrawn,NA,NA,Business strategy change,FALSE,NA
+NCT02423785,2022-04-23,Terminated,NA,NA,Slow recruitment,FALSE,NA
+NCT02940548,2022-04-23,Terminated,NA,NA,The patient recruitment and follow-ups were influenced with the pandemic of COVID-19,TRUE,FALSE
+NCT04279925,2022-04-23,Terminated,NA,NA,Aerosol risk of COVID-19 spread resulting a slow subject recruitment,TRUE,FALSE
+NCT05180149,2022-04-23,Withdrawn,NA,NA,"The sponsor of the study has changed. The study will be released, managed and registered by another institution who will be acting as a responsible party.",FALSE,NA
+NCT00358163,2022-04-25,Terminated,NA,NA,NA,FALSE,NA
+NCT02524249,2022-04-25,Terminated,NA,NA,Frequent protocol violations,FALSE,NA
+NCT03316222,2022-04-25,Terminated,NA,NA,"only phase 1b was completed and the phase 2 will be an another study, finally",FALSE,NA
+NCT03875794,2022-04-25,Terminated,NA,NA,There is no one to transfer to study to and no one interested in this research study. I am taking 8 months off from being a physician so the study needs to be closed,FALSE,NA
+NCT03878914,2022-04-25,Terminated,NA,NA,The study was terminated at all but one site because of the pandemic,FALSE,NA
+NCT04195620,2022-04-25,Terminated,NA,NA,University affiliation changed and I was unable to transfer the grant that was funding the project,FALSE,NA
+NCT04649710,2022-04-25,Withdrawn,NA,NA,Business objectives have changed,FALSE,NA
+NCT04767958,2022-04-25,Terminated,NA,NA,Device pulled from market due to inconsistent results.,FALSE,NA
+NCT05004870,2022-04-25,Withdrawn,NA,NA,Study objective embedded into future study,FALSE,NA
+NCT00488072,2022-04-26,Suspended,NA,NA,closed to accrual,FALSE,NA
+NCT01608451,2022-04-26,Terminated,NA,NA,Slow accrual implies that clinical questions being questioned have lost its significance.,FALSE,NA
+NCT02043587,2022-04-26,Terminated,NA,NA,Original investigator for the trial has left,FALSE,NA
+NCT03866421,2022-04-26,Terminated,NA,NA,Due to recruitment as we were challenged in finding patients eligible for the study.,FALSE,NA
+NCT04387240,2022-04-26,Withdrawn,NA,NA,did not get enough fund and IRB request,FALSE,NA
+NCT04485130,2022-04-26,Suspended,NA,NA,"Low COVID case numbers, competing COVID treatments available",FALSE,NA
+NCT04492254,2022-04-26,Terminated,NA,NA,"Average event rate (end point) was much lower than expected. A larger sample size would have been required to maintain same statistical power, which was not achievable in a feasible time scale. No safety concerns were identified with bleeding.",FALSE,NA
+NCT04846946,2022-04-26,Withdrawn,NA,NA,Opted to not conduct this study; revised to a more condensed study.,FALSE,NA
+NCT04978337,2022-04-26,Terminated,NA,NA,Janssen made the strategic decision to discontinue the PRIMROSE study. This decision is not based on any safety concerns.,FALSE,NA
+NCT05035576,2022-04-26,Terminated,NA,NA,Sponsor Decision,FALSE,NA
+NCT05223881,2022-04-26,Withdrawn,NA,NA,Study is not feasible at this time due to staffing limitations,FALSE,NA
+NCT03865212,2022-04-27,Suspended,NA,NA,Funding,FALSE,NA
+NCT04509336,2022-04-27,Terminated,NA,NA,COVID 19 Pandemic,TRUE,FALSE
+NCT02420717,2022-04-28,Terminated,NA,NA,Study was closed early due to low accrual and lack of response.,FALSE,NA
+NCT04396860,2022-04-28,Suspended,NA,NA,Scheduled Interim Monitoring,FALSE,NA
+NCT05353920,2022-04-28,Withdrawn,NA,NA,Did not have enough funding to do this research.,FALSE,NA
+NCT05355506,2022-04-29,Suspended,NA,NA,covid-19,TRUE,FALSE
+NCT01123499,2022-05-04,Terminated,NA,NA,Slow/Insufficient accrual,FALSE,NA
