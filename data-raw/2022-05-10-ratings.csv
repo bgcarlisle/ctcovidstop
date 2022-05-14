@@ -1,0 +1,70 @@
+nctid,why_stopped,covid19_explicit,restart_expected
+NCT05359874,application has been withdrawn,FALSE,NA
+NCT05170789,"The study collaborator -Karyopharm- is not doing Myeloma studies funding, so they let the study investigators know they are not funding the study anymore.",FALSE,NA
+NCT05183139,Business decision (no enrollment),FALSE,NA
+NCT05152641,The program priority for execution of this clinical trial changed prior to enrollment of the first patient. The study was not withdrawn due to any safety concerns.,FALSE,NA
+NCT04930237,PI request to close study,FALSE,NA
+NCT04806945,The sponsor terminated the trial.,FALSE,NA
+NCT04815603,The program priority for execution of this clinical trial changed prior to enrollment of the first patient. The study was not withdrawn due to any safety concerns.,FALSE,NA
+NCT04654481,"only one participant enrolled, results will not be provided due to risk of breach of confidentiality",FALSE,NA
+NCT04630483,No participants,FALSE,NA
+NCT04565457,Per PI until further notice,FALSE,NA
+NCT04131192,"Combined with the analysis of the existing data of the trial, there was no obvious advantage compared with the clinical standard treatments, and the clinical trial was decided to be terminated based on the benefit of the subjects.",FALSE,NA
+NCT04164563,We have elected to discontinue enrolling patients.,FALSE,NA
+NCT04171778,Substantially redesigning study protocol and opening a new study in the future.,FALSE,NA
+NCT04251520,Unable to recruit participants,FALSE,NA
+NCT04252703,Very slow recruitment - only 3 patients randomised,FALSE,NA
+NCT04384809,Stalled due to COIVD and losing funding,TRUE,TRUE
+NCT04442009,No participants,FALSE,NA
+NCT04465734,The trial used sorafenib as a control drug. It's not suitable now(after the A+T has been approved).The sponsor terminated the trial.,FALSE,NA
+NCT04470089,"Due to the COVID situation by end of 2021 and therfore limited recruitment of patients diagnosis ""acute pharyngitis"" the study was terminated.",TRUE,FALSE
+NCT04473924,Study has never started as sponsor did not approve for funding.,FALSE,NA
+NCT04485026,"No enrollments, low patient population as well as a dramatic change in the insurance approval processes for oligoprogressive state with eviCore saying they do not support SBRT in this setting at all.",FALSE,NA
+NCT02642588,Study never started,FALSE,NA
+NCT02669537,Study never started,FALSE,NA
+NCT02757417,Study never started,FALSE,NA
+NCT02767830,Study never started,FALSE,NA
+NCT02967133,Lack of enrollment,FALSE,NA
+NCT02980575,COVID-19 pandemic restrictions,TRUE,FALSE
+NCT02995681,COVID-19 pandemic restrictions,TRUE,FALSE
+NCT03087448,Low Accrual,FALSE,NA
+NCT03087578,Study never started,FALSE,NA
+NCT03106285,Cannot perform the study due to practical issues,FALSE,NA
+NCT03160079,Original investigator for the trial left the institution,FALSE,NA
+NCT03315182,Abeona has decided to discontinue development activities for Product ABO-101 due to a lack of drug supply and for business reasons unrelated to the product safety profile and/or signs of efficacy,FALSE,NA
+NCT03324282,"ANSM's refusal to validate ATU requests for avelumab in bladder cancer, Decrease in recruitment, Most investigators would like to offer avelumab for maintenance, Absence of benefit to the chemo-immuno combination (pembro+gem-platinum) in phase III",FALSE,NA
+NCT03357419,difficulties in production placebo antibiotics,FALSE,NA
+NCT03448250,Participant recruitment was stopped due to corona pandemic.,TRUE,FALSE
+NCT03453203,PI left,FALSE,NA
+NCT03511027,COVID-19,TRUE,FALSE
+NCT03530254,"Low recruitment speed, higher percentage drop-out and SARS-CoV-2 pandemic situation",TRUE,FALSE
+NCT03655613,Study terminated due to administrative reasons.,FALSE,NA
+NCT03674827,The study was terminated due to the review of the asset (VBIR-2) within the Sponsor's oncology portfolio; the study was not terminated because of safety concerns.,FALSE,NA
+NCT03692221,Stalled due to Covid,TRUE,TRUE
+NCT03720418,"As a result of termination of development of OXB-102-01, it is no longer possible for Sio to either commence or to continue any related clinical trials.",FALSE,NA
+NCT03795194,Due to low enrollment.,FALSE,NA
+NCT03802058,The study was halted because enrollment was too slow,FALSE,NA
+NCT03863587,The study was terminated prematurely due to the difficulty in recruiting participants caused by the COVID-19 pandemic.,TRUE,FALSE
+NCT03925116,budget,FALSE,NA
+NCT03944902,will not resume. company choosing not to continue with drug. one participant now off study.,FALSE,NA
+NCT04047537,Covid interference,TRUE,FALSE
+NCT04069741,Data difficult to collect due to the COVID-19 pandemic.,TRUE,FALSE
+NCT01507545,By the sponsor at the end of Stage 1 due to futility.,FALSE,NA
+NCT01856439,"As a result of termination of development of Prosavin, it is no longer possible for Sio to either commence or to continue any related clinical trials.",FALSE,NA
+NCT01952340,"Premature termination because: a) the COVID-19 pandemic stopped recruitment or participation for 2 years which limited study numbers, and, b) both PI's will retire and, therefore, will be unable to oversee the trial.",TRUE,FALSE
+NCT00362219,no patients were recrueted,FALSE,NA
+NCT05365464,Investigator still working on protocol and not sure when it will be ready,FALSE,NA
+NCT04925089,Different sponsor,FALSE,NA
+NCT04680871,Study not being pursued,FALSE,NA
+NCT04434118,Institutional Issue,FALSE,NA
+NCT04535102,Lack of sufficient patient population,FALSE,NA
+NCT04220502,Unable to recruit,FALSE,NA
+NCT03973710,not enough intervention materials can be provided,FALSE,NA
+NCT03718741,few patients enrolled,FALSE,NA
+NCT03809078,Business decision - funding,FALSE,NA
+NCT03924024,We never started the study due to logistical limitations.,FALSE,NA
+NCT03459651,Principal Investigator elected to end the study.,FALSE,NA
+NCT03149107,Recruitment not sufficient,FALSE,NA
+NCT02966119,Recruitment difficulties,FALSE,NA
+NCT02616887,not sufficient patients enrolled,FALSE,NA
+NCT02373241,Estimated GFR was determined not to be a reliable endpoint for this study. We identified significant variabilty in annual eGFR that it became inappropriate to randomize to a medication but use EGFR as the primary endpoint.,FALSE,NA

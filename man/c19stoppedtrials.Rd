@@ -5,7 +5,7 @@
 \alias{c19stoppedtrials}
 \title{Clinical trials that stopped during the SARS-CoV-2 pandemic}
 \format{
-A tibble with 10965 rows and 8 variables:
+A tibble with 11034 rows and 8 variables:
 \describe{
 \item{nctid}{chr Clinical trial registry number}
 \item{stop_date}{date The date that the clinical trial's overall
@@ -52,6 +52,6 @@ data for whether the "why stopped?" field explicitly indicates that
 the reason for stopping included the SARS-CoV-2 pandemic.
 }
 \details{
-This data set was last updated on 2022-05-02.
+This data set was last updated on 2022-05-10.
 }
 \keyword{datasets}

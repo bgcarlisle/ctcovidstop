@@ -79,6 +79,7 @@ ratings_files <- list.files(
 for (ratings_file in ratings_files) {
     newrows <- read_csv(
         paste0("data-raw/", ratings_file),
+        col_types="ccll",
         show_col_types = FALSE
     ) %>%
         select(nctid, covid19_explicit, restart_expected)

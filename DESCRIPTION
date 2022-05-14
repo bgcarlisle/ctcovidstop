@@ -1,6 +1,6 @@
 Package: ctcovidstop
 Title: Clinical trials that stopped during the Covid-19 pandemic
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: 
     person("Benjamin Gregory", "Carlisle", , "murph@bgcarlisle.com",
     role = c("aut", "cre"),
