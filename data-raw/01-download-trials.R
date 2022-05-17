@@ -120,7 +120,22 @@ check_for_stop_or_start <- function (
         return(FALSE)
     }
     
-    for (vno in seq(from=starting_versionno, to=n_versions)) {
+    changed_vdates <- clinicaltrials_gov_dates(nctid, TRUE)
+
+    versions_to_check <- clinicaltrials_gov_dates(nctid) %>%
+        tibble::as_tibble() %>%
+        rename(version_date = value) %>%
+        mutate(version_number = row_number()) %>%
+        mutate(
+            to_check = (version_date %in% changed_vdates |
+                        version_number == starting_versionno) &
+                version_number >= starting_versionno
+        ) %>%
+        filter(to_check) %>%
+        select(version_number) %>%
+        pull()
+    
+    for (vno in versions_to_check) {
 
         dl_success <- FALSE
 
