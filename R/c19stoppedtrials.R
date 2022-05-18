@@ -10,9 +10,9 @@
 #' data for whether the "why stopped?" field explicitly indicates that
 #' the reason for stopping included the SARS-CoV-2 pandemic.
 #'
-#' This data set was last updated on 2022-05-10.
+#' This data set was last updated on 2022-05-17.
 #'
-#' @format A tibble with 11034 rows and 8 variables:
+#' @format A tibble with 11122 rows and 8 variables:
 #' \describe{
 #'   \item{nctid}{chr Clinical trial registry number}
 #'   \item{stop_date}{date The date that the clinical trial's overall
