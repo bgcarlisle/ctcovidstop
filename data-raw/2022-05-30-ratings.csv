@@ -1,0 +1,198 @@
+nctid,why_stopped,covid19_explicit,restart_expected
+NCT05386823,The sponsor terminated the study for commercial reasons,FALSE,NA
+NCT05381688,Covid prevented us from performing the study and the funding ran out,TRUE,FALSE
+NCT05277363,"The study stopped early, before enrolling its first participant",FALSE,NA
+NCT05292976,Business reasons,FALSE,NA
+NCT05265156,High drop out rate,FALSE,NA
+NCT05182047,Business decision.,FALSE,NA
+NCT05191862,Randomization Error,FALSE,NA
+NCT05041751,PI Left Institution,FALSE,NA
+NCT05165771,Sponsor decision to withdraw study.,FALSE,NA
+NCT05165849,sponsor decided to withdraw the study,FALSE,NA
+NCT04985825,Business decision,FALSE,NA
+NCT04996667,no sponsor support,FALSE,NA
+NCT05007977,The study was completed following review of the assumptions underlying the power calculation and it was deemed that enough subjects had been recruited to complete enrollment,FALSE,NA
+NCT04866069,"Although cellular responses to virus were satisfactory, neutralizing titres against virus were lower then expected levels",FALSE,NA
+NCT04829331,Not interested in continuing,FALSE,NA
+NCT04830527,The study was terminated early due to the difficulty in recruiting cases during a pandemic period.,TRUE,FALSE
+NCT04831567,No participants enrolled,FALSE,NA
+NCT04840199,Temporarily Closed (Paused) to Accrual,FALSE,NA
+NCT04844086,CAR-T manufacturing technology can not meet the dose requirement for clinical patients.,FALSE,NA
+NCT04761679,Evolution of the COVID19 pandemic with subsequent spread to all areas of clinical care severely affected the number of potential participants that were able to safely participate in the study.,FALSE,NA
+NCT04767698,The funding source decided to stop funding the study.,FALSE,NA
+NCT04750954,Drug Supply Issues,FALSE,NA
+NCT04593628,The study aims changed based on the results of a earlier qualitative study.,FALSE,NA
+NCT04624334,Money issues,FALSE,NA
+NCT04650282,Reassignment of PI to more intense clinical obligations prevents continuation of the trial.,FALSE,NA
+NCT04665739,Drug Supply Issues,FALSE,NA
+NCT04689828,Novartis has temporarily suspended production of 177Lu-PSMA-617 per abundance of caution as result of potential quality issues in its manufacturing processes. Screening and enrollment for 177Lu-PSMA-617 clinical trials is being put on hold globally.,FALSE,NA
+NCT04720157,Novartis has temporarily suspended production of 177Lu-PSMA-617 per abundance of caution as result of potential quality issues in its manufacturing processes. Screening and enrollment for 177Lu-PSMA-617 clinical trials is being put on hold globally.,FALSE,NA
+NCT04727541,"Based on results of another phase II study with bintrafusp alfa in combination with gemcitabine plus cisplatin, that was discontinued as it was unlikely to meet the primary endpoint of OS, the recruitment for this study was stopped prematurely.",FALSE,NA
+NCT04199910,COVID pandemia hinders recruitment,TRUE,FALSE
+NCT04210037,Sponsor decision,FALSE,NA
+NCT04329442,COVID-19 caused substantial barriers to recruitment.,TRUE,FALSE
+NCT04329949,"The independent data monitoring committee found no safety issues, however the observed response rate did not meet the predefined threshold for continuing the study. The study was terminated by the Sponsor.",FALSE,NA
+NCT04396106,Study closed out early due to evolving COVID-19 standard of care,FALSE,NA
+NCT04405102,"Screening was stopped by the Sponsor (43/48 participants enrolled), given the very low number of eligible patients (high vaccination rate and occurrence of the Omicron variant). The last patient randomized performed his follow-up visit.",FALSE,NA
+NCT04431622,This study did not receive funding,FALSE,NA
+NCT04435015,No funding,FALSE,NA
+NCT04444687,No patients,FALSE,NA
+NCT04500951,Descriptive studies were published based on this record. Randomized Controlled time-series study was discontinued due to infeasability. Descriptive time-series studies and methodological studies have been published.,FALSE,NA
+NCT04502706,Sponsor's decision to discontinue development of this molecule,FALSE,NA
+NCT04509739,COVID-19 shutdown,TRUE,FALSE
+NCT04515394,The study was terminated early due to operational challenges identifying suitable participants for screening in the study.,FALSE,NA
+NCT03883945,Sponsor deprioritization,FALSE,NA
+NCT03887624,Participates could not stand the side effects,FALSE,NA
+NCT03922594,"The disruptions due to the impact of the ongoing COVID-19 pandemic to the implementation of the study in each of the study sites, as well as to the coordination of the study at Institut Pasteur, prevented the completion of the study",TRUE,FALSE
+NCT03970629,Challenging enrollment due to COVID-19.,TRUE,FALSE
+NCT03987906,COVID-19 pandemic,TRUE,FALSE
+NCT04016935,It was determined that we had sufficient enrollment and study data to explore the impact of the Endopredict test in endocrine therapy decision-making.,FALSE,NA
+NCT04027348,low accrual,FALSE,NA
+NCT04150562,This study was terminated early due to manufacturer withdrawal of support (study medication) due to lack of enrollment.,FALSE,NA
+NCT04189458,Covid-19,TRUE,FALSE
+NCT03857139,Grant funding not obtained,FALSE,NA
+NCT03859011,Feasability of study conduct was impacted by COVID 19 pandemic and were not able to recruit or enroll subjects,TRUE,FALSE
+NCT03811262,Logistic reasons (Operating room performing the surgery investigated moved to another structure),FALSE,NA
+NCT03823001,low accrual,FALSE,NA
+NCT03766087,The authorization of the ethics committee lapses. No patients could be included in the study until the expiry of the ethics committee's authorization. The study never started,FALSE,NA
+NCT03666988,Overall benefit-risk profile did not support continuation of the study,FALSE,NA
+NCT03672500,Recruitment issues,FALSE,NA
+NCT03706729,Due to Covid-19 pandemic,TRUE,FALSE
+NCT03752541,decided by the sponsor,FALSE,NA
+NCT03641196,The study was terminated due to difficulties in the recruitment attributed to the Covid19 pandemic.,TRUE,FALSE
+NCT03574974,No current funding to support the project,FALSE,NA
+NCT03120624,Per DSMC instructions - temporary closure until CAPA process is completed,FALSE,NA
+NCT03244852,Data was analyzed from a previously collected dataset so no new participants were enrolled.,FALSE,NA
+NCT03245840,Sponsor decision,FALSE,NA
+NCT03261323,insufficient staff,FALSE,NA
+NCT03332589,Single center study: Principal Investigator left institution.,FALSE,NA
+NCT03363503,Adequate number of patients could not be reached in the relevant centers.,FALSE,NA
+NCT03444753,business objectives have changed,FALSE,NA
+NCT03450096,Too difficult to recruit patients,FALSE,NA
+NCT03458663,Interrim analysis showed no effect or a tendency towards poorer out come in the Prevena group,FALSE,NA
+NCT03475680,lack of inclusions,FALSE,NA
+NCT03534700,decision of the PI,FALSE,NA
+NCT03558659,Low recruitment.,FALSE,NA
+NCT03562806,Tested MR sequence was inferior in preliminary evaluation,FALSE,NA
+NCT02953145,Lack of support,FALSE,NA
+NCT02974257,Study paused at request of DSMB for additional interim data review,FALSE,NA
+NCT03059147,Lack of recruitment and sponsor's priority changes,FALSE,NA
+NCT03076723,Acceptable duration exceeded. Enrolment too slow due to covid pandemic and extensive protocol.,TRUE,FALSE
+NCT02715466,recommended by DSMB,FALSE,NA
+NCT02801097,Sufficient patients enrolled to end study,FALSE,NA
+NCT02856698,The study was stopped because of the adverse events,FALSE,NA
+NCT02385812,Low enrollment through COVID pandemic,TRUE,FALSE
+NCT02449161,Missing fund to continue,FALSE,NA
+NCT02074436,Slow accrual,FALSE,NA
+NCT00667238,Study never started due to resource related challenges,FALSE,NA
+NCT00669669,Terminated due to loss in funding.,FALSE,NA
+NCT01533714,Decision to out-license the compound for further development,FALSE,NA
+NCT01585103,Device was recalled by company,FALSE,NA
+NCT01680809,Study never started,FALSE,NA
+NCT01730313,Did not get approval from the collaborating partners in-country,FALSE,NA
+NCT04902287,Funding ending due to PI leaving position at the University of Oklahoma.,FALSE,NA
+NCT04906382,Internal Review,FALSE,NA
+NCT04982666,Difficulties with recruitment and unable to enroll any subjects,FALSE,NA
+NCT04984330,Sub-site decided to no longer proceed. PI to suspend enrollment and look for another sub-site prior to restarting enrollment.,FALSE,NA
+NCT05000294,Protocol revision pending to lower starting dose of tivozanib due to hypertension seen in study participants,FALSE,NA
+NCT05005936,No participants Enrolled,FALSE,NA
+NCT05010096,No participants Enrolled,FALSE,NA
+NCT05012787,The study was early terminated considering the inability to enroll the required study population.,FALSE,NA
+NCT05014919,The study was terminated based on new efficacy data from another study.,FALSE,NA
+NCT05016076,COVID outbreak in the community,TRUE,FALSE
+NCT05017584,"Study halted prematurely, prior to enrollment of first participant",FALSE,NA
+NCT05082571,Recruitment temporarily halted to reassess the development plan.,FALSE,NA
+NCT05082584,Recruitment temporarily halted to reassess the development plan.,FALSE,NA
+NCT05101330,"Recruitment was challenging, and no participants were recruited after 6 months despite minimizing these challenges. Therefore the study team has decided not to pursue this study any further.",FALSE,NA
+NCT05114746,Novartis has temporarily suspended production of 177Lu-PSMA-617 per abundance of caution as result of potential quality issues in its manufacturing processes. Screening and enrollment for 177Lu-PSMA-617 clinical trials is being put on hold globally.,FALSE,NA
+NCT05127525,Adverse event,FALSE,NA
+NCT05135650,Enrollment temporarily on hold for amendment submission,FALSE,NA
+NCT05191615,Unable to recruit sufficient sample size to reach power.,FALSE,NA
+NCT05296642,Principal investigator decision,FALSE,NA
+NCT05311878,Recruitment of new participants currently on hold until further notice,FALSE,NA
+NCT05312021,Study Termination,FALSE,NA
+NCT05393843,outbreak of covid pandemic that caused problems with nutritional coaching in person.,TRUE,FALSE
+NCT05393999,"The drug was found to be ineffective against Omicron, so the study was terminated and no patients were enrolled.",FALSE,NA
+NCT04844008,Changes in treatment pathway made recruitment unfeasible,FALSE,NA
+NCT04847674,Stopped for strategic reasons,FALSE,NA
+NCT04567173,Limited enrolment (unable to achieve target sample size),FALSE,NA
+NCT04572217,No available funding,FALSE,NA
+NCT04584541,The study of the long term antibody response is no longer relative due to the introduction of Covid vaccine.,FALSE,NA
+NCT04639245,Enrollment on hold due to administrative changes,FALSE,NA
+NCT04667715,Study suspended until priorities can be reassessed,FALSE,NA
+NCT04671836,No longer interested in conducing study,FALSE,NA
+NCT04676243,Study turned out no longer feasible,FALSE,NA
+NCT04727242,Interim analysis,FALSE,NA
+NCT04729946,Difficulty recruiting,FALSE,NA
+NCT03537066,inability to include subjects on schedule,FALSE,NA
+NCT03641248,Recruitment was not possible due to COVID19.,TRUE,FALSE
+NCT03656107,Covid-19 pandemic,TRUE,FALSE
+NCT03660072,Business objectives have changed,FALSE,NA
+NCT03707860,the program couldn't be implemented,FALSE,NA
+NCT03712345,Due to COVID-19 pandemic outbreak and its impact on overall study activities. All efforts were made to ensure that participants that were enrolled and/or were still in the study will continue to receive treatment and follow-up until study completion.,TRUE,FALSE
+NCT03820466,insufficient recruitment due to the pandemic situation,TRUE,FALSE
+NCT03843086,Change in device and protocol,FALSE,NA
+NCT03845322,12 Screen failures and Changes in PI and loss of residency program.,FALSE,NA
+NCT03870984,Lack of recruitment,FALSE,NA
+NCT03894098,Low interest.,FALSE,NA
+NCT03912831,Development program terminated,FALSE,NA
+NCT03933397,Due to COVID enrollment numbers needed to meet the primary endpoint will not be met.,TRUE,FALSE
+NCT03939416,for pandemic covid,TRUE,FALSE
+NCT03943524,Enrollment difficulties during the COVID pandemic,TRUE,FALSE
+NCT04011787,Funding withdrawn for the study,FALSE,NA
+NCT04021264,Inability to enroll participants.,FALSE,NA
+NCT04021810,Lack of faisability,FALSE,NA
+NCT04040400,per DMSC request,FALSE,NA
+NCT04040985,"There is no regulatory or otherwise commitment to continue to follow up to the 10-year time point. The study data had met the primary objectives. After a business review, Smith+Nephew had decided to terminate the study prematurely.",FALSE,NA
+NCT04053153,Funding issues,FALSE,NA
+NCT04078854,The study expired on 3/16/2022,FALSE,NA
+NCT04167111,Covid pandemic,TRUE,FALSE
+NCT04175392,lack of enrollment,FALSE,NA
+NCT04176952,Due to funding being withdrawn,FALSE,NA
+NCT04190498,the possibility of obtaining histological data is too low due to the lack of availability of biological samples,FALSE,NA
+NCT04230135,"An insufficient number of participants could be recruited, and drop-out rates were very high (80%)",FALSE,NA
+NCT04281316,lack enrollment,FALSE,NA
+NCT04288193,"Change in personnel, unable to begin project.",FALSE,NA
+NCT04288960,Covid and access to participants,TRUE,FALSE
+NCT04374903,study could not be implemented at the site,FALSE,NA
+NCT04390867,Technical Difficulty,FALSE,NA
+NCT04400799,due to results from interim analysis,FALSE,NA
+NCT04427345,This study has been included in another trial within the same Sponsor,FALSE,NA
+NCT04455815,Sponsor decision,FALSE,NA
+NCT04459936,The study has been terminated due to inclusion difficulties during the worldwide Covid-19 pandemic.,TRUE,FALSE
+NCT04461886,Sponsor decision,FALSE,NA
+NCT04470999,Study suspended due to the move of clinical trial site. It will be resumed when the move is complete.,FALSE,NA
+NCT04496986,This study was replaced by a new study given recent funding by the NIH.,FALSE,NA
+NCT04502888,Sponsor decision,FALSE,NA
+NCT00458796,Lower than expected recruitment,FALSE,NA
+NCT01282021,Study is on Administrative Hold because of Addis Ababa University FWA lapse; data analysis at NIH will be ongoing.,FALSE,NA
+NCT01306019,"clones representing 10% or more of the subject patients myeloid lineage have been detected, or evidence of malignancy found",FALSE,NA
+NCT01968590,unable to enroll,FALSE,NA
+NCT02003742,The study was stopped because in two other clinical studies the drug was not superior in comparison with placebo,FALSE,NA
+NCT02097121,Recruitment Challenges,FALSE,NA
+NCT02113176,Funding of minocycline,FALSE,NA
+NCT02144831,Could not get study started,FALSE,NA
+NCT02150785,Could not get study started.,FALSE,NA
+NCT02255487,"The study was terminated early after the Interim Analysis due, in part, to issues with the accuracy and completeness of the data collected.",FALSE,NA
+NCT02322099,Due to the COVID-19 pandemic the study was terminated prematurely,TRUE,FALSE
+NCT02380534,Funding missing,FALSE,NA
+NCT02466074,Inadequate recruitment; termination of funding,FALSE,NA
+NCT02485496,Due to product change.,FALSE,NA
+NCT02516670,Based on the Data safety monitoring committee,FALSE,NA
+NCT02678715,Recruitment period too long,FALSE,NA
+NCT02778997,Responsible investigator left the team. Suspended until replacement is found.,FALSE,NA
+NCT02783404,Significant results (no control neither amoxicillin new arms needed),FALSE,NA
+NCT02847078,Insufficient enrollment of patients,FALSE,NA
+NCT02871297,The study was terminated based on new efficacy data from another study.,FALSE,NA
+NCT02885324,Failure to meet accrual goals.,FALSE,NA
+NCT02940509,Change in practice of medicine. There were no longer sufficient patients to enroll in the study that met criteria.,FALSE,NA
+NCT02999854,"Insufficient efficacy, terminated by Sponsor",FALSE,NA
+NCT03150693,Unacceptable Toxicity,FALSE,NA
+NCT03161613,Business objectives have changed,FALSE,NA
+NCT03161847,No subjects were enrolled,FALSE,NA
+NCT03208322,There was a change in the strategy to complete the RMP with HA.,FALSE,NA
+NCT03242720,Funding issues,FALSE,NA
+NCT03288493,Phase I portion of the study was completed. The phase II portion of the study was terminated early to focus on an Allogeneic BCMA CAR-T program.,FALSE,NA
+NCT03336034,Slow inclusion rate.,FALSE,NA
+NCT03378466,infeasible to continue due-to inability to recruit during the COVID-19 pandemic and grants coming to an end.,TRUE,FALSE
+NCT03441542,"Insufficient enrollment. Reasons for low enrollment were low eligibility, and difficulty contacting patients.",FALSE,NA
