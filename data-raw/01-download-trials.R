@@ -5,7 +5,7 @@ library(lubridate)
 ## When updating this data set, change this to today's date. It isn't
 ## set to take the system date because the update may take more than a
 ## day to complete.
-current_update <- as.Date("2022-05-30")
+current_update <- as.Date("2022-06-03")
 
 ## I'm calling the beginning of Dec 2019 the "date of interest",
 ## because the first infections occurred in this month. Don't change

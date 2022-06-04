@@ -1,0 +1,65 @@
+nctid,why_stopped,covid19_explicit,restart_expected
+NCT05238844,Sponsor stopped due to partner collaboration ending,FALSE,NA
+NCT05240027,The PI left the site prior to providing results.,FALSE,NA
+NCT05253105,transfer the study to another sponser,FALSE,NA
+NCT05153460,Site unable to recruit subjects,FALSE,NA
+NCT05183633,Investigating interference with other in-room diagnostic equipment.,FALSE,NA
+NCT05140135,The funds used to originally support the study were withdrawn.,FALSE,NA
+NCT05082155,surgeons stopped doing procedures,FALSE,NA
+NCT05102071,Study was canceled because database sample size was inadequate.,FALSE,NA
+NCT05118620,Lack of staff to enroll,FALSE,NA
+NCT05029856,Study never started,FALSE,NA
+NCT04933240,Anticipated funding was not received,FALSE,NA
+NCT04969861,"Nektar Therapeutics made the decision to discontinue the bempegaldesleukin program based on three negative studies. SFJ Pharmaceuticals, Inc. and Nektar Therapeutics, in consultation with the study IDMC, have decided to discontinue PROPEL-36.",FALSE,NA
+NCT04987762,due to administrative reasons not related to efficacy or safety.,FALSE,NA
+NCT04796454,Company decision,FALSE,NA
+NCT04839315,Difficulty with enrollment,FALSE,NA
+NCT04745351,The study was terminated due to study enrollment feasibility. This decision is not based on efficacy or safety concerns.,FALSE,NA
+NCT04655911,Abeona has decided to discontinue development activities for Product AB0-101 due to a lack of drug supply and for business reasons unrelated to the product safety profile and/or signs of efficacy,FALSE,NA
+NCT04638309,Sponsor decision,FALSE,NA
+NCT04534829,Study cancelled,FALSE,NA
+NCT04546711,pending decision about whether to withdraw study,FALSE,NA
+NCT04576247,Low accrual,FALSE,NA
+NCT04592159,The decision to suspend this study was based upon evaluation of pandemic-related challenges impacting both clinical trial sites and potential participants. This suspension was initiated prior to site activation and participant recruitment.,TRUE,FALSE
+NCT04475991,No more patients complying the selection criteria were available for recruitment,FALSE,NA
+NCT04487262,Safety interim analysis,FALSE,NA
+NCT04314713,DSMB decision due to adverse events,FALSE,NA
+NCT04316481,FDA Approval was received for the Model AMSG3-E IMD and therefore commercial implants could be started. There was no longer any need to implant under the CAS. CAS patients were transitioned to commercial patients.,FALSE,NA
+NCT04354727,Sponsor decision,FALSE,NA
+NCT04380155,Due to COVID restrictions all human studies have been suspended. Expected to resume summer 2022,TRUE,FALSE
+NCT04419389,Sponsor decision,FALSE,NA
+NCT04187937,Difficulties with recruiting participants for the study due to the COVID-19 pandemic.,TRUE,FALSE
+NCT04217850,COVID-19 pandemic,TRUE,FALSE
+NCT03780101,recruitment difficulties due to impact of COVID-19 pandemic,TRUE,FALSE
+NCT03817593,"Due to COVID epidemics and the multiple lock-downs, we were unable to begin the study",TRUE,FALSE
+NCT03818438,insufficiency inclusion; covid crisis ; sponsor decision,TRUE,FALSE
+NCT03856398,not sufficient enrolment possible,FALSE,NA
+NCT03877094,"Due to restrictions imposed by the COVID-19 pandemic and difficulty of partcipants' adhesion, we chose to stop the data collection and suspend the project.",TRUE,FALSE
+NCT03980405,It is not possible to continue the study,FALSE,NA
+NCT03986996,There is no feasibility to conduct the study,FALSE,NA
+NCT03995004,Unable to secure study medication supply,FALSE,NA
+NCT04178460,This termination decision is a business decision and is not due to any safety concerns.,FALSE,NA
+NCT03757897,The investigators were unable to implement a MRI compatible EEG for use in human subjects (equipment and technical issues).,FALSE,NA
+NCT03762603,no funding,FALSE,NA
+NCT03751969,study canceled,FALSE,NA
+NCT02520427,Amgen prioritization decision,FALSE,NA
+NCT02770183,Problems with grant,FALSE,NA
+NCT02785120,Suspended due to enrollment challenges and business operations.,FALSE,NA
+NCT02930564,It is not possible to continue the study,FALSE,NA
+NCT02958254,lack of funding,FALSE,NA
+NCT03063203,Futility,FALSE,NA
+NCT03092154,NA,FALSE,NA
+NCT03141684,Other - To address contract issues.,FALSE,NA
+NCT03173053,Results interim-analysis,FALSE,NA
+NCT03222869,No Participants enrolled over the last 4.5 years,FALSE,NA
+NCT03223753,Technical issue impacting study application,FALSE,NA
+NCT03290079,Interim Analysis,FALSE,NA
+NCT03339037,Recruitment difficulties - patients refusal to sham controlled,FALSE,NA
+NCT03370510,Covid-19 Pandemic,TRUE,FALSE
+NCT03405532,Not enough eligible patients leading to slow recruitment,FALSE,NA
+NCT03526250,Scheduled Interim Monitoring,FALSE,NA
+NCT03543046,PI left the institution,FALSE,NA
+NCT02245087,Lack of Funding,FALSE,NA
+NCT01887522,the results of the interim analysis are clear with a significant advantage in terms of PFS in favor of the control arm (Vinblastine alone) over the investigational arm (Vinblastine + Nilotinib).,FALSE,NA
+NCT00754260,Primary Investigator left recruiting center,FALSE,NA
+NCT01461915,NA,FALSE,NA
