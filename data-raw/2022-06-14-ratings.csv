@@ -1,0 +1,94 @@
+nctid,why_stopped,covid19_explicit,restart_expected
+NCT05413187,withdrawn due to COVID-19,TRUE,FALSE
+NCT05412264,REB Approval lapsed.,FALSE,NA
+NCT05082103,The study was terminated after interim data analysis,FALSE,NA
+NCT05175612,For sponsor reasons,FALSE,NA
+NCT05227326,Pending evaluation,FALSE,NA
+NCT05244434,PI withdrawn,FALSE,NA
+NCT05007041,We will resume enrollment activities again for the 2022-2023 flu season.,FALSE,NA
+NCT05028361,We will start enrollment again during the 2022-23 flu season.,FALSE,NA
+NCT04994561,Study was withdrawn,FALSE,NA
+NCT04639596,Due to COVID-19 we never started the study and didn't enroll anyone.,TRUE,FALSE
+NCT04644315,In a preliminary analysis the primary endpoint was negative and ongoing portions of the study have therefore been discontinued.,FALSE,NA
+NCT04655391,Drug availability,FALSE,NA
+NCT04688333,Feasibility,FALSE,NA
+NCT04775355,Pending Interim Analysis,FALSE,NA
+NCT04783415,FDA Clinical Hold,FALSE,NA
+NCT04822259,Study design is not reasonable and sponsor decided to terminate the study. No patient enrolled by now,FALSE,NA
+NCT04836832,PI decision,FALSE,NA
+NCT04897880,Drug supply,FALSE,NA
+NCT04934397,Product Availability Due to Recall,FALSE,NA
+NCT04948996,"Due to COVID, recruitment in primary care was not possible, alternative proposed hotline recruitment methods yielded population that did not meet inclusion criteria and were too acutely ill to be eligible for study.",TRUE,FALSE
+NCT04961320,slow accrual,FALSE,NA
+NCT04560439,Funding,FALSE,NA
+NCT04344561,Inability to recruit,FALSE,NA
+NCT04408066,Number of required participants met,FALSE,NA
+NCT04420299,Lack of funding of the non-commercial sponsor to extend recruitment and reach the target number of patients specified in the protocol.,FALSE,NA
+NCT04305691,Transferring drug supplier from Takeda to NCI CTEP.,FALSE,NA
+NCT04282564,COVID lockdown + financial problems + no inclusion since lockdown,TRUE,FALSE
+NCT04264182,Difficult to enroll patients into the study,FALSE,NA
+NCT04247269,Site closure due to Covid Pandemic,TRUE,FALSE
+NCT04224792,"Due to pandemic, unable to see patients",TRUE,FALSE
+NCT04230954,PI left institution,FALSE,NA
+NCT04186377,Inability to recruit subjects,FALSE,NA
+NCT04156516,COVID-19 pandemic interfered with school-based data collection,TRUE,FALSE
+NCT04049266,Primary Endpoint Not Met,FALSE,NA
+NCT04069000,We collected pre-intervention data but the COVID-19 pandemic and resulting school closures ended the intervention; thus post-intervention data were not collected. Our funding window has closed and we will not recommence this study.,TRUE,FALSE
+NCT03970694,Significant differences in conversion rate as well as R0 resection rate between the two groups.,FALSE,NA
+NCT03910907,Covid,TRUE,FALSE
+NCT02769611,No funding,FALSE,NA
+NCT02971033,Study Funding ended,FALSE,NA
+NCT03053765,Conflict of Interest (COI) cannot be managed,FALSE,NA
+NCT03058614,The research team submitted grants over the course of several years to gain funds to support this research but were unsuccessful in securing the funds. The research team will now focus on other funded studies.,FALSE,NA
+NCT03154307,staff shortages,FALSE,NA
+NCT03170908,Conflict of Interest (COI) cannot be managed,FALSE,NA
+NCT03228602,lack of inclusion,FALSE,NA
+NCT03281304,"The study terminated early due to business reasons, with the study already meeting its primary objective. The decision to terminate the trial was not based on any safety and/or efficacy concerns.",FALSE,NA
+NCT03504644,Drug supply issue,FALSE,NA
+NCT03606889,not enough participants,FALSE,NA
+NCT03612466,The study has expired,FALSE,NA
+NCT03655002,pending amendment approval,FALSE,NA
+NCT03715439,Duo to pandemic period (COVID) the surgical elective procedures were stopped,TRUE,FALSE
+NCT03834987,Study concluded by Stanford University,FALSE,NA
+NCT03853291,terminated due to Covid and end of funding period for key personnel,TRUE,FALSE
+NCT03865615,COVID made study visits impossible during the funding period.,TRUE,FALSE
+NCT01196845,Enrollment difficulty,FALSE,NA
+NCT01306994,Lack of patient interest,FALSE,NA
+NCT01416714,Per IRB Request.,FALSE,NA
+NCT01618357,awaiting clarification on AE term from recent IB,FALSE,NA
+NCT02374424,"Interim analysis planned as per protocol didn't provide positive outcome therefore enrollment was not reopened. However, the enrolled patients concluded therapy and continued into the follow-up phase. The study was closed only after LVLP.",FALSE,NA
+NCT02514447,Primary Analysis and survival follow up completed per protocol. Not stopped due to safety concerns.,FALSE,NA
+NCT02548689,Original lead investigator left Northwestern University,FALSE,NA
+NCT02582008,Slow accrual,FALSE,NA
+NCT02644525,Planned interim analysis demonstrated futility of intervention,FALSE,NA
+NCT02735720,"Because of the difficulties created by COVID-19 and bringing participants on onsite, the decision was made to stop recruitment.",TRUE,FALSE
+NCT01735812,NA,FALSE,NA
+NCT02454855,The study stopped for futility after the DSMB.,FALSE,NA
+NCT02476474,Study withdrawn due to a lack of funding,FALSE,NA
+NCT02503111,Results from ANCHOR study showed benefit of Treatment over Surveillance in preventing anal cancer. That study was similar to the current one.,FALSE,NA
+NCT02505022,Recruitment issues,FALSE,NA
+NCT02900560,NA,FALSE,NA
+NCT03152448,"Myriad has sufficient data to do an analysis on the primary objective, durability, and has made the decision not to continue collecting data for the other study objectives.",FALSE,NA
+NCT03175978,Funding,FALSE,NA
+NCT03304028,recruitment and search completed,FALSE,NA
+NCT03651245,we will update quickly,FALSE,NA
+NCT03783013,This study was halted prematurely because of research restrictions related to COVID-19,TRUE,FALSE
+NCT03847090,Interim Analysis -,FALSE,NA
+NCT04064112,"because of the Covid-19, the recruitment is delayed 1 year",TRUE,TRUE
+NCT04198883,Because of the Impact of CoviD19 pandemy,TRUE,FALSE
+NCT04212221,Due to the rapid shifting of liver cancer disease landscape and the company's adjustment of development strategy.,FALSE,NA
+NCT04314856,Principal investigator left institution,FALSE,NA
+NCT04332523,A strategic decision was made to discontinue the study. The decision was not based on a safety concern.,FALSE,NA
+NCT04397029,The benefit of completing the study was not worth exposing subjects to the risk during COVID. Delaying the return visits would make it difficult to analyze the changes in data overtime.,TRUE,FALSE
+NCT04461964,funding for the study has stopped,FALSE,NA
+NCT04482036,"The Principle Investigator changed careers and relinquished their NIA funded career development award, which funded the MOMENT Study. Career development awards are not transferable. Thus, the study was terminated prematurely.",FALSE,NA
+NCT04636034,Recruitment failure,FALSE,NA
+NCT04652856,"We are withdrawing this study due to issues with recruitment. These issues arose as a result of the COVID-19 pandemic, effecting the availability of patients and our ability as a lab to work with these patients.",TRUE,FALSE
+NCT04660903,Severe adverse reaction on patient,FALSE,NA
+NCT04700787,Enrollment challenges and change in development plan necessitating a change in study design,FALSE,NA
+NCT04759872,Unsuccessful enrollment during COVID-19 pandemic.,TRUE,FALSE
+NCT04829799,"Per study team, the study will not proceed",FALSE,NA
+NCT04919798,Costs exceeding budget,FALSE,NA
+NCT04969406,Enrollment Difficulty,FALSE,NA
+NCT05086835,Study ended prematurely due to PI departing institution for another position.,FALSE,NA
+NCT05211336,"Temporary Stop, initiated by PI. Due to an unanticipated problem of acute life-threatening liver toxicity observed in one of the participants.",FALSE,NA
