@@ -2,19 +2,20 @@
 
 **Last updated on 2022-06-14**
 
-Provides a database of all ClinicalTrials.gov NCT Numbers
-corresponding to clinical trials that were "stopped" (had their
-overall status changed to "Terminated," "Suspended," or "Withdrawn")
-after 2019-12-01. This dataset indicates the date that a trial was
-stopped, whether it was started again and on what date, and the
-contents of the "why stopped?"  field on the date the trial
+This *R* package provides a database of all ClinicalTrials.gov NCT
+Numbers corresponding to clinical trials that were "stopped" (had
+their overall status changed to "Terminated," "Suspended," or
+"Withdrawn") after 2019-12-01. This dataset indicates the date that a
+trial was stopped, whether it was started again and on what date, and
+the contents of the "why stopped?"  field on the date the trial
 stopped. This dataset also includes columns with manually coded data
 for whether the "why stopped?" field explicitly indicates that the
 reason for stopping included the SARS-CoV-2 pandemic.
 
 ## To install and use
 
-Install from Github:
+This package is not available on CRAN, and must be installed via
+Github:
 
 ```
 install.packages("devtools")
@@ -22,7 +23,7 @@ library(devtools)
 install_github("bgcarlisle/ctcovidstop")
 ```
 
-After installation:
+After installation, the package and data set can be loaded as follows:
 
 ```
 library(ctcovidstop)
