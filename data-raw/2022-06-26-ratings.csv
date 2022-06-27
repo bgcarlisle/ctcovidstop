@@ -1,0 +1,91 @@
+nctid,why_stopped,covid19_explicit,restart_expected
+NCT05100901,Adolescent cohort will be conducted as separate trial,FALSE,NA
+NCT05212025,manufacturer choice,FALSE,NA
+NCT05279859,Sponsor decision,FALSE,NA
+NCT04821414,Lacking of funding,FALSE,NA
+NCT04850443,Lack of funding,FALSE,NA
+NCT04850469,Lacking of funding,FALSE,NA
+NCT04773067,"Under the limited resources, to re-plan the ongoing clinical trials of this product.",FALSE,NA
+NCT04780581,Impossibility of reaching the sample size established by protocol,FALSE,NA
+NCT04805268,"Our single subject's last visit has occurred, but the study PI may add visits to this study. An amendment may be submitted as required.",FALSE,NA
+NCT04630210,Insufficient resources,FALSE,NA
+NCT04703140,Non-significant intemedial analysis,FALSE,NA
+NCT04504045,"Slow recruitment due to COVID-19, the study was stopped when recruited numbers fulfilled the pre-defined lower sample size.",TRUE,FALSE
+NCT04521296,Changes in drug development plans,FALSE,NA
+NCT04530162,No patients qualified for the study; PI left institution and current investigators lost interest in the study.,FALSE,NA
+NCT04546828,problem of sponsor,FALSE,NA
+NCT04432350,Limitations with data.,FALSE,NA
+NCT01371240,Study never started,FALSE,NA
+NCT02365883,PI passed away,FALSE,NA
+NCT02532660,Recruitment difficulties due to monocentric study,FALSE,NA
+NCT02601378,The combination part of the study was terminated early due to business reasons,FALSE,NA
+NCT02880371,Study was halted prematurely due to insufficient efficacy. Not due to safety reasons.,FALSE,NA
+NCT03073629,Found not to be feasible,FALSE,NA
+NCT03091491,"Slow recruitment due to general pessimism for immunotherapy in NSCLC, availability of alternative therapy and clinician's choice to put patient on immunotherapy outside of trial setting.",FALSE,NA
+NCT03110510,institution problem,FALSE,NA
+NCT03284606,Recruitment default,FALSE,NA
+NCT03321643,Other - Evaluate patients after meeting accrual,FALSE,NA
+NCT03583086,Discussion on continuing cohort 1,FALSE,NA
+NCT03711422,Decision to close the trial made due to low recruitment.,FALSE,NA
+NCT03778515,Lack of enrollment due to the pandemic,FALSE,NA
+NCT03787901,Failed to achieve sample size due to COVID19 pandemic,TRUE,FALSE
+NCT03902509,The protocol revision is needed.,FALSE,NA
+NCT04052607,Due to COVID19 Pandemic effect on 2020.,TRUE,FALSE
+NCT04172597,Strategic business decision (unrelated to safety),FALSE,NA
+NCT04173325,Closed by the IRB 5/26/22 due to non-compliance,FALSE,NA
+NCT04173338,Closed by IRB on 3/28/22,FALSE,NA
+NCT04210414,COVID19 Pandemic affected recruitment across 2020 and the stringent inclusion criteria makes the proposed sample size to be likely unachievable in reasonable period.,TRUE,FALSE
+NCT04826874,Due to design issues. Will continue recruitment in the fall 2022,FALSE,NA
+NCT04845321,"Part 2 terminated, unrelated to safety.",FALSE,NA
+NCT04981509,Other - pending amendment,FALSE,NA
+NCT05013385,Sponsor decision,FALSE,NA
+NCT05097131,"As a result of the national policy for coverage, it is expected there will be limited aducanumab-avwa prescription and usage in routine clinical practice making the study not feasible for enrollment.",FALSE,NA
+NCT05127863,The study is completed,FALSE,NA
+NCT05160064,Sponsor administrative decision,FALSE,NA
+NCT05166876,Low prevalence of COVID-19 in India led to lack of eligible subjects.,FALSE,NA
+NCT05259514,safety,FALSE,NA
+NCT05276401,Request for additional preclinical data.,FALSE,NA
+NCT05429385,Sponsor strategy.,FALSE,NA
+NCT04725812,PI moved institutions,FALSE,NA
+NCT04752917,Chief Investigator retirement,FALSE,NA
+NCT04512066,"In a preliminary analysis, the primary endpoint was negative, and ongoing portions of the study have therefore been discontinued.",FALSE,NA
+NCT04583241,difficulties in including patients with Staphylococcus aureus infection,FALSE,NA
+NCT04585386,Sponsor decision: no sufficient patient,FALSE,NA
+NCT04609397,The study purpose has been achieved,FALSE,NA
+NCT04626427,"Due to shifting post-pandemic clinical landscape, concurrent study (NCT04634916) to provide results on analogous endpoints in advance of current projections",FALSE,NA
+NCT04049721,Lack of manpower; logistic issues regarding the move of the in-hospital hyperbaric oxygen (HBO) chamber to an off-site location.,FALSE,NA
+NCT04066478,Sponsor,FALSE,NA
+NCT04132791,stopped prematurely due to too low inclusion rate,FALSE,NA
+NCT04217109,an interim analysis was provided for in the protocol. The results are unsatisfactory,FALSE,NA
+NCT04304092,"COVID associated costs have reduced the available budget , and the ability to recruit participants from the community. These two factors combined do not allow us to perform the trial as originally planned.",TRUE,FALSE
+NCT04335305,Recruitment issues,FALSE,NA
+NCT03956940,Change of the scientific and medical context that is no longer favorable to our study. This has resulted in the termination of inclusions.,FALSE,NA
+NCT03735927,The pandemic caused a rising tide phenomenon on our primary outcomes 1) Delirium detection (increased by visit reduction & masked staff) and 2) Admission duration (increased by reorganizations & quarantines 'impact on being discharged),TRUE,FALSE
+NCT03737981,Other - Pre-registration accrual goal reached,FALSE,NA
+NCT03740724,Sponsor decision,FALSE,NA
+NCT03747627,"COVID pandemic, expected to resume Dec 22 with Lanark meeting or Jan 23 in Blackpool",TRUE,TRUE
+NCT03790852,All patients past planned primary endpoint; decision by Sponsor to wind down open-label follow-up activities.,FALSE,NA
+NCT03822117,A business decision was made to to discontinue further enrollment. There were no safety concerns that contributed to this decision.,FALSE,NA
+NCT03834571,Not approved by CTEP,FALSE,NA
+NCT03850041,lapse of renewal,FALSE,NA
+NCT03436875,Pause for preliminary data analysis,FALSE,NA
+NCT03450018,"Due to restructuring at the pharmaceutical partner, a change in pharmaceutical partner is needed.",FALSE,NA
+NCT03283150,"Due to a decrease in scheduled study-eligible patients, we terminated the study prematurely",FALSE,NA
+NCT03290508,There is sufficient follow-up data to meet the endpoints of the study.,FALSE,NA
+NCT03348631,Other - Halting accrual to Step 1 to assess enrollments,FALSE,NA
+NCT03348878,only 4 patients,FALSE,NA
+NCT02996266,Futility,FALSE,NA
+NCT03199144,difficulties to recruit patients,FALSE,NA
+NCT03209128,diffciculties to recruit patients and a lot of patients prematurely terminated,FALSE,NA
+NCT02856581,Slow accrual,FALSE,NA
+NCT02888041,Not enough patients,FALSE,NA
+NCT02797119,Study will be stopped due to the impossibility of reaching the objective of inclusions within a reasonable time frame and taking into account the recommendations of the international WOMAN study,FALSE,NA
+NCT02655523,lack of recruitment,FALSE,NA
+NCT02657005,NA,FALSE,NA
+NCT02675452,NA,FALSE,NA
+NCT02281981,Project abandoned,FALSE,NA
+NCT02138630,Project abandoned,FALSE,NA
+NCT02139852,Project abandoned,FALSE,NA
+NCT01982175,recruiting difficulties,FALSE,NA
+NCT01640301,Terminated due to slow accrual.,FALSE,NA
+NCT01144741,Insufficient patient enrolment,FALSE,NA
