@@ -174,8 +174,8 @@ message(
         "`R/c19stoppedtrials.R`; also update the number of rows in ",
         "the data set in `R/c19stoppedtrials.R` to ",
         nrow(c19stoppedtrials),
-        ", then increment the version number in `DESCRIPTION`, run",
-        " `devtools::document()`, `devtools::check()`, and then",
+        ", then increment the version number in `DESCRIPTION`, run ",
+        "`devtools::document()`, `devtools::check()`, and then ",
         "update through git!"
     )
 )

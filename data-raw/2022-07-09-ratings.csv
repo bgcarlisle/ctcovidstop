@@ -1,0 +1,159 @@
+nctid,why_stopped,covid19_explicit,restart_expected
+NCT05329168,business decision before FPFV; not related to any safety concerns,FALSE,NA
+NCT05330013,PI left NIH,FALSE,NA
+NCT05393089,Business Decision,FALSE,NA
+NCT05434936,Temporary protocol lapse,FALSE,NA
+NCT05440721,Change of company's priority; learning from a separate CT-101-CLS-001 (NCT04857515) is deemed sufficient,FALSE,NA
+NCT05250583,Low accrual rate,FALSE,NA
+NCT04989972,GCP VIOLATIONS FROM THE SPONSORS,FALSE,NA
+NCT04992078,Study has been early terminated due to change of study protocol and study will be commence with new protocol and study number,FALSE,NA
+NCT04996056,Not able to recruit qualified participants,FALSE,NA
+NCT05065437,No IRB application has been prepared for this study and other studies have taken priority. The study team will not be working on this study for the foreseeable future.,FALSE,NA
+NCT05067244,Study activities on hold under directive of regulatory body to update study procedures,FALSE,NA
+NCT05146882,Update to Program Design - No Participants Enrolled,FALSE,NA
+NCT05182216,We are awaiting IRB approval,FALSE,NA
+NCT05225818,Our study design changed,FALSE,NA
+NCT04950504,Lagging Enrollment. Opened a separate study.,FALSE,NA
+NCT04677829,"The study was terminated due to administrative, non-safety related reasons.",FALSE,NA
+NCT04704011,Trial was not funded.,FALSE,NA
+NCT04709679,Dose was not therapeudic,FALSE,NA
+NCT04715763,Poor recruitment due to decrease in COVID-19 rates locally,FALSE,NA
+NCT04747275,Transitioned to multi site study with sponsor,FALSE,NA
+NCT04762823,The PI (Post-Doc Craig Workman) left the university.,FALSE,NA
+NCT04810689,Futile Enrollment,FALSE,NA
+NCT04861441,"House staff unable to follow protocol due to short staffing, turnover, and travel nursing.",FALSE,NA
+NCT04870801,The project was denied funding and the protocol was subsequently closed. No participants were enrolled.,FALSE,NA
+NCT04891913,The sponsor decided to suspend the process,FALSE,NA
+NCT04892823,low accrual,FALSE,NA
+NCT04895046,Funder decision,FALSE,NA
+NCT04941378,Due to sponsor request,FALSE,NA
+NCT04556383,Study terminated due to lack of treatment benefit.,FALSE,NA
+NCT04614701,"The co and principal investigator, due to limited resources and timing, have decided to withdrawal the study and close.",FALSE,NA
+NCT02484937,Recruitment issues,FALSE,NA
+NCT02529696,"Low enrollment, unable to power adequately",FALSE,NA
+NCT02562612,Study was never initiated. Never established sites or enrolled subjects.,FALSE,NA
+NCT02606799,No further recruitment possible due to changed conditions,FALSE,NA
+NCT02663908,"Recruitment rate; a lower than anticipated observed cardiovascular event rate. The Sponsor decision to stop the trial was not based on any safety concerns or any knowledge of the results, or influenced by issues imposed by the COVID-19 pandemic.",FALSE,NA
+NCT02674945,"Low enrollment, unable to power adequately",FALSE,NA
+NCT02755948,Study objectives have been met.,FALSE,NA
+NCT02777762,Lack of resources,FALSE,NA
+NCT02948712,Slow Accrual,FALSE,NA
+NCT03059355,COVID-19 Pandemic and lack of funding,TRUE,FALSE
+NCT03205137,Sponsor decision,FALSE,NA
+NCT03355274,Inclusion period not prolonged,FALSE,NA
+NCT03400956,"Due to a change in the development program, the study was closed prematurely.",FALSE,NA
+NCT03421756,Trial terminated due to low rate of enrollment,FALSE,NA
+NCT03435640,Based on the overall results from the Phase 1 part of the study the sponsor decided to end the study. The decision was not due to safety reasons.,FALSE,NA
+NCT03508258,Study was discontinued in 2018 as sufficient sample size was not met.,FALSE,NA
+NCT03549351,Study turned out no longer feasible,FALSE,NA
+NCT03550352,expiration of study product; end of study product availability,FALSE,NA
+NCT03584009,"Sponsor's decision, no safety concerns.",FALSE,NA
+NCT03634683,Major changes in manufacturing process and investigational product,FALSE,NA
+NCT03636958,"concomitant decision of the sponsor and the PI, lack of patients",FALSE,NA
+NCT03649321,Funding was terminated early because research interests were going in a different direction.,FALSE,NA
+NCT03698448,Determined not feasible,FALSE,NA
+NCT03891602,Closed to Enrollment Data Analysis Only. Recruitment was conducted at Kaiser Permanente and there were no MSK patients recruited,FALSE,NA
+NCT03940300,The study was terminated due to a change in priorities at the host organization and the end of the grant period of support.,FALSE,NA
+NCT03957226,Study was not sufficiently funded. No enrollment took place.,FALSE,NA
+NCT03963960,Logistical difficulties in the department due to a lack of paramedical staff and dialysis space.,FALSE,NA
+NCT04032444,Sponsor terminated. No longer needed to support business need,FALSE,NA
+NCT04043377,Financial issues,FALSE,NA
+NCT04093505,Study turned out no longer feasible. End of Recruitment: 25.5.2022,FALSE,NA
+NCT04100590,"During a piloting phase with our staff, the technology/eye-tracking device did not collect outcomes as expected.",FALSE,NA
+NCT04141423,Part 1 completed. Part 2 not initiated,FALSE,NA
+NCT04176185,COVID-19,TRUE,FALSE
+NCT04180202,Study was terminated due to inability of clinical site to enroll sufficient number of subjects,FALSE,NA
+NCT04219618,The study was stopped because the manufacturer stopped producing the HeartWare LVAD device.,FALSE,NA
+NCT04222426,Cessation of main trial of which this study was a biomarker imaging side study.,FALSE,NA
+NCT04266873,Due to Covid-19 pandemic,TRUE,FALSE
+NCT04319094,Study is in the process of being moved to another institution,FALSE,NA
+NCT04343248,Study recruitment was halted prematurely as widespread vaccination of the study population made completion infeasible.,FALSE,NA
+NCT04360551,Decrease in COVID-19 cases locally,FALSE,NA
+NCT04368130,The anomaly detection system is still under development and is not ready to test.,FALSE,NA
+NCT04390503,Enrollment challenges,FALSE,NA
+NCT04434222,not enough study participants and missing compliance to perform analysis,FALSE,NA
+NCT00852696,Investigator left Cleveland Clinic and absolutely no data is available.,FALSE,NA
+NCT01027078,Due to insufficient grant funding,FALSE,NA
+NCT01177540,The study was terminated early due to enrollment difficulties and the futility of observing differences in remission rate between treatment arms.,FALSE,NA
+NCT01320280,unexpectedly slow recruitment,FALSE,NA
+NCT01624285,Approval Lapse,FALSE,NA
+NCT01872312,Not sure. PI is no longer at OSU.,FALSE,NA
+NCT01909167,CI had other commitments,FALSE,NA
+NCT02006251,Discretion of PI,FALSE,NA
+NCT02035085,Drugs/devices discontinued,FALSE,NA
+NCT02071875,Study recruitment was put on hold for interim data analysis and during this time period the PI requested to pre-maturely terminate the study,FALSE,NA
+NCT02203773,Strategic considerations,FALSE,NA
+NCT02335944,Company decision,FALSE,NA
+NCT04828161,"Phase 2 completed as planned. Due to the evolving landscape of treatments for COVID-19, the placebo-controlled Phase 3 design will not proceed. No patients were actively participating at the time of termination.",FALSE,NA
+NCT04849377,lack of eligible participants due to change in study criterias,FALSE,NA
+NCT04891718,Termination by pharmaceutical sponsor,FALSE,NA
+NCT04895410,Strategic considerations,FALSE,NA
+NCT04910373,Product Availability Due to Recall,FALSE,NA
+NCT04910919,competing study started with same participants,FALSE,NA
+NCT04938323,Covid-19 related delays in project launch,TRUE,FALSE
+NCT04951934,"There has been no unanimous approval by the investigators regarding the approval of the study protocol. Therefore, by mutual agreement, sponsor and investigators have taken the decision to withdraw the clinical study.",FALSE,NA
+NCT05002114,there were issues with the primary study material that prohibited continuation at this time,FALSE,NA
+NCT05049161,Drug product unavailability,FALSE,NA
+NCT05063604,The CAMAD clinical trial has been terminated due to difficulties in recruiting patients.,FALSE,NA
+NCT05191004,Clinical hold,FALSE,NA
+NCT05191017,Clinical hold,FALSE,NA
+NCT05274048,Waiting on lab kits for correlative studies,FALSE,NA
+NCT05420714,Change in study design to quality improvement,FALSE,NA
+NCT05442762,Adjustment of research plan,FALSE,NA
+NCT04668339,A decision was made to terminate the study for operational/business reasons. The study was not terminated for reasons of safety or immunogenicity.,FALSE,NA
+NCT04713995,Sufficient samples and data have been collected for data analyses.,FALSE,NA
+NCT04728347,A decision was made to terminate the study for operational/business reasons. This study was not terminated for reasons of safety or immunogenicity.,FALSE,NA
+NCT04729959,Scheduled Interim Monitoring,FALSE,NA
+NCT04770155,"Despite significant effort, we were unable to obtain the supply of drugs and supplements needed for the various arms of this Clinical Trial.",FALSE,NA
+NCT04783389,Trial was discontinued in 2022 due to COVID-19 pandemic and Ukraine/Russia conflict related enrollment challenges. Discontinuation was not related to safety.,TRUE,FALSE
+NCT04802031,Low accrual,FALSE,NA
+NCT04594031,Preference given to gene therapy approaches by the SCD research community and patients' associations,FALSE,NA
+NCT04621331,Sponsor's decision,FALSE,NA
+NCT04529291,The IP decided to stop.,FALSE,NA
+NCT04399044,per the Institutional Review Board,FALSE,NA
+NCT04515953,pending,FALSE,NA
+NCT04097821,"Challenges to identify the patient population as specified by protocol, and Novartis portfolio ongoing re-evaluation and is not triggered by any new or unexpected safety concerns for the patients (ongoing and completed) on the study",FALSE,NA
+NCT04110353,Lack of funding,FALSE,NA
+NCT04114708,Lack of funding,FALSE,NA
+NCT04168671,Coronavirus pandemia,TRUE,FALSE
+NCT04217707,Study unable to be conducted due to COVID.,TRUE,FALSE
+NCT04276714,Not enough patients (difficulty in recruiting according to the inclusion criteria),FALSE,NA
+NCT04295720,Stopped due to the risk of COVID-19 variants to our subject base of cancer patients,TRUE,FALSE
+NCT04334369,LOSS OF FORMER PRINCIPAL INVESTIGATOR,FALSE,NA
+NCT04356690,"Slow accrual, change in COVID prevalence, availability of effective vaccine",FALSE,NA
+NCT04059757,Drugs unavailable,FALSE,NA
+NCT03845257,difficult patient recruitment,FALSE,NA
+NCT03889106,insufficient amount of participants,FALSE,NA
+NCT03996057,"Project canceled due to PI leaving institution, staff changes and COVID Project canceled for other reason , describe: - Due to staff changes and COVID Project canceled due to PI leaving, staff changes and COVID",TRUE,FALSE
+NCT03618979,Low enrollment,FALSE,NA
+NCT03787082,Study was never able to start after the pandemic restrictions lifted,TRUE,FALSE
+NCT03831139,COVID epidemic & measures to control it,TRUE,FALSE
+NCT00251433,EGF100161 (NCT00251433) was terminated in Phase I (Phase II expansion portion of the study was never initiated) by sponsor decision.,FALSE,NA
+NCT01276002,No appropriate participants,FALSE,NA
+NCT01368666,"5 years follow up completed in October 2018, long-term follow up terminated because of low data return",FALSE,NA
+NCT01555281,"In connection with the restructuring of SAKK, older ongoing studies were analyzed to determine whether a continuation of the trial would still add value to the data analysis, or whether they do not and could therefore be prematurely terminated.",FALSE,NA
+NCT01770756,IRB terminated study,FALSE,NA
+NCT01866657,Funding,FALSE,NA
+NCT02108899,Difficulty in recruitment,FALSE,NA
+NCT02313207,No appropriate participants,FALSE,NA
+NCT02316132,No appropriate participants,FALSE,NA
+NCT02450331,"""Sponsor decided to terminate the study early because the study did not meet its primary endpoint and because the study had met its goals of providing safety and additional exploratory efficacy information for atezolizumab monotherapy in MIBC.""",FALSE,NA
+NCT02535247,Merck no longer providing drug for study,FALSE,NA
+NCT02711735,Lack of recruitment,FALSE,NA
+NCT02739347,Unable to recruit successfully,FALSE,NA
+NCT02859064,Closed due to slow accrual,FALSE,NA
+NCT02975505,Due to challenges in recruitment and holding visits during COVID,TRUE,FALSE
+NCT02994784,"Slow Accrual during COVID pandemic, alternative treatments available. Study Halted early.",TRUE,FALSE
+NCT03012282,Termination due to slow accrual,FALSE,NA
+NCT03017742,NA,FALSE,NA
+NCT03034421,difficult patient recruitment,FALSE,NA
+NCT03095170,IRB Closure,FALSE,NA
+NCT03125928,adverse event risk and accrual challenges,FALSE,NA
+NCT03175523,BioResorbable Scaffold is not available in South Korea,FALSE,NA
+NCT03338920,eDiary data collected not sufficient to utilize in the analysis of protocol endpoints,FALSE,NA
+NCT03476928,"Due to a change in the development program, the study was closed prematurely.",FALSE,NA
+NCT03490838,Recruitment for PROter A206T-G01-001 (NCT03490838) was halted in Phase I by sponsor decision. Phase II expansion portion of the study was never initiated.,FALSE,NA
+NCT03514875,discontinued due to change in operating plans prior to study initiation and enrollment,FALSE,NA
+NCT03566264,Program has been terminated.,FALSE,NA
+NCT03573544,OBI-888 no longer fulfills our goal of developing cost-effective therapies for cancer patients,FALSE,NA
+NCT03591874,Primary endpoint was not met.,FALSE,NA
