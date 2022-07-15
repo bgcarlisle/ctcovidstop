@@ -1,0 +1,72 @@
+nctid,why_stopped,covid19_explicit,restart_expected
+NCT05136833,Covid-19 pandemia,TRUE,FALSE
+NCT05177029,The study was terminated for strategic reasons.,FALSE,NA
+NCT05219019,Insufficient interest by potential participants.,FALSE,NA
+NCT05227131,Funder decided to not continue the study,FALSE,NA
+NCT05242315,Study on hold.,FALSE,NA
+NCT00598988,Difficulty with recruitment,FALSE,NA
+NCT01370486,"The study did not received the approbation from Swissmedic. Therefore, the recruitment of participants never started.",FALSE,NA
+NCT02021448,difficulty in recruiting,FALSE,NA
+NCT02340221,The Sponsor discontinued the manufacturing and development of taselisib due to modest clinical benefit and limited tolerability.,FALSE,NA
+NCT02548715,NA,FALSE,NA
+NCT02767856,PI changed the institution.,FALSE,NA
+NCT03022656,COVID Pandemic,TRUE,FALSE
+NCT03056365,NA,FALSE,NA
+NCT03139318,"Due to COVID-19 and the resulting administrative issues, it is not feasible to continue the study.",TRUE,FALSE
+NCT03143920,No funding to continue,FALSE,NA
+NCT03216772,"Study was withdrawn for organizational reasons, not due to safety concerns.",FALSE,NA
+NCT03323398,This study was halted prematurely because the efficacy endpoints were not met for either treatment arm.,FALSE,NA
+NCT03365414,Withdrawal of support of product for trial,FALSE,NA
+NCT03365804,COVID-19 Pandemic,TRUE,FALSE
+NCT03389685,"COVID-19, Lack of Funding",TRUE,FALSE
+NCT03395340,Forced to close study due to poor recruitment (company withdrew drug support).,FALSE,NA
+NCT03427320,Abandoned.,FALSE,NA
+NCT03448653,"Slow recruitment, advances in technology",FALSE,NA
+NCT03531827,Study was closed for toxicity.,FALSE,NA
+NCT03685591,The decision to stop enrollment was due to strategic considerations and not due to any specific safety reasons or request from a regulatory authority.,FALSE,NA
+NCT03690154,Despite demonstrated safety and tolerability the trial was terminated early due to program re-prioritization in light of the competitive landscape.,FALSE,NA
+NCT03754140,Unable to identify eligible patients within planned timeframe,FALSE,NA
+NCT03772717,IRB reviewing new reportable event and study ICF changes requested.,FALSE,NA
+NCT03860207,study terminated due to business priorities,FALSE,NA
+NCT03953261,COVID and lack of support staff 2. lack of support staff to conduct the study,TRUE,FALSE
+NCT03975439,Decided to do smaller pilot study instead,FALSE,NA
+NCT04033159,"Based on tolerability findings at the low dose level thus far, continuation of dosing or even dose escalation is not possible.",FALSE,NA
+NCT04037254,Protocol specified toxicity analysis,FALSE,NA
+NCT04040075,"Unable to complete enrollment goals due to unanticipated factors of screen failures, covid pandemic, and continued staffing and enrollment difficulties",TRUE,FALSE
+NCT04065958,1st: Covid-19 pandemic. 2nd: Lack of resources,TRUE,FALSE
+NCT04100291,Covid-19 inclusion difficulties,TRUE,FALSE
+NCT04116281,Pandemic situation,TRUE,FALSE
+NCT04242173,Lack of Interest,FALSE,NA
+NCT04272242,"Following completion of Arm 1, A5372 is currently Temporarily Closed. Timeline for opening of Arm 2 is not available.",FALSE,NA
+NCT04288336,No patient accrual,FALSE,NA
+NCT04303559,"The INHIBIT Trials IDSMB, in a letter dated 05-18-22, recommended, given the slow enrollment, that the INHIBIT Trials be discontinued due to futility.",FALSE,NA
+NCT04303572,"The INHIBIT Trials IDSMB, in a letter dated 05-18-22, recommended, given the slow enrollment, that the INHIBIT Trials be discontinued due to futility.",FALSE,NA
+NCT04359953,difficulty in recruiting,FALSE,NA
+NCT04400227,Study closed due to change in funding.,FALSE,NA
+NCT04449965,The site struggled with patient recruitment as we were not able to reach patients with COVID-19,TRUE,FALSE
+NCT04476628,"Due to COVID-19, we didn't start this study",TRUE,FALSE
+NCT04480138,Due to non availability of eligible subjects and slow recruitment,FALSE,NA
+NCT04525352,Study discontinued due to feasibility.,FALSE,NA
+NCT04556175,Safety concerns for study participants and non-feasibility of enrollment due to the COVID-19 pandemic.,TRUE,FALSE
+NCT04563806,Per PI,FALSE,NA
+NCT04574167,"FDA determination of significant risk, pending IDE review",FALSE,NA
+NCT04600102,Study related activities were delayed due to the COVID pandemic and then terminated to focus on higher priority efforts.,TRUE,FALSE
+NCT04627805,"Recruitment hindered by COVID-19 pandemic, unable to recruit participants virtually",TRUE,FALSE
+NCT04634344,"Due to reasons of internal business strategy, not related to study or site conduct.",FALSE,NA
+NCT04639258,"Reevaluation of clinical strategy in this patient population led to a business decision to discontinue the study. Discontinuation is not due to any patient safety, patient welfare, or quality issues.",FALSE,NA
+NCT04685499,This study was terminated due to low participant enrollment.,FALSE,NA
+NCT04703855,Low enrollment and regulatory status change,FALSE,NA
+NCT04717687,No enrollment,FALSE,NA
+NCT04743557,"The first Clinical trial with DYN101 (UNITE-CNM) was early terminated. As a consequence, Dynacure decided to not perform this study.",FALSE,NA
+NCT04750239,Study terminated due to business priorities,FALSE,NA
+NCT04774809,terminated by sponsor,FALSE,NA
+NCT04826133,Waiting for additional funding. Will resume recruitment once funding is secured.,FALSE,NA
+NCT04845685,Unable to secure funding,FALSE,NA
+NCT04905888,Closure/ move of MRI facility.,FALSE,NA
+NCT04928989,Lack of funding.,FALSE,NA
+NCT04937491,Due to covid-19,TRUE,FALSE
+NCT04962048,"Results not goal-oriented, premature termination.",FALSE,NA
+NCT04976972,study protocol is being significantly changed study is therefore being terminated and will re-open under new title and study number,FALSE,NA
+NCT04977648,"The first Clinical trial with DYN101 (UNITE-CNM) was early terminated. As a consequence, Dynacure decided to not perform this study.",FALSE,NA
+NCT05029284,"The PI is moving to the University of Minnesota, and therefore the research has been paused so that the study can transfer with the PI.",FALSE,NA
+NCT05070741,Difficulties with study recruitment in target population. Subjects who were enrolled completed study activities.,FALSE,NA
