@@ -6265,7 +6265,6 @@ NCT03615144,2021-03-01,Terminated,NA,NA,Participant accrual low and the study wa
 NCT03894007,2021-03-01,Suspended,NA,NA,Security and effect data from another ongoing study.,FALSE,NA
 NCT04467281,2021-03-01,Withdrawn,NA,NA,PI left institution and study is being transferred.,FALSE,NA
 NCT04543916,2021-03-01,Withdrawn,NA,NA,AbbVie decided to stop trial involving Venetoclax for safety measures needed,FALSE,NA
-NCT04590820,2021-03-01,Terminated,NA,NA,Study was transferred to Epizyme under NCT04762160 and new study number EZH-1401,FALSE,NA
 NCT04708314,2021-03-01,Suspended,2021-03-04,"Active, not recruiting",The Sponsor has decided to focus on other areas of therapy and would like to pull the resources from this study to other studies.,FALSE,NA
 NCT04781829,2021-03-01,Withdrawn,NA,NA,COVID pandemic precluded trial initiation. No longer clinical equipoise,TRUE,FALSE
 NCT01270477,2021-03-02,Terminated,NA,NA,"Lack of People to follow up the study, work overload",FALSE,NA
@@ -6446,7 +6445,6 @@ NCT03589963,2021-03-12,Suspended,NA,NA,Institutional ORE decision to stop commun
 NCT04289558,2021-03-12,Withdrawn,NA,NA,"current grant expiration in May, insufficient funds remaining, travel restrictions, COVID-19 restrictions in Tanzania, etc.",TRUE,FALSE
 NCT04298918,2021-03-12,Terminated,NA,NA,Decision to discontinue the study based on broader development and strategic prioritisation. The Sponsor concludes there is no benefit-risk impact on the CO41863 study.,FALSE,NA
 NCT04421209,2021-03-12,Withdrawn,NA,NA,No funding source,FALSE,NA
-NCT04510038,2021-03-12,Suspended,NA,NA,Published RECOVERY trial provides evidence that further recruitment would not provide conclusive proof of worthwhile benefit of Colchicine on COVID patients.,FALSE,NA
 NCT03598244,2021-03-13,Suspended,2021-06-22,Recruiting,Scheduled Interim Monitoring,FALSE,NA
 NCT03275376,2021-03-14,Terminated,NA,NA,Slow in patient enrollment,FALSE,NA
 NCT03723824,2021-03-14,Terminated,NA,NA,COV-19 pandemic,TRUE,FALSE
@@ -6871,7 +6869,6 @@ NCT04454567,2021-04-16,Terminated,NA,NA,"Study stopped due to a change in the Sp
 NCT04535453,2021-04-16,Suspended,2021-07-09,"Active, not recruiting",Vaccinations paused to update guidance for investigators and participants.,FALSE,NA
 NCT04541576,2021-04-16,Withdrawn,NA,NA,FDA Approval,FALSE,NA
 NCT04604184,2021-04-16,Terminated,NA,NA,Company decision,FALSE,NA
-NCT04851236,2021-04-16,Suspended,NA,NA,This study has been temporarily suspended due to COVID-19.,TRUE,TRUE
 NCT02634021,2021-04-17,Withdrawn,NA,NA,The investigator had no more scientific interest about this issue.,FALSE,NA
 NCT02699229,2021-04-18,Withdrawn,NA,NA,no particpants enrolled,FALSE,NA
 NCT03201952,2021-04-18,Terminated,NA,NA,Difficulty in participant recruitment,FALSE,NA
@@ -9027,7 +9024,6 @@ NCT04230746,2021-10-28,Withdrawn,NA,NA,"funding , recruitment issues",FALSE,NA
 NCT04434001,2021-10-28,Terminated,NA,NA,The study encountered unexpected difficulties in enrolling patients due to requirements for the Informed Consent. 60% of our patients comes from abroad with only one accompanying parent. The rules of our EC require both parents to sign the consent.,FALSE,NA
 NCT04472494,2021-10-28,Terminated,NA,NA,Slow accrual,FALSE,NA
 NCT04544735,2021-10-28,Suspended,2022-09-22,Enrolling by invitation,Awaiting new funding source,FALSE,NA
-NCT04707222,2021-10-28,Withdrawn,NA,NA,Error while entering Principal investigator and sponsor. Was approved under another number NCT05024188,FALSE,NA
 NCT04708990,2021-10-28,Terminated,NA,NA,the research sponsors stopped further funding due to a planning of a multi-center trial,FALSE,NA
 NCT04799392,2021-10-28,Terminated,NA,NA,FDA will not authorize COVID-19 Ab tests for use over-the-counter.,FALSE,NA
 NCT05007769,2021-10-28,Withdrawn,NA,NA,Lost funding,FALSE,NA
@@ -13266,8 +13262,10 @@ NCT04984278,2022-11-28,Terminated,NA,NA,The study was terminated based on a busi
 NCT05079451,2022-11-28,Suspended,NA,NA,Screening and enrollment into the A5364 study has been temporarily suspended.,FALSE,NA
 NCT05228132,2022-11-28,Terminated,NA,NA,"Terminated due to considerable changes in the clinical landscape post Covid-19, leading to difficulties executing the study.",TRUE,FALSE
 NCT05260541,2022-11-28,Terminated,NA,NA,No longer developing for this indication,FALSE,NA
+NCT03305614,2022-11-29,Terminated,NA,NA,Reason unknown,FALSE,NA
 NCT03305926,2022-11-29,Terminated,NA,NA,Early termination due to changes in care management following the COVID context (remote/connected rehabilitation),TRUE,FALSE
 NCT04353921,2022-11-29,Terminated,NA,NA,Low enrollment and inability to achieve statistical significance,FALSE,NA
 NCT05132803,2022-11-29,Withdrawn,NA,NA,The study team decided not to move forward with the study.,FALSE,NA
+NCT03285880,2022-11-30,Terminated,NA,NA,The pandemic halted the study protocol temporarily. We continued to collect what we could but the study ran out of time/funds.,TRUE,FALSE
 NCT05553964,2022-11-30,Terminated,NA,NA,Further usability assessment needed.,FALSE,NA
 NCT05571111,2022-11-30,Suspended,NA,NA,Manufacturing process changes at a third-party supplier led to precautionary suspension of Menopur® shipments. Ferring's data reviewed to date indicate that the safety and efficacy of Menopur® remain unaltered. No trial participant received Menopur®.,FALSE,NA

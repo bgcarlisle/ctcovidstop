@@ -20,23 +20,45 @@ trials_files <- list.files(
     "^[0-9]{4}-[0-9]{2}-[0-9]{2}-trials\\.csv$"
 )
 
+## Read in the transformation library for obsolete NCT numbers
+obsolete <- read_csv("data-raw/obsolete-nctids.csv")
+
+remove_nctids <- obsolete %>%
+    filter(is.na(new)) %>%
+    select(old) %>%
+    pull()
+
+replace_nctids <- obsolete %>%
+    filter(! is.na(new)) %>%
+    rename(nctid = old, new_nctid = new)
+
 ## Then for each of those files, we read them in and append a column
 ## with the search date
 for (trials_file in trials_files) {
     newrows <- read_csv(
         paste0("data-raw/", trials_file), col_types="cDcDcc") %>%
-        mutate(search_date=as.Date(substr(trials_file, 0, 10)))
+        mutate(search_date=as.Date(substr(trials_file, 0, 10))) %>%
+        filter(! nctid %in% remove_nctids) %>%
+        left_join(replace_nctids) %>%
+        mutate(
+            nctid = ifelse (! is.na(new_nctid), new_nctid, nctid)
+        )
 
     ## Check that there are no duplicate downloaded trial data
     test_that(
         "No duplicate trial downloads",
         {
             expect_equal(
-                sum(duplicated(newrows$nctid)),
+                sum(duplicated(paste(
+                    newrows$nctid, newrows$new_nctid
+                ))),
                 0
             )
         }
     )
+
+    newrows <- newrows %>%
+        select(! new_nctid)
 
     trials <- trials %>%
         bind_rows(newrows)
@@ -110,6 +132,7 @@ test_that(
 ## interest and join the ratings to the trials
 c19stoppedtrials <- trials %>%
     filter(! is.na(stop_date)) %>%
+    filter(stop_date < as.Date("2022-12-01")) %>%
     left_join(ratings)
 
 ## Check that there are no duplicate ratings
