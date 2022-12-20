@@ -35,6 +35,9 @@ replace_nctids <- obsolete %>%
 ## Then for each of those files, we read them in and append a column
 ## with the search date
 for (trials_file in trials_files) {
+
+    message(trials_file)
+    
     newrows <- read_csv(
         paste0("data-raw/", trials_file), col_types="cDcDcc") %>%
         mutate(search_date=as.Date(substr(trials_file, 0, 10))) %>%

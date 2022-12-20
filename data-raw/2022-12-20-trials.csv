@@ -1,0 +1,54 @@
+nctid,stop_date,stop_status,restart_date,restart_status,why_stopped
+NCT01285557,2022-04-22,Terminated,NA,NA,"Due to significant changes in investigational and clinical practice landscape of frontline advanced gastric cancer, which challenged viability of trial and increased use of modified chemotherapeutic triplets led to slow participant accrual in study."
+NCT01931709,2022-11-09,Terminated,NA,NA,Terminated due to end of funding
+NCT02229149,2022-11-29,Terminated,NA,NA,per Sponsor request
+NCT02633293,2022-11-08,Terminated,NA,NA,Inhaled treprostinil became commercially available in the US following its approval for PH-ILD
+NCT02703272,2022-11-07,Terminated,NA,NA,"IDMC recommended that enrolment be stoped, as the EFS hazard ratio and associated p-value crossed the futility boundary specified in protocol (July 2020)."
+NCT02706626,2022-04-28,Terminated,NA,NA,Did not meet enrollment objectives.
+NCT02922023,2022-11-18,Terminated,NA,NA,Subjects lost to follow-up
+NCT02958917,2022-10-26,Terminated,NA,NA,covid-19 pandemic
+NCT03062449,2022-09-07,Terminated,NA,NA,Stability of investigational product could not be established.
+NCT03115567,2022-11-01,Terminated,NA,NA,Low enrollment accrual
+NCT03198988,2022-08-03,Terminated,NA,NA,Due to the company's intent to conduct a new study under a different protocol with the smART+ System which is a more advanced version of the smART System.
+NCT03262701,2022-07-01,Terminated,NA,NA,COVID
+NCT03331861,2022-08-20,Terminated,NA,NA,Lack of funding
+NCT03442842,2022-10-24,Terminated,NA,NA,Lack of enrollment
+NCT03531242,2022-07-20,Terminated,NA,NA,closing of the DoD Special Immunization Program
+NCT03563222,2022-09-30,Terminated,NA,NA,Prematurely stopped in agreement with authorities (FDA)
+NCT03626545,2022-09-02,Terminated,NA,NA,The study was early terminated due to the lack of efficacy of study treatment observed in the analysis of the primary endpoint of the randomized part.
+NCT03631641,2022-11-09,Terminated,NA,NA,Sponsor decision
+NCT03638128,2022-10-24,Terminated,NA,NA,The study was stopped earlier than planned due to safety concerns about high levels of calcium in the blood of the participants
+NCT03659565,2022-11-30,Terminated,NA,NA,Poor accrual due to covid19 restrictions
+NCT03695250,2022-07-05,Terminated,NA,NA,Funding source decision to terminate study.
+NCT03785327,2022-11-09,Terminated,NA,NA,COVID disrupted data collection
+NCT03801031,2022-10-14,Terminated,NA,NA,Slow accrual
+NCT03870763,2022-11-30,Terminated,NA,NA,Decision to stop the trial was based on long-term difficulties in fulfilling our enrolment commitments and changes in paediatric MS landscape which no longer support placebo-controlled trials.Decision to stop study was not based on safety concerns.
+NCT03932383,2022-07-20,Terminated,NA,NA,the trial was terminated due to lack of enrollment
+NCT03935594,2022-10-24,Terminated,NA,NA,Intervention causing discomfort to participants
+NCT03985423,2022-05-03,Terminated,NA,NA,Sponsor Decision
+NCT03999229,2022-11-30,Suspended,NA,NA,Funding
+NCT04007094,2022-08-29,Terminated,NA,NA,Primary Investigator left university. Site completing follow up assessments for previously enrolled subject only.
+NCT04053803,2022-05-24,Terminated,NA,NA,"A recently conducted Interim analysis of IMR-SCD-301 demonstrated that while IMR-687 was generally well-tolerated, it failed to meet its primary efficacy endpoint. So, the sponsor has decided to discontinue this study."
+NCT04054856,2022-11-29,Suspended,NA,NA,Due to COVID-19 pandemic
+NCT04205240,2022-06-23,Terminated,NA,NA,Poor accrual
+NCT04305236,2022-08-24,Terminated,NA,NA,Halted due to study funding
+NCT04313296,2022-09-30,Terminated,NA,NA,Staff shortage
+NCT04398316,2022-09-06,Terminated,NA,NA,Administrative
+NCT04433507,2022-11-30,Terminated,NA,NA,Recruitment issues
+NCT04436861,2022-06-03,Withdrawn,NA,NA,the sponsor decided to stop the study
+NCT04455035,2022-03-31,Terminated,NA,NA,PI left institution
+NCT04530448,2022-09-13,Terminated,NA,NA,"Unable to recruit enough subjects to complete the study. Only 3 subjects enrolled. However, those subjects did not complete the study as the PI terminated the study."
+NCT04588389,2022-06-30,Terminated,NA,NA,PI left the institution. Decision made to close the study.
+NCT04624672,2022-10-19,Terminated,NA,NA,Poor enrollment
+NCT04662073,2022-09-30,Terminated,NA,NA,Enrollment into the camostat subprotocol was halted prematurely as a result of loss of equipoise due to external findings including those related to monoclonal antibodies.
+NCT04677426,2022-09-06,Withdrawn,NA,NA,Sponsor withdrew Funding
+NCT04775316,2022-11-30,Terminated,NA,NA,site stopped recruiting due to limited personell resources
+NCT04792970,2022-11-30,Suspended,NA,NA,Protocol amendment pending
+NCT04868890,2022-11-10,Terminated,NA,NA,The AP-019 study was prematurely terminated by the sponsor after determining that insufficient events were occurring to analyze the primary endpoint.
+NCT04902950,2022-04-26,Terminated,NA,NA,Logistics
+NCT05017610,2022-11-30,Withdrawn,NA,NA,Per the PI-slow accrual
+NCT05020483,2022-11-30,Withdrawn,NA,NA,Patient population changed and no subjects eligible for the study.
+NCT05085964,2022-11-11,Terminated,NA,NA,The sponsor decided to terminate the study early
+NCT05158296,2022-11-15,Terminated,NA,NA,Business decision
+NCT05176717,2022-11-03,Terminated,NA,NA,Business decision
+NCT05284214,2022-11-30,Suspended,NA,NA,Study on Hold

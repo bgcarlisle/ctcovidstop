@@ -1,4 +1,4 @@
-#' @details This data set was last updated on 2022-12-05.
+#' @details This data set was last updated on 2022-12-20.
 #'
 #' @usage data(c19stoppedtrials)
 #' 
