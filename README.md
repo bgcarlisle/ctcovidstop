@@ -1,16 +1,22 @@
 # ctcovidstop: Clinical trials that stopped during the Covid-19 pandemic
 
-**Last updated on 2022-12-20**
-
 This *R* package provides a database of all ClinicalTrials.gov NCT
 Numbers corresponding to clinical trials that were "stopped" (had
 their overall status changed to "Terminated," "Suspended," or
-"Withdrawn") after 2019-12-01. This dataset indicates the date that a
-trial was stopped, whether it was started again and on what date, and
-the contents of the "why stopped?"  field on the date the trial
-stopped. This dataset also includes columns with manually coded data
-for whether the "why stopped?" field explicitly indicates that the
-reason for stopping included the SARS-CoV-2 pandemic.
+"Withdrawn") between 2019-12-01 (the month of the first human cases of
+SARS-CoV-2) and 2022-11-30 (three-year data cutoff). This dataset
+indicates the date that a trial was stopped, whether it was started
+again and on what date, and the contents of the "why stopped?" field
+on the date the trial stopped. This dataset also includes columns with
+manually coded data for whether the "why stopped?" field explicitly
+indicates that the reason for stopping included the SARS-CoV-2
+pandemic.
+
+Manually extracted data columns were single-coded by Dr Benjamin
+Gregory Carlisle. To ensure data quality, a random sample of 100
+trials were tripled-coded by two other independent raters. A Light's
+kappa of 1 was calculated among the three sets of ratings, indicating
+perfect agreement.
 
 ## To install and use
 
@@ -30,12 +36,13 @@ library(ctcovidstop)
 data(c19stoppedtrials)
 ```
 
-This package provides a data frame, `c19stoppedtrials`, which can be loaded
-via the *R* package with `data(c19stoppedtrials)`. The same data frame is
-also provided as a CSV in this repository as
+This package provides a data frame, `c19stoppedtrials`, which can be
+loaded via the *R* package with `data(c19stoppedtrials)`. The same
+data frame is also provided as a CSV in this repository as
 `inst/extdata/c19stoppedtrials.csv`.
 
-`c19stoppedtrials` contains 8 columns. See below for example rows:
+`c19stoppedtrials` contains 13,323 rows of 8 columns. See below for
+example rows:
 
 | `nctid`     | `stop_date` | `stop_status` | `restart_date` | `restart_status` | `why_stopped`                                | `covid19_explicit` | `restart_expected` |
 |-------------|-------------|---------------|----------------|------------------|----------------------------------------------|--------------------|--------------------|
@@ -47,17 +54,17 @@ Each row in this data frame contains an NCT Number from
 ClinicalTrials.gov (`nctid` column) and a date on which the
 corresponding clinical trial record's overall status was first changed
 to "Terminated", "Suspended" or "Withdrawn" from any other overall
-status after 2019-12-01 (`stop_date` column). The status that the
-trial was changed to on that date is indicated in the `stop_status`
-column.
+status after 2019-12-01 but before 2022-11-30 (inclusive, `stop_date`
+column). The status that the trial was changed to on that date is
+indicated in the `stop_status` column.
 
 A trial is only included if the study's overall status changed to
 "Terminated", "Suspended" or "Withdrawn" from any other overall status
-after 2019-12-01. If a trial's overall status was already
-"Terminated", "Suspended" or "Withdrawn" prior to 2019-12-01 and it
-never became active and then stopped after 2019-12-01, it would not be
-included, even if the "why stopped?" field was updated to include a
-reference to Covid-19
+after 2019-12-01 but before 2022-11-30 (inclusive). If a trial's
+overall status was already "Terminated", "Suspended" or "Withdrawn"
+prior to 2019-12-01 and it never became active and then stopped after
+2019-12-01, it would not be included, even if the "why stopped?" field
+was updated to include a reference to Covid-19
 (e.g. [NCT03365921](https://clinicaltrials.gov/ct2/history/NCT03365921
 "NCT03365921")).
 
