@@ -54,7 +54,7 @@ This package provides two data frames, `c19stoppedtrials` and
 same data frames are also provided as CSV files in this repository as
 `inst/extdata/c19stoppedtrials.csv` and `inst/extdata/comparator.csv`.
 
-## Trials stopped during the SARS-Cov-2 pandemic
+## Dataset: `c19stoppedtrials`, trials stopped during the SARS-Cov-2 pandemic
 
 `c19stoppedtrials` contains 13,323 rows of 8 columns. See below for
 example rows:
@@ -129,7 +129,7 @@ is TRUE, otherwise FALSE. Trials that mention the study is "on hold"
 or "expected to resume" or that the stop was "temporary", etc. were
 included. This data point was manually rated by BGC.
 
-## Trials that stopped in a comparator arm taken 3 years prior
+## Dataset: `comparator`, trials that stopped in a comparator arm taken 3 years prior
 
 `comparator` contains 9665 rows of 6 columns. See below for example
 rows:
