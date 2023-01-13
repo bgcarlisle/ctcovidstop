@@ -9,9 +9,9 @@ dateofinterest <- as.Date("2016-12-01")
 
 ## This is where we will store the list of all the NCT numbers that
 ## need to be checked
-nctidfile <- "data-raw/comparator-nctids.csv"
+nctidfile <- "data-raw/2023-01-13-comparator-nctids.csv"
 
-output_filename <- "data-raw/comparator-trials.csv"
+output_filename <- "data-raw/2023-01-13-comparator-trials.csv"
 
 if (! file.exists(nctidfile)) {
     ## There is no nctid file, so we'll download all the NCT numbers
@@ -26,8 +26,8 @@ if (! file.exists(nctidfile)) {
     batch_size <- days(7)
     
     ## Download all the NCTs that were last modified since the date of
-    ## interest in batches
-    while (batch_lb < as.Date("2022-12-20")) {
+    ## interest but first posted before 2019-11-30 in batches
+    while (batch_lb < as.Date("2023-01-13")) {
 
         batch_ub <- batch_lb + batch_size - days(1)
 
