@@ -1,22 +1,32 @@
 # ctcovidstop: Clinical trials that stopped during the Covid-19 pandemic
 
-This *R* package provides a database of all ClinicalTrials.gov NCT
+This *R* package provides two databases of ClinicalTrials.gov NCT
 Numbers corresponding to clinical trials that were "stopped" (had
 their overall status changed to "Terminated," "Suspended," or
-"Withdrawn") between 2019-12-01 (the month of the first human cases of
-SARS-CoV-2) and 2022-11-30 (three-year data cutoff). This dataset
-indicates the date that a trial was stopped, whether it was started
-again and on what date, and the contents of the "why stopped?" field
-on the date the trial stopped. This dataset also includes columns with
-manually coded data for whether the "why stopped?" field explicitly
-indicates that the reason for stopping included the SARS-CoV-2
-pandemic.
+"Withdrawn"). The `c19stoppedtrials` dataset contains NCT numbers for
+all trials that stopped between 2019-12-01 (the month of the first
+human cases of SARS-CoV-2) and 2022-11-30 (three-year data cutoff),
+and the `comparator` dataset contains NCT numbers for trials that
+stopped in the three years prior to the bounds for the
+`c19stoppedtrials` dataset (2016-12-01 to 2019-11-30).
+
+The `c19stoppedtrials` dataset indicates the date that a trial was
+stopped, whether it was started again and on what date, and the
+contents of the "why stopped?" field on the date the trial
+stopped. This dataset also includes columns with manually coded data
+for whether the "why stopped?" field explicitly indicates that the
+reason for stopping included the SARS-CoV-2 pandemic.
 
 Manually extracted data columns were single-coded by Dr Benjamin
 Gregory Carlisle. To ensure data quality, a random sample of 100
 trials were tripled-coded by two other independent raters. A Light's
 kappa of 1 was calculated among the three sets of ratings, indicating
 perfect agreement.
+
+The `comparator` dataset for stopped trials for the three years prior
+includes all the same columns as the `c19stoppedtrials` dataset,
+except for the manually coded fields whether the trial stopped due to
+the SARS-CoV-2 pandemic.
 
 ## To install and use
 
@@ -33,13 +43,18 @@ After installation, the package and data set can be loaded as follows:
 
 ```
 library(ctcovidstop)
+
 data(c19stoppedtrials)
+data(comparator)
 ```
 
-This package provides a data frame, `c19stoppedtrials`, which can be
-loaded via the *R* package with `data(c19stoppedtrials)`. The same
-data frame is also provided as a CSV in this repository as
-`inst/extdata/c19stoppedtrials.csv`.
+This package provides two data frames, `c19stoppedtrials` and
+`comparator`, which can be loaded via the *R* package with
+`data(c19stoppedtrials)` and `data(comparator)`, respectively. The
+same data frames are also provided as CSV files in this repository as
+`inst/extdata/c19stoppedtrials.csv` and `inst/extdata/comparator.csv`.
+
+## Trials stopped during the SARS-Cov-2 pandemic
 
 `c19stoppedtrials` contains 13,323 rows of 8 columns. See below for
 example rows:
@@ -114,6 +129,31 @@ is TRUE, otherwise FALSE. Trials that mention the study is "on hold"
 or "expected to resume" or that the stop was "temporary", etc. were
 included. This data point was manually rated by BGC.
 
+## Trials that stopped in a comparator arm taken 3 years prior
+
+`comparator` contains 9665 rows of 6 columns. See below for example
+rows:
+
+| `nctid`     | `stop_date` | `stop_status` | `restart_date` | `restart_status` | `why_stopped` |
+|-------------|-------------|---------------|----------------|------------------|---------------|
+| NCT02464891 | 2017-03-02  | Terminated    | NA             | NA               | NA            |
+| NCT02424955 | 2017-05-10  | Suspended     | 2017-06-29     | Recruiting       | Logistics     |
+| NCT02937402 | 2019-09-05  | Terminated    | NA             | NA               | Slow accrual  |
+
+Each row in this data frame contains an NCT Number from
+ClinicalTrials.gov (`nctid` column) and a date on which the
+corresponding clinical trial record's overall status was first changed
+to "Terminated", "Suspended" or "Withdrawn" from any other overall
+status after 2016-12-01 but before 2019-11-30 (inclusive, `stop_date`
+column). The status that the trial was changed to on that date is
+indicated in the `stop_status` column.
+
+The definitions for the columns are identical to the
+`c19stoppedtrials` table, above.
+
+The `covid19_explicit` and `restart_expected` columns are not included
+in the `comparator` dataset.
+
 ## Citing `ctcovidstop`
 
 These data are provided under a Creative Commons by-attribution
@@ -126,7 +166,7 @@ Here is a BibTeX entry for `ctcovidstop`:
   Title          = {ctcovidstop},
   Author         = {Carlisle, Benjamin Gregory},
   Organization   = {The Grey Literature},
-  Address        = {Berlin, Germany},
+  Address        = {Montreal, Canada},
   url            = {https://github.com/bgcarlisle/ctcovidstop},
   year           = 2022
 }

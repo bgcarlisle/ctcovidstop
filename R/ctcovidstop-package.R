@@ -1,6 +1,8 @@
-#' @details This data set was last updated on 2022-12-20.
+#' @details This data set was last updated on 2023-01-13.
 #'
 #' @usage data(c19stoppedtrials)
+#'
+#' data(comparator)
 #' 
 #' @references Carlisle, B.G. Clinical Trials Stopped by Covid-19.
 #' https://covid19.bgcarlisle.com

@@ -1,6 +1,6 @@
 Package: ctcovidstop
 Title: Clinical trials that stopped during the Covid-19 pandemic
-Version: 1.0.13
+Version: 1.1.0
 Authors@R: 
     person("Benjamin Gregory", "Carlisle", , "murph@bgcarlisle.com",
     role = c("aut", "cre"),
@@ -11,10 +11,13 @@ Description: Provides a database of all ClinicalTrials.gov NCT Numbers
     "Withdrawn") after 2019-12-01. This dataset indicates the date
     that a trial was stopped, whether it was started again and on what
     date, and the contents of the "why stopped?" field on the date the
-    trial was stopped. This dataset also includes columns with
-    manually coded data for whether the "why stopped?" field
-    explicitly indicates that the reason for stopping included the
-    SARS-CoV-2 pandemic.
+    trial was stopped. This dataset includes columns with manually
+    coded data for whether the "why stopped?" field explicitly
+    indicates that the reason for stopping included the SARS-CoV-2
+    pandemic. This package also provides a comparator database of all
+    ClinicalTrials.gov NCT Numbers corresponding to clinical trials
+    that were "stopped" according to the same definition as the Covid
+    database, but between 2016-12-01 and 2019-11-30.
 License: CC BY 4.0
 URL: https://github.com/bgcarlisle/ctcovidstop
 BugReports: https://github.com/bgcarlisle/ctcovidstop/issues
@@ -24,7 +27,7 @@ Imports:
     tibble
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.2
+RoxygenNote: 7.2.3
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
