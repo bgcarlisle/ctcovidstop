@@ -5,8 +5,11 @@ Numbers corresponding to clinical trials that were "stopped" (had
 their overall status changed to "Terminated," "Suspended," or
 "Withdrawn"). The `c19stoppedtrials` dataset contains NCT numbers for
 all trials that stopped between 2019-12-01 (the month of the first
-human cases of SARS-CoV-2) and 2022-11-30 (three-year data cutoff),
-and the `comparator` dataset contains NCT numbers for trials that
+human cases of SARS-CoV-2) and 2022-11-30 (three-year data
+cutoff). Trials that stopped during the pandemic were checked for
+whether they started again in December 2023, to allow at least one
+year of follow-up for the `restart_date` and `restart_status`
+columns. The `comparator` dataset contains NCT numbers for trials that
 stopped in the three years prior to the bounds for the
 `c19stoppedtrials` dataset (2016-12-01 to 2019-11-30).
 
