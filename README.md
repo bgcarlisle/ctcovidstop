@@ -1,5 +1,10 @@
 # ctcovidstop: Clinical trials that stopped during the Covid-19 pandemic
 
+A paper reporting the project for which this data set was prepared has
+been posted as a [preprint on
+medRxiv](https://doi.org/10.64898/2026.05.20.26353581 "preprint on
+medRxiv").
+
 This *R* package provides two databases of ClinicalTrials.gov NCT
 Numbers corresponding to clinical trials that were "stopped" (had
 their overall status changed to "Terminated," "Suspended," or
